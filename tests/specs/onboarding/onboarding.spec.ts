@@ -9,7 +9,7 @@ import { HomePageSelectors } from '@tests/selectors/home.selectors';
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 
-import { BITCOIN_API_BASE_URL_MAINNET } from '@leather.io/models';
+import { BITCOIN_API_BASE_URL_MAINNET } from '@coffer.network/models';
 
 import { test } from '../../fixtures/fixtures';
 

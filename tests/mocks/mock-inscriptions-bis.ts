@@ -1,7 +1,7 @@
 import type { Page } from '@playwright/test';
 
-import { BESTINSLOT_API_BASE_URL_TESTNET } from '@leather.io/models';
-import { type BestInSlotInscriptionResponse } from '@leather.io/query';
+import { BESTINSLOT_API_BASE_URL_TESTNET } from '@coffer.network/models';
+import { type BestInSlotInscriptionResponse } from '@coffer.network/query';
 
 export async function mockTestnetTestAccountInscriptionsRequests(
   page: Page,

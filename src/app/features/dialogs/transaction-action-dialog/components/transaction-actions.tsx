@@ -1,6 +1,6 @@
 import { ActivitySelectors } from '@tests/selectors/activity.selectors';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { useWalletType } from '@app/common/use-wallet-type';
 

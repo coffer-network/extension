@@ -1,4 +1,4 @@
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 import { CollectibleItemLayout, CollectibleItemLayoutProps } from './collectible-item.layout';
 

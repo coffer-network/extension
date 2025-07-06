@@ -2,7 +2,7 @@ import type { TransactionInput } from '@scure/btc-signer/psbt';
 import { bytesToHex } from '@stacks/common';
 import { useQueries } from '@tanstack/react-query';
 
-import { createGetInscriptionsByParamQueryOptions } from '@leather.io/query';
+import { createGetInscriptionsByParamQueryOptions } from '@coffer.network/query';
 
 import { useBitcoinClient } from '../clients/bitcoin-client';
 

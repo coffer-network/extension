@@ -1,6 +1,6 @@
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import type { Blockchain, CryptoCurrency } from '@leather.io/models';
+import type { Blockchain, CryptoCurrency } from '@coffer.network/models';
 
 import { HasChildren } from '@app/common/has-children';
 

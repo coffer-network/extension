@@ -1,15 +1,15 @@
 import type { StacksNetwork } from '@stacks/network';
 import { ClarityVersion, PostConditionMode } from '@stacks/transactions';
 
-import type { Money } from '@leather.io/models';
-import { createRequestEncoder, stxDeployContract } from '@leather.io/rpc';
+import type { Money } from '@coffer.network/models';
+import { createRequestEncoder, stxDeployContract } from '@coffer.network/rpc';
 import {
   type StacksUnsignedContractDeployOptions,
   TransactionTypes,
   ensurePostConditionWireFormat,
   getPostConditions,
-} from '@leather.io/stacks';
-import { createMoney } from '@leather.io/utils';
+} from '@coffer.network/stacks';
+import { createMoney } from '@coffer.network/utils';
 
 import { initialSearchParams } from '@app/common/initial-search-params';
 import type { Nonce } from '@app/features/nonce-editor/nonce-editor.context';

@@ -1,4 +1,4 @@
-import { createRpcSuccessResponse, supportedMethods } from '@leather.io/rpc';
+import { createRpcSuccessResponse, supportedMethods } from '@coffer.network/rpc';
 
 import { defineRpcRequestHandler } from '../rpc-message-handler';
 import { createConnectingAppSearchParamsWithLastKnownAccount } from '../rpc-request-utils';

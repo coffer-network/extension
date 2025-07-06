@@ -17,17 +17,17 @@ async function modifyPackageJson() {
     let packageJson = JSON.parse(data);
 
     const relativePaths = [
-      '@leather.io/bitcoin',
-      '@leather.io/constants',
-      '@leather.io/crypto',
-      '@leather.io/models',
-      '@leather.io/query',
-      '@leather.io/tokens',
-      '@leather.io/utils',
-      '@leather.io/stacks',
+      '@coffer.network/bitcoin',
+      '@coffer.network/constants',
+      '@coffer.network/crypto',
+      '@coffer.network/models',
+      '@coffer.network/query',
+      '@coffer.network/tokens',
+      '@coffer.network/utils',
+      '@coffer.network/stacks',
     ];
 
-    const devRelativePaths = ['@leather.io/panda-preset', '@leather.io/rpc'];
+    const devRelativePaths = ['@coffer.network/panda-preset', '@coffer.network/rpc'];
 
     relativePaths.forEach(dep => {
       if (packageJson.dependencies[dep]) {

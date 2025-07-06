@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { ExternalLinkIcon, IconButton } from '@leather.io/ui';
+import { ExternalLinkIcon, IconButton } from '@coffer.network/ui';
 
 interface CollectibleHoverProps {
   collectibleTypeIcon?: ReactNode;

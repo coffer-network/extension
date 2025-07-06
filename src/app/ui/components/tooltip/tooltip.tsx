@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 
 import * as RadixTooltip from '@radix-ui/react-tooltip';
-import { css } from 'leather-styles/css';
+import { css } from 'coffer-styles/css';
 
 function Root(props: RadixTooltip.TooltipProps) {
   return <RadixTooltip.Root {...props} />;

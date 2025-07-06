@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { BitcoinQueryPrefixes, fetchInscriptionTextContent } from '@leather.io/query';
+import { BitcoinQueryPrefixes, fetchInscriptionTextContent } from '@coffer.network/query';
 
 import { useBestInSlotApiRateLimiter } from '@app/query/rate-limiter/best-in-slot-limiter';
 

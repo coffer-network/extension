@@ -1,8 +1,8 @@
 import { bytesToHex } from '@stacks/common';
-import { css } from 'leather-styles/css';
-import { Box } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Box } from 'coffer-styles/jsx';
 
-import { isBigInt, isTypedArray } from '@leather.io/utils';
+import { isBigInt, isTypedArray } from '@coffer.network/utils';
 
 export function parseJson(content: string) {
   try {

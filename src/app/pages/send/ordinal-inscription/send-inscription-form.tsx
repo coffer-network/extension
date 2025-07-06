@@ -2,9 +2,9 @@ import { useNavigate } from 'react-router-dom';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { Form, Formik } from 'formik';
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
-import { Button, OrdinalAvatarIcon, Sheet, SheetHeader } from '@leather.io/ui';
+import { Button, OrdinalAvatarIcon, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

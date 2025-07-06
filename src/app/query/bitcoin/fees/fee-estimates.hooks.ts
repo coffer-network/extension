@@ -1,8 +1,8 @@
 import { UseQueryResult, useQuery } from '@tanstack/react-query';
 
-import { AverageBitcoinFeeRates } from '@leather.io/models';
-import { createGetBitcoinFeeEstimatesQueryOptions } from '@leather.io/query';
-import { calculateMeanAverage, initBigNumber, isFulfilled, isRejected } from '@leather.io/utils';
+import { AverageBitcoinFeeRates } from '@coffer.network/models';
+import { createGetBitcoinFeeEstimatesQueryOptions } from '@coffer.network/query';
+import { calculateMeanAverage, initBigNumber, isFulfilled, isRejected } from '@coffer.network/utils';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 

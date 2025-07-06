@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js';
 
-import type { AverageBitcoinFeeRates } from '@leather.io/models';
-import type { UtxoResponseItem } from '@leather.io/query';
-import { createMoney, satToBtc } from '@leather.io/utils';
+import type { AverageBitcoinFeeRates } from '@coffer.network/models';
+import type { UtxoResponseItem } from '@coffer.network/query';
+import { createMoney, satToBtc } from '@coffer.network/utils';
 
 import { filterUneconomicalUtxos, getSpendableAmount } from '../utils';
 

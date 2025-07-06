@@ -1,6 +1,6 @@
-import { Box, Flex, HStack, styled } from 'leather-styles/jsx';
+import { Box, Flex, HStack, styled } from 'coffer-styles/jsx';
 
-import { InfoCircleIcon } from '@leather.io/ui';
+import { InfoCircleIcon } from '@coffer.network/ui';
 
 import { PrivateTextLayout } from '@app/components/privacy/private-text.layout';
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';

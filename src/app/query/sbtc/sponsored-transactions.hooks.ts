@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
-import { FeeTypes, type Fees } from '@leather.io/models';
-import type { NextNonce } from '@leather.io/query';
+import { FeeTypes, type Fees } from '@coffer.network/models';
+import type { NextNonce } from '@coffer.network/query';
 
 import { logger } from '@shared/logger';
 

@@ -1,5 +1,5 @@
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 
 interface FeesListItemProps {
   arrivesIn: string;

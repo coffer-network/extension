@@ -1,9 +1,9 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import type { Blockchain } from '@leather.io/models';
-import { Button, LedgerIcon } from '@leather.io/ui';
+import type { Blockchain } from '@coffer.network/models';
+import { Button, LedgerIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

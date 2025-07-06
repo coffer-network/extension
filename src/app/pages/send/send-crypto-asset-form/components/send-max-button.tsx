@@ -2,10 +2,10 @@ import { useCallback } from 'react';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { useField } from 'formik';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { Link } from '@leather.io/ui';
+import type { Money } from '@coffer.network/models';
+import { Link } from '@coffer.network/ui';
 
 import { analytics } from '@shared/utils/analytics';
 

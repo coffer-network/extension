@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import { css } from 'leather-styles/css';
+import { css } from 'coffer-styles/css';
 
-import { Src20AvatarIcon } from '@leather.io/ui';
+import { Src20AvatarIcon } from '@coffer.network/ui';
 
 interface Src20ImageProps {
   alt?: string;

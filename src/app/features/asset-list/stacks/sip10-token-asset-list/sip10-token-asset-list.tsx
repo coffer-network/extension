@@ -1,6 +1,6 @@
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { useSip10FiatMarketData } from '@app/common/hooks/use-calculate-sip10-fiat-value';
 import type { Sip10TokenAssetDetails } from '@app/query/stacks/sip10/sip10-tokens.hooks';

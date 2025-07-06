@@ -2,7 +2,7 @@ import type { BrowserContext, Page } from '@playwright/test';
 import { TEST_ACCOUNT_2_STX_ADDRESS } from '@tests/mocks/constants';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 
-import type { RpcParams, stxTransferStx } from '@leather.io/rpc';
+import type { RpcParams, stxTransferStx } from '@coffer.network/rpc';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 

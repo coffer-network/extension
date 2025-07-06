@@ -1,6 +1,6 @@
 import type { StacksTransactionWire } from '@stacks/transactions';
 
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 
 import type { HasChildren } from '@app/common/has-children';
 

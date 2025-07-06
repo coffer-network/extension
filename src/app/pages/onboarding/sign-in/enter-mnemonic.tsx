@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
-import { Link } from '@leather.io/ui';
-import { createNullArrayOfLength } from '@leather.io/utils';
+import { Link } from '@coffer.network/ui';
+import { createNullArrayOfLength } from '@coffer.network/utils';
 
 import { Content, TwoColumnLayout } from '@app/components/layout';
 import { OnboardingHeader } from '@app/features/container/headers/onboarding.header';

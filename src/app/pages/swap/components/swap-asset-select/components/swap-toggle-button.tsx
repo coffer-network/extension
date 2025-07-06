@@ -1,10 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 
 import { useFormikContext } from 'formik';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { ArrowsRepeatLeftRightIcon } from '@leather.io/ui';
-import { isDefined, isUndefined } from '@leather.io/utils';
+import { ArrowsRepeatLeftRightIcon } from '@coffer.network/ui';
+import { isDefined, isUndefined } from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 import { RouteUrls } from '@shared/route-urls';

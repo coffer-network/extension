@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 
 import type { MempoolTransaction } from '@stacks/stacks-blockchain-api-types';
 
-import { calculatePendingTxsMoneyBalance } from '@leather.io/query';
-import { increaseValueByOneMicroStx, isUndefined, microStxToStx } from '@leather.io/utils';
+import { calculatePendingTxsMoneyBalance } from '@coffer.network/query';
+import { increaseValueByOneMicroStx, isUndefined, microStxToStx } from '@coffer.network/utils';
 
 import { useGetTransactionByIdListQuery } from '../transactions/transactions-by-id.query';
 import { useStacksConfirmedTransactions } from '../transactions/transactions-with-transfers.hooks';

@@ -5,7 +5,7 @@ import {
   broadcastTransaction,
 } from '@stacks/transactions';
 
-import { delay, isError } from '@leather.io/utils';
+import { delay, isError } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { analytics } from '@shared/utils/analytics';

@@ -1,6 +1,6 @@
-import { Flex, FlexProps } from 'leather-styles/jsx';
+import { Flex, FlexProps } from 'coffer-styles/jsx';
 
-import { Caption, CheckmarkIcon } from '@leather.io/ui';
+import { Caption, CheckmarkIcon } from '@coffer.network/ui';
 
 interface LedgerSuccessLabelProps extends FlexProps {
   children: React.ReactNode;

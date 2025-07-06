@@ -1,5 +1,5 @@
-import type { CryptoAssetBalance, MarketData, Sip10CryptoAssetInfo } from '@leather.io/models';
-import { StxAvatarIcon } from '@leather.io/ui';
+import type { CryptoAssetBalance, MarketData, Sip10CryptoAssetInfo } from '@coffer.network/models';
+import { StxAvatarIcon } from '@coffer.network/ui';
 
 import { StacksAssetAvatar } from '@app/components/stacks-asset-avatar';
 

@@ -1,7 +1,7 @@
 import { bytesToHex } from '@stacks/common';
 import { z } from 'zod';
 
-import { ecdsaPublicKeyToSchnorr } from '@leather.io/bitcoin';
+import { ecdsaPublicKeyToSchnorr } from '@coffer.network/bitcoin';
 import {
   type BtcAddress,
   type StxAddress,
@@ -9,7 +9,7 @@ import {
   createRpcSuccessResponse,
   getAddresses,
   stxGetAddresses,
-} from '@leather.io/rpc';
+} from '@coffer.network/rpc';
 
 import { logger } from '@shared/logger';
 import { analytics } from '@shared/utils/analytics';

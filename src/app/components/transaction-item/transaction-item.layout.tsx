@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { Caption, ItemLayout, Pressable } from '@leather.io/ui';
+import { Caption, ItemLayout, Pressable } from '@coffer.network/ui';
 
 import { PrivateTextLayout } from '@app/components/privacy/private-text.layout';
 

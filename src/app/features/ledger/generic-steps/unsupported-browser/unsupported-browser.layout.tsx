@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { Link, Sheet, SheetHeader } from '@leather.io/ui';
+import { Link, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { UnsupportedBrowserImg } from '@app/features/ledger/illustrations/ledger-illu-unsupported-browser';
 

@@ -1,5 +1,5 @@
-import { CopyIcon, IconButton, ItemLayoutWithButtons, Pressable, QrCodeIcon } from '@leather.io/ui';
-import { truncateMiddle } from '@leather.io/utils';
+import { CopyIcon, IconButton, ItemLayoutWithButtons, Pressable, QrCodeIcon } from '@coffer.network/ui';
+import { truncateMiddle } from '@coffer.network/utils';
 
 interface ReceiveItemProps {
   address?: string;

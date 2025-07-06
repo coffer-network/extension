@@ -4,14 +4,14 @@ import { cvToValue, hexToCV } from '@stacks/transactions';
 import BigNumber from 'bignumber.js';
 import * as yup from 'yup';
 
-import { BTC_DECIMALS } from '@leather.io/constants';
+import { BTC_DECIMALS } from '@coffer.network/constants';
 import {
   convertAmountToBaseUnit,
   convertAmountToFractionalUnit,
   createMoney,
   isDefined,
   isUndefined,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 import { type SwapFormValues } from '@shared/models/form.model';

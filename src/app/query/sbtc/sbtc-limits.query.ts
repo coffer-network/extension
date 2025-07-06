@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { z } from 'zod';
 
-import { getStacksAssetStringParts } from '@leather.io/stacks';
+import { getStacksAssetStringParts } from '@coffer.network/stacks';
 
 import { useCurrentStacksAccountAddress } from '@app/store/accounts/blockchain/stacks/stacks-account.hooks';
 

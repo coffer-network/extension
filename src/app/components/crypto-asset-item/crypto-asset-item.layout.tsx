@@ -1,7 +1,7 @@
 import { sanitize } from 'dompurify';
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
+import type { Money } from '@coffer.network/models';
 import {
   BulletSeparator,
   Caption,
@@ -9,7 +9,7 @@ import {
   Pressable,
   SkeletonLoader,
   shimmerStyles,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { useSpamFilterWithWhitelist } from '@app/common/spam-filter/use-spam-filter';
 import { PrivateTextLayout } from '@app/components/privacy/private-text.layout';

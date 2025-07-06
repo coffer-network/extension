@@ -1,9 +1,9 @@
 import { ReactNode, useRef } from 'react';
 
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { FeeTypes } from '@leather.io/models';
+import { FeeTypes } from '@coffer.network/models';
 
 import { useOnClickOutside } from '@app/common/hooks/use-onclickoutside';
 

@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 
-import { Box, BoxProps, styled } from 'leather-styles/jsx';
+import { Box, BoxProps, styled } from 'coffer-styles/jsx';
 
 interface LinkProps {
   _hover?: BoxProps;

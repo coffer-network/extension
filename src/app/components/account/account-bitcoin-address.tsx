@@ -1,5 +1,5 @@
-import { Caption } from '@leather.io/ui';
-import { truncateMiddle } from '@leather.io/utils';
+import { Caption } from '@coffer.network/ui';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { BitcoinNativeSegwitAccountLoader } from '../loaders/bitcoin-account-loader';
 

@@ -1,6 +1,6 @@
-import { Flex, FlexProps } from 'leather-styles/jsx';
+import { Flex, FlexProps } from 'coffer-styles/jsx';
 
-import { Spinner } from '@leather.io/ui';
+import { Spinner } from '@coffer.network/ui';
 
 export function LoadingSpinner(props: { size?: string } & FlexProps) {
   return (

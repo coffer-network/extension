@@ -1,8 +1,8 @@
 import { memo } from 'react';
 
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { SkeletonLoader, shimmerStyles } from '@leather.io/ui';
+import { SkeletonLoader, shimmerStyles } from '@coffer.network/ui';
 
 import { useBalances } from '@app/common/hooks/balance/use-balances';
 import { PrivateText } from '@app/components/privacy/private-text';

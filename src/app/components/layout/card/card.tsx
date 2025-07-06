@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
-import { Flex, FlexProps } from 'leather-styles/jsx';
-import { token } from 'leather-styles/tokens';
+import { Flex, FlexProps } from 'coffer-styles/jsx';
+import { token } from 'coffer-styles/tokens';
 
 interface CardProps {
   children: ReactNode;

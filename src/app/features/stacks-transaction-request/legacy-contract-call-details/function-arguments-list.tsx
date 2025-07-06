@@ -1,8 +1,8 @@
 import { Suspense, memo } from 'react';
 
-import { Stack, StackProps } from 'leather-styles/jsx';
+import { Stack, StackProps } from 'coffer-styles/jsx';
 
-import { Caption } from '@leather.io/ui';
+import { Caption } from '@coffer.network/ui';
 
 import { useTransactionRequestState } from '@app/store/transactions/requests.hooks';
 

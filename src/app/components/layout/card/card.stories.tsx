@@ -1,8 +1,8 @@
 import { TooltipProvider } from '@radix-ui/react-tooltip';
 import type { Meta } from '@storybook/react';
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { Button, Logo } from '@leather.io/ui';
+import { Button, Logo } from '@coffer.network/ui';
 
 import { Card as Component } from './card';
 import { AvailableBalance, ButtonRow } from './index';

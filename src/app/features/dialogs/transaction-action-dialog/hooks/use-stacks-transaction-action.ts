@@ -2,8 +2,8 @@ import { useCallback } from 'react';
 
 import * as yup from 'yup';
 
-import { TransactionTypes, getStacksBurnAddress } from '@leather.io/stacks';
-import { stxToMicroStx } from '@leather.io/utils';
+import { TransactionTypes, getStacksBurnAddress } from '@coffer.network/stacks';
+import { stxToMicroStx } from '@coffer.network/utils';
 
 import { useRefreshAllAccountData } from '@app/common/hooks/account/use-refresh-all-account-data';
 import {

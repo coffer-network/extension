@@ -1,7 +1,7 @@
 import * as reduxPersist from 'redux-persist';
 
-import { HIRO_API_BASE_URL_MAINNET } from '@leather.io/models';
-import { getHiroApiRateLimiter } from '@leather.io/query';
+import { HIRO_API_BASE_URL_MAINNET } from '@coffer.network/models';
+import { getHiroApiRateLimiter } from '@coffer.network/query';
 
 import { logger } from '@shared/logger';
 import { getLogsFromBrowserStorage } from '@shared/logger-storage';

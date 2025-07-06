@@ -1,7 +1,7 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { ChevronDownIcon, DropdownMenu, Flag } from '@leather.io/ui';
+import { ChevronDownIcon, DropdownMenu, Flag } from '@coffer.network/ui';
 
 import {
   type RecipientIdentifierType,

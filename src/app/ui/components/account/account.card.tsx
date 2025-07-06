@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 import {
   ChevronDownIcon,
@@ -11,7 +11,7 @@ import {
   Link,
   SkeletonLoader,
   shimmerStyles,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { useViewportMinWidth } from '@app/common/hooks/use-media-query';
 import { useScaleText } from '@app/common/hooks/use-scale-text';

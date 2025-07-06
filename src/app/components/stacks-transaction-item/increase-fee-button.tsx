@@ -1,6 +1,6 @@
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { ChevronsRightIcon } from '@leather.io/ui';
+import { ChevronsRightIcon } from '@coffer.network/ui';
 
 interface IncreaseFeeButtonProps {
   isEnabled?: boolean;

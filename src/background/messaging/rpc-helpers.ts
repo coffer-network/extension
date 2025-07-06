@@ -1,4 +1,4 @@
-import { type RpcRequests } from '@leather.io/rpc';
+import { type RpcRequests } from '@coffer.network/rpc';
 
 import { queueAnalyticsRequest } from '@background/background-analytics';
 

@@ -1,9 +1,9 @@
 import { NetworkSelectors } from '@tests/selectors/network.selectors';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
-import { Flex, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Flex, HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import type { NetworkConfiguration } from '@leather.io/models';
-import { Button, CheckmarkIcon, CloudOffIcon } from '@leather.io/ui';
+import type { NetworkConfiguration } from '@coffer.network/models';
+import { Button, CheckmarkIcon, CloudOffIcon } from '@coffer.network/ui';
 
 import { getUrlHostname, truncateString } from '@app/common/utils';
 
@@ -65,7 +65,7 @@ export function NetworkListItemLayout({
             </HStack>
 
             <styled.span textStyle="caption.01">
-              {getUrlHostname(network.chain.stacks.url)}
+              {getUrlHostname(network.chain.bitcoin.bitcoinUrl)}
             </styled.span>
           </Stack>
           {!isOnline ? <CloudOffIcon /> : null}

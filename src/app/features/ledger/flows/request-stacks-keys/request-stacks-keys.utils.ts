@@ -2,8 +2,8 @@ import { bytesToHex } from '@noble/hashes/utils';
 import * as secp from '@noble/secp256k1';
 import StacksApp from '@zondax/ledger-stacks';
 
-import { makeStxDerivationPath } from '@leather.io/stacks';
-import { delay } from '@leather.io/utils';
+import { makeStxDerivationPath } from '@coffer.network/stacks';
+import { delay } from '@coffer.network/utils';
 
 import { getIdentityDerivationPath } from '@shared/crypto/stacks/stacks-address-gen';
 

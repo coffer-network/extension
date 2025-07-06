@@ -3,7 +3,7 @@ import { z } from 'zod';
 import {
   type DefaultNetworkConfigurations,
   WalletDefaultNetworkConfigurationIds,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 
 type NonEmptyDefaultNetworkIdList = [
   DefaultNetworkConfigurations,

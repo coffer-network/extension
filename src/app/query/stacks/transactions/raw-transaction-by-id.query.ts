@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetRawTransactionByIdQueryOptions } from '@leather.io/query';
+import { createGetRawTransactionByIdQueryOptions } from '@coffer.network/query';
 
 import { useStacksClient } from '../stacks-client';
 

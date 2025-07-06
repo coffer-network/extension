@@ -1,4 +1,4 @@
-import type { BitcoinTx } from '@leather.io/models';
+import type { BitcoinTx } from '@coffer.network/models';
 
 export const mockBitcoinTestnetAddress = 'tb1qxy5r9rlmpcxgwp92x2594q3gg026y4kdv2rsl8';
 

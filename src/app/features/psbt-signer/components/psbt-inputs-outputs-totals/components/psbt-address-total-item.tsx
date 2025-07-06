@@ -1,6 +1,6 @@
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
-import { BtcAvatarIcon, CopyIcon, Flag, Link } from '@leather.io/ui';
+import { BtcAvatarIcon, CopyIcon, Flag, Link } from '@coffer.network/ui';
 
 import { useClipboard } from '@app/common/hooks/use-copy-to-clipboard';
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';

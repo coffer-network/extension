@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { bitcoinNetworkToNetworkMode } from '@leather.io/models';
-import { isDefined } from '@leather.io/utils';
+import { bitcoinNetworkToNetworkMode } from '@coffer.network/models';
+import { isDefined } from '@coffer.network/utils';
 
 import { useConfigRunesEnabled } from '@app/query/common/remote-config/remote-config.query';
 import { useLeatherNetwork } from '@app/query/leather-query-provider';

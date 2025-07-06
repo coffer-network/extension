@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 
-import { Title } from '@leather.io/ui';
+import { Title } from '@coffer.network/ui';
 
 import { useOnResizeListener } from '@app/common/hooks/use-on-resize-listener';
 import { useSpamFilterWithWhitelist } from '@app/common/spam-filter/use-spam-filter';

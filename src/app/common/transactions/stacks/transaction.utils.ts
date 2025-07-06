@@ -13,9 +13,9 @@ import {
 } from '@stacks/transactions';
 import { BigNumber } from 'bignumber.js';
 
-import { StacksTx, StacksTxStatus } from '@leather.io/models';
-import { getStacksContractName } from '@leather.io/stacks';
-import { truncateMiddle } from '@leather.io/utils';
+import { StacksTx, StacksTxStatus } from '@coffer.network/models';
+import { getStacksContractName } from '@coffer.network/stacks';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { stacksValue } from '@app/common/stacks-utils';
 import { getStacksNetworkFromChainId } from '@app/store/networks/networks.hooks';

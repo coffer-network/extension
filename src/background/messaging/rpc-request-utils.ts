@@ -7,8 +7,8 @@ import {
   type RpcMethodNames,
   type RpcRequests,
   createRpcErrorResponse,
-} from '@leather.io/rpc';
-import { isUndefined } from '@leather.io/utils';
+} from '@coffer.network/rpc';
+import { isUndefined } from '@coffer.network/utils';
 
 import { InternalMethods } from '@shared/message-types';
 import { sendMessage } from '@shared/messages';

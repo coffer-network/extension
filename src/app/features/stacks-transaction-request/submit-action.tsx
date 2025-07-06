@@ -1,7 +1,7 @@
 import { TransactionRequestSelectors } from '@tests/selectors/requests.selectors';
 import { useFormikContext } from 'formik';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { StacksTransactionFormValues } from '@shared/models/form.model';
 

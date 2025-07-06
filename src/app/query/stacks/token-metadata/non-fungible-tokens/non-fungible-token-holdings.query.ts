@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetNonFungibleTokenHoldingsQueryOptions } from '@leather.io/query';
+import { createGetNonFungibleTokenHoldingsQueryOptions } from '@coffer.network/query';
 
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';
 

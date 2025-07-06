@@ -20,7 +20,7 @@ trace*
 /test-results/
 /playwright-report/
 /playwright/.cache/
-leather-styles
+coffer-styles
 .netlify
 ./.vscode/settings.json
 storybook-static

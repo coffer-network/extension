@@ -1,5 +1,5 @@
-import { Caption } from '@leather.io/ui';
-import { formatMoney } from '@leather.io/utils';
+import { Caption } from '@coffer.network/ui';
+import { formatMoney } from '@coffer.network/utils';
 
 import { BitcoinNativeSegwitAccountLoader } from '@app/components/loaders/bitcoin-account-loader';
 import { BtcBalanceLoader } from '@app/components/loaders/btc-balance-loader';

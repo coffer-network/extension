@@ -1,4 +1,4 @@
-import { breakpoints, tokens } from '@leather.io/tokens';
+import { breakpoints, tokens } from '@coffer.network/tokens';
 
 export const customViewports = {
   popup: {

@@ -1,8 +1,8 @@
 import type { ClarityAbiFunction } from '@stacks/transactions';
 import { useQuery } from '@tanstack/react-query';
 
-import { type StacksClient, StacksQueryPrefixes } from '@leather.io/query';
-import { TransactionTypes } from '@leather.io/stacks';
+import { type StacksClient, StacksQueryPrefixes } from '@coffer.network/query';
+import { TransactionTypes } from '@coffer.network/stacks';
 
 import type { ContractCallPayload, TransactionPayload } from '@shared/utils/legacy-requests';
 

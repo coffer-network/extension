@@ -8,8 +8,8 @@ import { TEST_ACCOUNT_SECRET_KEY } from '@tests/page-object-models/onboarding.pa
 import {
   type BtcSignerNetwork,
   makeNativeSegwitAddressIndexDerivationPath,
-} from '@leather.io/bitcoin';
-import type { RpcParams, signPsbt } from '@leather.io/rpc';
+} from '@coffer.network/bitcoin';
+import type { RpcParams, signPsbt } from '@coffer.network/rpc';
 
 import { test } from '../../fixtures/fixtures';
 

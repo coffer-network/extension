@@ -1,8 +1,8 @@
 import { useCallback } from 'react';
 
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { CheckmarkIcon } from '@leather.io/ui';
+import { CheckmarkIcon } from '@coffer.network/ui';
 
 import { UserSelectedTheme, getThemeLabel } from '@app/common/theme-provider';
 

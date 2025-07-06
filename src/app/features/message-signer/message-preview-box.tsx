@@ -1,4 +1,4 @@
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
 import { HashDrawer } from './hash-drawer';
 

@@ -1,5 +1,5 @@
-import type { BtcCryptoAssetBalance } from '@leather.io/models';
-import { BtcAvatarIcon } from '@leather.io/ui';
+import type { BtcCryptoAssetBalance } from '@coffer.network/models';
+import { BtcAvatarIcon } from '@coffer.network/ui';
 
 import { useBtcCryptoAssetBalanceNativeSegwit } from '@app/query/bitcoin/balance/btc-balance-native-segwit.hooks';
 

@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 
-import type { Money } from '@leather.io/models';
-import { Approver } from '@leather.io/ui';
-import { baseCurrencyAmountInQuote, i18nFormatCurrency, sumMoney } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { Approver } from '@coffer.network/ui';
+import { baseCurrencyAmountInQuote, i18nFormatCurrency, sumMoney } from '@coffer.network/utils';
 
 import { closeWindow } from '@shared/utils';
 

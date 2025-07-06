@@ -1,3 +1,3 @@
-import config from '@leather.io/prettier-config';
+import config from '@coffer.network/prettier-config';
 
 export default config;

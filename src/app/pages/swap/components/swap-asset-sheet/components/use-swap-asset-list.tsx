@@ -9,7 +9,7 @@ import {
   createMoney,
   formatMoneyWithoutSymbol,
   isUndefined,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 import { RouteUrls } from '@shared/route-urls';

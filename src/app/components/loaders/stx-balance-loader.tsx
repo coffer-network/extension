@@ -1,6 +1,6 @@
-import type { StxCryptoAssetBalance } from '@leather.io/models';
-import { isErrorTooManyRequests, isFetchedWithSuccess } from '@leather.io/query';
-import { StxAvatarIcon } from '@leather.io/ui';
+import type { StxCryptoAssetBalance } from '@coffer.network/models';
+import { isErrorTooManyRequests, isFetchedWithSuccess } from '@coffer.network/query';
+import { StxAvatarIcon } from '@coffer.network/ui';
 
 import { useStxCryptoAssetBalance } from '@app/query/stacks/balance/account-balance.hooks';
 

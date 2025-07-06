@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
 import { RouteUrls } from '@shared/route-urls';
 

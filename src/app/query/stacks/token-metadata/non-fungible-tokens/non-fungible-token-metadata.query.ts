@@ -4,8 +4,8 @@ import { type UseQueryResult, useQueries } from '@tanstack/react-query';
 import {
   type NftAssetResponse,
   createGetNonFungibleTokenMetadataQueryOptions,
-} from '@leather.io/query';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
+} from '@coffer.network/query';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
 
 import { useStacksClient } from '../../stacks-client';
 import { useGetNonFungibleTokenHoldingsQuery } from './non-fungible-token-holdings.query';

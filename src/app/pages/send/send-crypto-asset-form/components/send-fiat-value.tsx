@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 
 import { useField } from 'formik';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 import {
   baseCurrencyAmountInQuote,
   createMoneyFromDecimal,
   i18nFormatCurrency,
   isNumber,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 interface SendFiatInputProps {
   marketData: MarketData;

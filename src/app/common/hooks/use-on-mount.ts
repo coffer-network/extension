@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { isFunction } from '@leather.io/utils';
+import { isFunction } from '@coffer.network/utils';
 
 export function useOnMount(effect: () => void | (() => void) | Promise<unknown>) {
   useEffect(() => {

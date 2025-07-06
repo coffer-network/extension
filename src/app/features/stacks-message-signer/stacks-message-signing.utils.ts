@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import type { PrivateKey } from '@stacks/common';
 import { ClarityValue, TupleCV } from '@stacks/transactions';
 
-import { isString } from '@leather.io/utils';
+import { isString } from '@coffer.network/utils';
 
 import { signMessage, signStructuredDataMessage } from '@shared/crypto/sign-message';
 import { createDelay } from '@shared/utils';

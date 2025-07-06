@@ -2,8 +2,8 @@ import { Suspense } from 'react';
 
 import { type FungiblePostConditionWire, addressToString } from '@stacks/transactions';
 
-import { TransactionTypes } from '@leather.io/stacks';
-import { truncateMiddle } from '@leather.io/utils';
+import { TransactionTypes } from '@coffer.network/stacks';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { ftDecimals, getSafeImageCanonicalUri } from '@app/common/stacks-utils';
 import {

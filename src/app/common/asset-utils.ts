@@ -1,9 +1,9 @@
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 import {
   baseCurrencyAmountInQuote,
   i18nFormatCurrency,
   isMoneyGreaterThanZero,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 export function convertAssetBalanceToFiat<
   T extends { balance: Money | null; marketData: MarketData | null },

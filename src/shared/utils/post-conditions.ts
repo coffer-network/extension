@@ -1,7 +1,7 @@
 import { type PostCondition, deserializeCV } from '@stacks/transactions';
 import BN from 'bn.js';
 
-import { formatAssetString } from '@leather.io/stacks';
+import { formatAssetString } from '@coffer.network/stacks';
 
 interface FtPostConditionsOptions {
   amount: string | number;

@@ -1,6 +1,6 @@
 import { useMatch, useNavigate } from 'react-router-dom';
 
-import { StacksTx } from '@leather.io/models';
+import { StacksTx } from '@coffer.network/models';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

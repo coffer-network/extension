@@ -3,7 +3,7 @@ import {
   createRpcErrorResponse,
   encodeBase64Json,
   stxTransferStx,
-} from '@leather.io/rpc';
+} from '@coffer.network/rpc';
 
 import { RouteUrls } from '@shared/route-urls';
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';

@@ -2,9 +2,9 @@ import { useCallback, useMemo, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 
 import { ActivitySelectors } from '@tests/selectors/activity.selectors';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { microStxToStx, stxToMicroStx } from '@leather.io/utils';
+import { microStxToStx, stxToMicroStx } from '@coffer.network/utils';
 
 import { ErrorLabel } from '@app/components/error-label';
 

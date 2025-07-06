@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { makeAuthResponse } from '@stacks/wallet-sdk';
 
-import { gaiaUrl } from '@leather.io/constants';
+import { gaiaUrl } from '@coffer.network/constants';
 
 import { finalizeAuthResponse } from '@shared/actions/finalize-auth-response';
 import { logger } from '@shared/logger';

@@ -1,4 +1,4 @@
-import type { CryptoAssetBalance, MarketData, RuneCryptoAssetInfo } from '@leather.io/models';
+import type { CryptoAssetBalance, MarketData, RuneCryptoAssetInfo } from '@coffer.network/models';
 
 import { type AssetFilter, useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { useRuneTokens } from '@app/query/bitcoin/runes/runes.hooks';

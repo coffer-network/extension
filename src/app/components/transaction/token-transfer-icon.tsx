@@ -1,5 +1,5 @@
-import { StacksTx } from '@leather.io/models';
-import { ArrowDownIcon, ArrowUpIcon } from '@leather.io/ui';
+import { StacksTx } from '@coffer.network/models';
+import { ArrowDownIcon, ArrowUpIcon } from '@coffer.network/ui';
 
 import { useCurrentStacksAccountAddress } from '@app/store/accounts/blockchain/stacks/stacks-account.hooks';
 

@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import { networkFromName } from '@stacks/network';
 import { deserializeCV } from '@stacks/transactions';
 
-import { RpcErrorCode, createRpcErrorResponse, createRpcSuccessResponse } from '@leather.io/rpc';
+import { RpcErrorCode, createRpcErrorResponse, createRpcSuccessResponse } from '@coffer.network/rpc';
 
 import {
   isSignableMessageType,

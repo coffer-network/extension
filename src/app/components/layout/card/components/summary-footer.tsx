@@ -1,6 +1,6 @@
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { CopyIcon, ExternalLinkIcon } from '@leather.io/ui';
+import { CopyIcon, ExternalLinkIcon } from '@coffer.network/ui';
 
 import { InfoCardBtn } from '@app/components/info-card/info-card';
 

@@ -84,7 +84,7 @@ const aliases = {
   '@stacks/profile': '@stacks/profile/dist/esm',
   '@stacks/transactions': '@stacks/transactions/dist/esm',
   '@stacks/wallet-sdk': '@stacks/wallet-sdk/dist/esm',
-  'leather-styles': path.resolve('leather-styles'),
+  'coffer-styles': path.resolve('coffer-styles'),
   'react': path.resolve('./node_modules/react'),
   'react-dom': path.resolve('./node_modules/react-dom'),
 };
@@ -166,7 +166,7 @@ export const config = {
       },
       {
         test: /\.(js)$/,
-        include: [/node_modules\/@leather.io\/ui/],
+        include: [/node_modules\/@coffer.network\/ui/],
         loader: 'esbuild-loader',
         options: { tsconfig: './tsconfig.json', loader: 'jsx',target: 'es2020' },
       },

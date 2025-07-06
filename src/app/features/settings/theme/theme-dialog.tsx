@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { Sheet, SheetHeader } from '@leather.io/ui';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { analytics } from '@shared/utils/analytics';
 

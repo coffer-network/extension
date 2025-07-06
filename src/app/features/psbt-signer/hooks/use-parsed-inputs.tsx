@@ -3,9 +3,9 @@ import { useMemo } from 'react';
 import type { TransactionInput } from '@scure/btc-signer/psbt';
 import { bytesToHex } from '@stacks/common';
 
-import { getBitcoinInputAddress, getBtcSignerLibNetworkConfigByMode } from '@leather.io/bitcoin';
-import type { Inscription } from '@leather.io/models';
-import { isDefined, isUndefined } from '@leather.io/utils';
+import { getBitcoinInputAddress, getBtcSignerLibNetworkConfigByMode } from '@coffer.network/bitcoin';
+import type { Inscription } from '@coffer.network/models';
+import { isDefined, isUndefined } from '@coffer.network/utils';
 
 import { getBitcoinInputValue } from '@shared/crypto/bitcoin/bitcoin.utils';
 

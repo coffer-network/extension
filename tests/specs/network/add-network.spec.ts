@@ -1,7 +1,7 @@
 import { NetworkSelectors } from '@tests/selectors/network.selectors';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 
-import { BITCOIN_API_BASE_URL_TESTNET3 } from '@leather.io/models';
+import { BITCOIN_API_BASE_URL_TESTNET3 } from '@coffer.network/models';
 
 import { test } from '../../fixtures/fixtures';
 

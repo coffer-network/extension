@@ -1,5 +1,5 @@
 import { FundPageSelectors } from '@tests/selectors/fund.selectors';
-import { Box, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Box, HStack, Stack, styled } from 'coffer-styles/jsx';
 
 interface FundAccountTileProps {
   attributes?: React.JSX.Element;

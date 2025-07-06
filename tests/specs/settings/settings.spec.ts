@@ -3,7 +3,7 @@ import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 
-import { WalletDefaultNetworkConfigurationIds } from '@leather.io/models';
+import { WalletDefaultNetworkConfigurationIds } from '@coffer.network/models';
 
 import { test } from '../../fixtures/fixtures';
 

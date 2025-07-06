@@ -1,13 +1,13 @@
 import { useCallback, useMemo } from 'react';
 
-import { BtcFeeType, Inscription, btcTxTimeMap } from '@leather.io/models';
-import { type UtxoWithDerivationPath } from '@leather.io/query';
+import { BtcFeeType, Inscription, btcTxTimeMap } from '@coffer.network/models';
+import { type UtxoWithDerivationPath } from '@coffer.network/query';
 import {
   baseCurrencyAmountInQuote,
   createMoney,
   formatMoneyPadded,
   i18nFormatCurrency,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { FeesListItem } from '@app/components/bitcoin-fees-list/bitcoin-fees-list';
 import { useCurrentNativeSegwitUtxos } from '@app/query/bitcoin/address/utxos-by-address.hooks';

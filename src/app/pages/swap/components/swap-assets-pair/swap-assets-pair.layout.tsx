@@ -1,6 +1,6 @@
-import { Box, Stack } from 'leather-styles/jsx';
+import { Box, Stack } from 'coffer-styles/jsx';
 
-import { ArrowDownIcon } from '@leather.io/ui';
+import { ArrowDownIcon } from '@coffer.network/ui';
 
 interface SwapAssetsPairLayoutProps {
   swapAssetBase: React.JSX.Element;

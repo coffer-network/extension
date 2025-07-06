@@ -1,4 +1,4 @@
-import { Flag } from '@leather.io/ui';
+import { Flag } from '@coffer.network/ui';
 
 import { InscriptionMetadata } from './components/inscription-metadata';
 

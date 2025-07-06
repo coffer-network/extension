@@ -1,4 +1,4 @@
-import type { AverageBitcoinFeeRates } from '@leather.io/models';
+import type { AverageBitcoinFeeRates } from '@coffer.network/models';
 
 import { useAverageBitcoinFeeRates } from '@app/query/bitcoin/fees/fee-estimates.hooks';
 

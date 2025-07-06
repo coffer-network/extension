@@ -1,5 +1,5 @@
-import { compliantErrorBody } from '@leather.io/query';
-import { ensureArray } from '@leather.io/utils';
+import { compliantErrorBody } from '@coffer.network/query';
+import { ensureArray } from '@coffer.network/utils';
 
 import { useCheckAddressComplianceQueries } from './compliance-checker.query';
 

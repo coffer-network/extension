@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 import { useAsync } from 'react-async-hook';
 
-import { Caption, DropdownMenu } from '@leather.io/ui';
-import { isNumber } from '@leather.io/utils';
+import { Caption, DropdownMenu } from '@coffer.network/ui';
+import { isNumber } from '@coffer.network/utils';
 
 import {
   clearBrowserStorageLogs,

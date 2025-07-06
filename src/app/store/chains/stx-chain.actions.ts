@@ -1,4 +1,4 @@
-import { stacksRootKeychainToAccountDescriptor } from '@leather.io/stacks';
+import { stacksRootKeychainToAccountDescriptor } from '@coffer.network/stacks';
 
 import { AppThunk } from '@app/store';
 

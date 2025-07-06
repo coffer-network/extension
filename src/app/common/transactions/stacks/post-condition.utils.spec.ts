@@ -5,7 +5,7 @@ import {
   postConditionToWire,
 } from '@stacks/transactions';
 
-import { getPostCondition } from '@leather.io/stacks';
+import { getPostCondition } from '@coffer.network/stacks';
 
 import { handlePostConditions } from '@app/common/transactions/stacks/post-condition.utils';
 

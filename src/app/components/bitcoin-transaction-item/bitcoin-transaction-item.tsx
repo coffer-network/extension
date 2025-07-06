@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import type { BitcoinTx } from '@leather.io/models';
-import { BtcAvatarIcon, BulletSeparator, Caption } from '@leather.io/ui';
+import type { BitcoinTx } from '@coffer.network/models';
+import { BtcAvatarIcon, BulletSeparator, Caption } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
-import { stxTransferSip10Ft } from '@leather.io/rpc';
-import { isDefined } from '@leather.io/utils';
+import { stxTransferSip10Ft } from '@coffer.network/rpc';
+import { isDefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 

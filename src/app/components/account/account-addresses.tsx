@@ -1,7 +1,7 @@
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { BulletSeparator, Caption } from '@leather.io/ui';
-import { truncateMiddle } from '@leather.io/utils';
+import { BulletSeparator, Caption } from '@coffer.network/ui';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { useBitcoinNativeSegwitAccountLoader } from '../loaders/bitcoin-account-loader';
 import { useStacksAccountLoader } from '../loaders/stacks-account-loader';

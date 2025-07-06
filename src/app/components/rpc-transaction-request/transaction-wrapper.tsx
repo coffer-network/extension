@@ -1,7 +1,7 @@
 import { motion, useAnimationControls } from 'framer-motion';
-import { Box, Flex, Stack } from 'leather-styles/jsx';
+import { Box, Flex, Stack } from 'coffer-styles/jsx';
 
-import { LeatherLogomarkIcon } from '@leather.io/ui';
+import { LeatherLogomarkIcon } from '@coffer.network/ui';
 
 import { BackgroundOverlay } from '@app/components/loading-overlay';
 

@@ -1,6 +1,6 @@
 import { useQueries } from '@tanstack/react-query';
 
-import { createGetBitcoinTransactionsByAddressQueryOptions } from '@leather.io/query';
+import { createGetBitcoinTransactionsByAddressQueryOptions } from '@coffer.network/query';
 
 import { useBitcoinClient } from '../clients/bitcoin-client';
 

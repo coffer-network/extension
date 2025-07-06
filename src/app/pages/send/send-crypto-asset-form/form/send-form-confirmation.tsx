@@ -1,7 +1,7 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Button, Callout } from '@leather.io/ui';
+import { Button, Callout } from '@coffer.network/ui';
 
 import { FormAddressDisplayer } from '@app/components/address-displayer/form-address-displayer';
 import {

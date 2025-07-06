@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 
 import BigNumber from 'bignumber.js';
 
-import { createMoney, sumNumbers } from '@leather.io/utils';
+import { createMoney, sumNumbers } from '@coffer.network/utils';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 import { closeWindow } from '@shared/utils';

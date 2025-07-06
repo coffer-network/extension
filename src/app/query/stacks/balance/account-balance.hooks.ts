@@ -3,8 +3,8 @@ import { useQuery } from '@tanstack/react-query';
 import {
   createGetSip10AddressBalancesQueryOptions,
   createGetStxAddressBalanceQueryOptions,
-} from '@leather.io/query';
-import { createMoney } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { createMoney } from '@coffer.network/utils';
 
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';
 

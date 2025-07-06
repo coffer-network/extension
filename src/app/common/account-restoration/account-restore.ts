@@ -1,4 +1,4 @@
-import { createCounter, fibonacciGenerator } from '@leather.io/utils';
+import { createCounter, fibonacciGenerator } from '@coffer.network/utils';
 
 const numOfEmptyAccountsToCheck = 20;
 

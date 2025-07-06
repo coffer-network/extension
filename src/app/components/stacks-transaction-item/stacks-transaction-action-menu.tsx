@@ -1,8 +1,8 @@
 import { ActivitySelectors } from '@tests/selectors/activity.selectors';
-import { css } from 'leather-styles/css';
-import { HStack, styled } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { ChevronDownIcon, ChevronsRightIcon, CloseIcon, DropdownMenu, Flag } from '@leather.io/ui';
+import { ChevronDownIcon, ChevronsRightIcon, CloseIcon, DropdownMenu, Flag } from '@coffer.network/ui';
 
 interface StacksTransactionActionMenuProps {
   onIncreaseFee(): void;

@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createBestInSlotInscription, createGetInscriptionQueryOptions } from '@leather.io/query';
+import { createBestInSlotInscription, createGetInscriptionQueryOptions } from '@coffer.network/query';
 
 import { useBitcoinClient } from '../clients/bitcoin-client';
 

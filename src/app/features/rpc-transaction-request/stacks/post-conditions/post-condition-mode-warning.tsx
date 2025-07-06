@@ -1,4 +1,4 @@
-import { Callout } from '@leather.io/ui';
+import { Callout } from '@coffer.network/ui';
 
 export function PostConditionModeWarning() {
   return (

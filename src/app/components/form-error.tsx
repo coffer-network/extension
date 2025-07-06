@@ -1,4 +1,4 @@
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
 export function FormError({ text }: { text: string }) {
   return (

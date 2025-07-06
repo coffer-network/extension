@@ -10,15 +10,15 @@ import {
   type Money,
   createMarketData,
   createMarketPair,
-} from '@leather.io/models';
-import { createGetAlexSwappableCurrenciesQueryOptions } from '@leather.io/query';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
+} from '@coffer.network/models';
+import { createGetAlexSwappableCurrenciesQueryOptions } from '@coffer.network/query';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
 import {
   convertAmountToFractionalUnit,
   createMoney,
   isDefined,
   sortAssetsByName,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { useStxAvailableUnlockedBalance } from '@app/query/stacks/balance/account-balance.hooks';
 import { useTransferableSip10Tokens } from '@app/query/stacks/sip10/sip10-tokens.hooks';

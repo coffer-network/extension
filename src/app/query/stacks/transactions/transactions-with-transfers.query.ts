@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetAccountTransactionsWithTransfersQueryOptions } from '@leather.io/query';
+import { createGetAccountTransactionsWithTransfersQueryOptions } from '@coffer.network/query';
 
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';
 

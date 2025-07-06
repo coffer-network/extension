@@ -3,8 +3,8 @@ import { useCallback, useState } from 'react';
 import { TransactionInput } from '@scure/btc-signer/psbt';
 import { bytesToHex } from '@stacks/common';
 
-import { BitcoinClient, getNumberOfInscriptionsOnUtxoUsingOrdinalsCom } from '@leather.io/query';
-import { isUndefined } from '@leather.io/utils';
+import { BitcoinClient, getNumberOfInscriptionsOnUtxoUsingOrdinalsCom } from '@coffer.network/query';
+import { isUndefined } from '@coffer.network/utils';
 
 import { useCurrentNetworkState, useIsLeatherTestingEnv } from '@app/query/leather-query-provider';
 

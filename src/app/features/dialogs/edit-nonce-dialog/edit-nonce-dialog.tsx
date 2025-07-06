@@ -2,9 +2,9 @@ import { useCallback, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { useFormikContext } from 'formik';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { Link, Sheet, SheetHeader } from '@leather.io/ui';
+import { Link, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { StacksSendFormValues, StacksTransactionFormValues } from '@shared/models/form.model';
 

@@ -1,9 +1,9 @@
 import { FormEvent, memo } from 'react';
 
 import { useField } from 'formik';
-import { Stack, StackProps } from 'leather-styles/jsx';
+import { Stack, StackProps } from 'coffer-styles/jsx';
 
-import { Input } from '@leather.io/ui';
+import { Input } from '@coffer.network/ui';
 
 import { ErrorLabel } from '@app/components/error-label';
 

@@ -8,7 +8,7 @@ import {
 import StacksApp, { LedgerError, ResponseSign, ResponseVersion } from '@zondax/ledger-stacks';
 import { compare } from 'compare-versions';
 
-import { makeStxDerivationPath, stxDerivationWithAccount } from '@leather.io/stacks';
+import { makeStxDerivationPath, stxDerivationWithAccount } from '@coffer.network/stacks';
 
 import {
   LEDGER_APPS_MAP,

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { TooltipProvider } from '@radix-ui/react-tooltip';
 import type { Meta } from '@storybook/react';
-import { Flex } from 'leather-styles/jsx';
+import { Flex } from 'coffer-styles/jsx';
 
 import {
   ArrowDownIcon,
@@ -10,7 +10,7 @@ import {
   ArrowsRepeatLeftRightIcon,
   IconButton,
   PlusIcon,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { AccountCard as Component } from './account.card';
 

@@ -10,7 +10,7 @@ import {
   getEstimatedUnsignedStacksTxByteLength,
   getSerializedUnsignedStacksTxPayload,
   parseStacksTxFeeEstimationResponse,
-} from '@leather.io/query';
+} from '@coffer.network/query';
 
 import {
   useConfigFeeEstimationsMaxEnabled,

@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetAccountNoncesQueryOptions, parseAccountNoncesResponse } from '@leather.io/query';
+import { createGetAccountNoncesQueryOptions, parseAccountNoncesResponse } from '@coffer.network/query';
 
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';
 

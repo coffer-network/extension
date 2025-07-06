@@ -1,7 +1,7 @@
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { formatMoney } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { formatMoney } from '@coffer.network/utils';
 
 interface ChooseFeeAmountProps {
   amount: Money;

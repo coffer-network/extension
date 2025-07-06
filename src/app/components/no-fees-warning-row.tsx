@@ -1,7 +1,7 @@
 import { ChainId } from '@stacks/network';
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { stacksChainIdToCoreNetworkMode } from '@leather.io/stacks';
+import { stacksChainIdToCoreNetworkMode } from '@coffer.network/stacks';
 
 import { capitalize } from '@app/common/utils';
 

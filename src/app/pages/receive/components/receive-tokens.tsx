@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { css } from 'leather-styles/css';
-import { Stack } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Stack } from 'coffer-styles/jsx';
 
 import {
   Avatar,
@@ -11,8 +11,8 @@ import {
   RunesAvatarIcon,
   Src20AvatarIcon,
   StxAvatarIcon,
-} from '@leather.io/ui';
-import { isString } from '@leather.io/utils';
+} from '@coffer.network/ui';
+import { isString } from '@coffer.network/utils';
 
 import { copyToClipboard } from '@app/common/utils/copy-to-clipboard';
 import { useToast } from '@app/features/toasts/use-toast';

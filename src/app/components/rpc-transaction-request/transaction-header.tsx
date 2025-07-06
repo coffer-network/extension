@@ -1,6 +1,6 @@
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { Approver, QuestionCircleIcon } from '@leather.io/ui';
+import { Approver, QuestionCircleIcon } from '@coffer.network/ui';
 
 interface TransactionHeaderProps {
   title: string;

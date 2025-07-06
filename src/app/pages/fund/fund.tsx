@@ -5,7 +5,7 @@ import type {
   BtcCryptoAssetBalance,
   CryptoCurrency,
   StxCryptoAssetBalance,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 
 import { RouteUrls } from '@shared/route-urls';
 

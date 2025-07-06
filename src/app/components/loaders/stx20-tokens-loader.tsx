@@ -1,4 +1,4 @@
-import type { CryptoAssetBalance, Stx20CryptoAssetInfo } from '@leather.io/models';
+import type { CryptoAssetBalance, Stx20CryptoAssetInfo } from '@coffer.network/models';
 
 import { type AssetFilter, useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { useStx20Tokens } from '@app/query/stacks/stx20/stx20-tokens.hooks';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
 import { CounterActions } from './counter-actions';
 import { ExplorerLink } from './explorer-link';

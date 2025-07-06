@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom';
 
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { type RpcMethodNames } from '@leather.io/rpc';
-import { Approver } from '@leather.io/ui';
+import { type RpcMethodNames } from '@coffer.network/rpc';
+import { Approver } from '@coffer.network/ui';
 
 import type { HasChildren } from '@app/common/has-children';
 import { BackgroundOverlay } from '@app/components/loading-overlay';

@@ -2,10 +2,10 @@ import { type ChangeEvent, useCallback, useEffect, useRef, useState } from 'reac
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { useField } from 'formik';
-import { Box, Flex, Stack, styled } from 'leather-styles/jsx';
+import { Box, Flex, Stack, styled } from 'coffer-styles/jsx';
 
-import { STX_DECIMALS, TOKEN_NAME_LENGTH } from '@leather.io/constants';
-import type { Money } from '@leather.io/models';
+import { STX_DECIMALS, TOKEN_NAME_LENGTH } from '@coffer.network/constants';
+import type { Money } from '@coffer.network/models';
 
 import { useShowFieldError } from '@app/common/form-utils';
 import { linearInterpolation } from '@app/common/utils';

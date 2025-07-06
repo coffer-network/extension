@@ -1,4 +1,4 @@
-import { RpcErrorCode, type RpcMethodNames, createRpcErrorResponse } from '@leather.io/rpc';
+import { RpcErrorCode, type RpcMethodNames, createRpcErrorResponse } from '@coffer.network/rpc';
 
 import type { RootState } from '@app/store';
 

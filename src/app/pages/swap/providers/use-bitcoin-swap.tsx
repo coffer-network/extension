@@ -2,9 +2,9 @@ import { useCallback } from 'react';
 
 import type { P2Ret } from '@scure/btc-signer/payment';
 
-import { BitcoinSigner } from '@leather.io/bitcoin';
-import type { UtxoResponseItem } from '@leather.io/query';
-import { delay, isUndefined } from '@leather.io/utils';
+import { BitcoinSigner } from '@coffer.network/bitcoin';
+import type { UtxoResponseItem } from '@coffer.network/query';
+import { delay, isUndefined } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 

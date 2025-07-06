@@ -1,7 +1,7 @@
 import NoActivity from '@assets/images/no-activity.png';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Caption } from '@leather.io/ui';
+import { Caption } from '@coffer.network/ui';
 
 export function NoAccountActivity() {
   return (

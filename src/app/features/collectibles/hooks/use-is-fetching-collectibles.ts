@@ -1,7 +1,7 @@
 import { useIsFetching } from '@tanstack/react-query';
 
-import { BitcoinQueryPrefixes, BnsV2QueryPrefixes, StacksQueryPrefixes } from '@leather.io/query';
-import { sumNumbers } from '@leather.io/utils';
+import { BitcoinQueryPrefixes, BnsV2QueryPrefixes, StacksQueryPrefixes } from '@coffer.network/query';
+import { sumNumbers } from '@coffer.network/utils';
 
 function areAnyQueriesFetching(...args: number[]) {
   return sumNumbers(args).toNumber() > 0;

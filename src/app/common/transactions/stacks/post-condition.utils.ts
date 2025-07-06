@@ -10,7 +10,7 @@ import {
   parsePrincipalString,
 } from '@stacks/transactions';
 
-import { getPostCondition } from '@leather.io/stacks';
+import { getPostCondition } from '@coffer.network/stacks';
 
 import { stacksValue } from '@app/common/stacks-utils';
 

@@ -1,7 +1,7 @@
 import { UpdateProfileRequestSelectors } from '@tests/selectors/requests.selectors';
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 interface UpdateActionLayoutProps {
   onUpdateProfile(): Promise<void>;

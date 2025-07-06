@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { useViewportMinWidth } from '@app/common/hooks/use-media-query';
 

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-import { Circle, CircleProps } from 'leather-styles/jsx';
+import { Circle, CircleProps } from 'coffer-styles/jsx';
 
 interface TransactionTypeIconWrapperProps extends CircleProps {
   bg?: any;

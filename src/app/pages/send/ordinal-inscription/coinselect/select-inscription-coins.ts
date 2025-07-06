@@ -1,6 +1,6 @@
-import { BTC_P2WPKH_DUST_AMOUNT } from '@leather.io/constants';
-import type { UtxoResponseItem, UtxoWithDerivationPath } from '@leather.io/query';
-import { createCounter, isDefined, sumNumbers } from '@leather.io/utils';
+import { BTC_P2WPKH_DUST_AMOUNT } from '@coffer.network/constants';
+import type { UtxoResponseItem, UtxoWithDerivationPath } from '@coffer.network/query';
+import { createCounter, isDefined, sumNumbers } from '@coffer.network/utils';
 
 import { BtcSizeFeeEstimator } from '@app/common/transactions/bitcoin/fees/btc-size-fee-estimator';
 

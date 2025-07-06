@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 
 import get from 'lodash.get';
 
-import type { Inscription } from '@leather.io/models';
+import type { Inscription } from '@coffer.network/models';
 
 export function useSendInscriptionRouteState() {
   const location = useLocation();

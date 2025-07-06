@@ -1,8 +1,8 @@
 import { memo } from 'react';
 
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { ErrorTriangleIcon } from '@leather.io/ui';
+import { ErrorTriangleIcon } from '@coffer.network/ui';
 
 interface ErrorMessageProps {
   title: string;

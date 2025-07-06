@@ -2,7 +2,7 @@ import { useCallback, useState } from 'react';
 
 import { useFormikContext } from 'formik';
 
-import { type BnsV2Client } from '@leather.io/query';
+import { type BnsV2Client } from '@coffer.network/query';
 
 import { FormErrorMessages } from '@shared/error-messages';
 import { logger } from '@shared/logger';

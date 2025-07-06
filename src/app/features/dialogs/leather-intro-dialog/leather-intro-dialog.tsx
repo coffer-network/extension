@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react';
 import { Outlet, Route, useNavigate } from 'react-router-dom';
 
-import { delay } from '@leather.io/utils';
+import { delay } from '@coffer.network/utils';
 
 import { analytics } from '@shared/utils/analytics';
 

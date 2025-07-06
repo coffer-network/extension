@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { CryptoCurrency } from '@leather.io/models';
-import { fetchCoingeckoMarketData, marketDataQueryOptions } from '@leather.io/query';
+import { CryptoCurrency } from '@coffer.network/models';
+import { fetchCoingeckoMarketData, marketDataQueryOptions } from '@coffer.network/query';
 
 export function useCoinGeckoMarketDataQuery(currency: CryptoCurrency) {
   return useQuery({

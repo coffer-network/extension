@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { CheckmarkIcon, ChevronDownIcon, Link } from '@leather.io/ui';
+import { CheckmarkIcon, ChevronDownIcon, Link } from '@coffer.network/ui';
 
 const labels = ['Low', 'Standard', 'High', 'Custom'];
 const testLabels = labels.map(label => label.toLowerCase());

@@ -1,8 +1,8 @@
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import type { CryptoCurrency, Money } from '@leather.io/models';
-import { formatDustUsdAmounts, i18nFormatCurrency } from '@leather.io/utils';
+import type { CryptoCurrency, Money } from '@coffer.network/models';
+import { formatDustUsdAmounts, i18nFormatCurrency } from '@coffer.network/utils';
 
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';
 

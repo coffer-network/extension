@@ -1,4 +1,4 @@
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 export function AccountListUnavailable() {
   return (

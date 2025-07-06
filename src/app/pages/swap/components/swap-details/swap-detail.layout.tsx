@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
-import { InfoCircleIcon } from '@leather.io/ui';
+import { InfoCircleIcon } from '@coffer.network/ui';
 
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';

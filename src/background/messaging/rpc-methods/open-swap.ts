@@ -1,4 +1,4 @@
-import { createRpcSuccessResponse, openSwap } from '@leather.io/rpc';
+import { createRpcSuccessResponse, openSwap } from '@coffer.network/rpc';
 
 import { RouteUrls } from '@shared/route-urls';
 import { replaceRouteParams } from '@shared/utils/replace-route-params';

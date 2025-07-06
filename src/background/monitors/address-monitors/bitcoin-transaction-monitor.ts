@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import { DEBUG_TX_MONITOR } from '@shared/environment';
 import { logger } from '@shared/logger';

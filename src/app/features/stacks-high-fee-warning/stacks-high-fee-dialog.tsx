@@ -1,6 +1,6 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { useFormikContext } from 'formik';
-import { HStack, Stack } from 'leather-styles/jsx';
+import { HStack, Stack } from 'coffer-styles/jsx';
 
 import {
   Button,
@@ -10,7 +10,7 @@ import {
   Sheet,
   SheetHeader,
   Title,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { StacksSendFormValues } from '@shared/models/form.model';
 

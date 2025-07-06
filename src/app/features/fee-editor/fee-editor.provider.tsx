@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 
 import { RouteUrls } from '@shared/route-urls';
 

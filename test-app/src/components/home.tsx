@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 
 import { AppContext } from '@common/context';
-import { Box, BoxProps, Flex, styled } from 'leather-styles/jsx';
+import { Box, BoxProps, Flex, styled } from 'coffer-styles/jsx';
 
 import { Auth } from './auth';
 import { Bitcoin } from './bitcoin';

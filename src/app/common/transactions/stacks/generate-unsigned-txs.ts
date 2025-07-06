@@ -12,7 +12,7 @@ import {
   TransactionTypes,
   getPostConditions,
   isTransactionTypeSupported,
-} from '@leather.io/stacks';
+} from '@coffer.network/stacks';
 
 import {
   type ContractCallPayload,
@@ -106,7 +106,7 @@ export type GenerateUnsignedTransactionOptions = GenerateUnsignedTxArgs<
   ContractCallPayload | STXTransferPayload | ContractDeployPayload
 >;
 /**
- * @deprecated Use updated version from `@leather.io/stacks`
+ * @deprecated Use updated version from `@coffer.network/stacks`
  */
 export async function generateUnsignedTransaction(options: GenerateUnsignedTransactionOptions) {
   const { txData, publicKey, nonce, fee } = options;

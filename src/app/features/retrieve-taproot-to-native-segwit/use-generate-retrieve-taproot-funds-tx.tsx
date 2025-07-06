@@ -2,9 +2,9 @@ import { useCallback, useMemo } from 'react';
 
 import * as btc from '@scure/btc-signer';
 
-import { extractAddressIndexFromPath } from '@leather.io/crypto';
-import type { Money } from '@leather.io/models';
-import { createMoney, sumNumbers } from '@leather.io/utils';
+import { extractAddressIndexFromPath } from '@coffer.network/crypto';
+import type { Money } from '@coffer.network/models';
+import { createMoney, sumNumbers } from '@coffer.network/utils';
 
 import { BtcSizeFeeEstimator } from '@app/common/transactions/bitcoin/fees/btc-size-fee-estimator';
 import { useAverageBitcoinFeeRates } from '@app/query/bitcoin/fees/fee-estimates.hooks';

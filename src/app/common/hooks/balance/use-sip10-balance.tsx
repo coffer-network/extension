@@ -1,13 +1,13 @@
 import { useMemo } from 'react';
 
-import type { Money } from '@leather.io/models';
+import type { Money } from '@coffer.network/models';
 import {
   baseCurrencyAmountInQuote,
   createMoney,
   isDefined,
   isMoneyGreaterThanZero,
   sumMoney,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { useSip10FiatMarketData } from '../use-calculate-sip10-fiat-value';
 import { useCombinedFilteredSip10Tokens } from '../use-filtered-sip10-tokens';

@@ -1,8 +1,8 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { motion } from 'framer-motion';
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { AddressDisplayer, CopyIcon } from '@leather.io/ui';
+import { AddressDisplayer, CopyIcon } from '@coffer.network/ui';
 
 import { analytics } from '@shared/utils/analytics';
 

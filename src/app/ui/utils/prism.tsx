@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-import { token } from 'leather-styles/tokens';
+import { token } from 'coffer-styles/tokens';
 import { PrismTheme } from 'prism-react-renderer';
 
 export interface GrammaticalToken {

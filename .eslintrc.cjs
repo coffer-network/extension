@@ -24,7 +24,7 @@ module.exports = {
     'plugin:storybook/recommended',
     'plugin:storybook/csf',
   ],
-  ignorePatterns: ['./leather-styles'],
+  ignorePatterns: ['./coffer-styles'],
   plugins: ['react', 'react-hooks', '@typescript-eslint'],
   settings: {
     react: {
@@ -122,7 +122,7 @@ module.exports = {
               {
                 name: '@radix-ui/themes',
                 importNames: ['Flex'],
-                message: 'Layout components should be imported from leather-styles/jsx',
+                message: 'Layout components should be imported from coffer-styles/jsx',
               },
             ],
           },

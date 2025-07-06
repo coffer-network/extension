@@ -3,14 +3,14 @@ import { useMemo, useState } from 'react';
 import * as btc from '@scure/btc-signer';
 import * as bitcoin from 'bitcoinjs-lib';
 
-import { createBitcoinAddress, signBip322MessageSimple } from '@leather.io/bitcoin';
-import { BitcoinAddress } from '@leather.io/models';
+import { createBitcoinAddress, signBip322MessageSimple } from '@coffer.network/bitcoin';
+import { BitcoinAddress } from '@coffer.network/models';
 import {
   PaymentTypes,
   RpcErrorCode,
   createRpcErrorResponse,
   createRpcSuccessResponse,
-} from '@leather.io/rpc';
+} from '@coffer.network/rpc';
 
 import { logger } from '@shared/logger';
 import { closeWindow, createDelay } from '@shared/utils';

@@ -1,4 +1,4 @@
-import { Stack, StackProps } from 'leather-styles/jsx';
+import { Stack, StackProps } from 'coffer-styles/jsx';
 
 import { HasChildren } from '@app/common/has-children';
 

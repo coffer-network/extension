@@ -1,6 +1,6 @@
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { ConnectLedgerErr } from '@app/features/ledger/illustrations/ledger-illu-connect-ledger-error';
 

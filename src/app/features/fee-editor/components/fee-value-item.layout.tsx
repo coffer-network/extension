@@ -1,12 +1,12 @@
-import type { MarketData } from '@leather.io/models';
-import { ItemLayout } from '@leather.io/ui';
+import type { MarketData } from '@coffer.network/models';
+import { ItemLayout } from '@coffer.network/ui';
 import {
   baseCurrencyAmountInQuote,
   capitalize,
   createMoney,
   formatMoney,
   i18nFormatCurrency,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import type { Fee } from '../fee-editor.context';
 import { FeeItemIcon } from './fee-item-icon';

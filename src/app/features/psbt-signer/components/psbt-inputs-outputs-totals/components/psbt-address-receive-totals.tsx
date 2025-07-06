@@ -1,4 +1,4 @@
-import { formatMoney, i18nFormatCurrency, truncateMiddle } from '@leather.io/utils';
+import { formatMoney, i18nFormatCurrency, truncateMiddle } from '@coffer.network/utils';
 
 import { removeMinusSign } from '@app/common/utils';
 import { usePsbtSignerContext } from '@app/features/psbt-signer/psbt-signer.context';

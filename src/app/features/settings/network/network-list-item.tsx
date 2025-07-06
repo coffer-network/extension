@@ -1,4 +1,4 @@
-import { defaultCurrentNetwork } from '@leather.io/models';
+import { defaultCurrentNetwork } from '@coffer.network/models';
 
 import { useGetStacksNetworkStatusQuery } from '@app/query/stacks/network/network.query';
 import { useCurrentNetworkId, useNetworks } from '@app/store/networks/networks.selectors';

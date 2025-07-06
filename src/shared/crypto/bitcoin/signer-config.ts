@@ -4,9 +4,9 @@ import {
   getInputPaymentType,
   getNativeSegwitAddressIndexDerivationPath,
   getTaprootAddressIndexDerivationPath,
-} from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes } from '@leather.io/models';
-import { isUndefined, makeNumberRange } from '@leather.io/utils';
+} from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
+import { isUndefined, makeNumberRange } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 

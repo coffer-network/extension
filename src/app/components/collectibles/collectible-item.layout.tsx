@@ -2,8 +2,8 @@ import { ReactNode } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { Box, Stack, styled } from 'leather-styles/jsx';
-import { token } from 'leather-styles/tokens';
+import { Box, Stack, styled } from 'coffer-styles/jsx';
+import { token } from 'coffer-styles/tokens';
 
 import { useHoverWithChildren } from '@app/common/hooks/use-hover-with-children';
 

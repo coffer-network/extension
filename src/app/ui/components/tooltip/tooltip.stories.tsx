@@ -1,8 +1,8 @@
 import * as RadixTooltip from '@radix-ui/react-tooltip';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { InfoCircleIcon } from '@leather.io/ui';
+import { InfoCircleIcon } from '@coffer.network/ui';
 
 import { BasicTooltip as Component } from './basic-tooltip';
 

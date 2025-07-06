@@ -3,7 +3,7 @@ import { TestAppPage } from '@tests/page-object-models/test-app.page';
 import { UpdateProfileRequestPage } from '@tests/page-object-models/update-profile-request.page';
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 
-import { delay } from '@leather.io/utils';
+import { delay } from '@coffer.network/utils';
 
 import { test } from '../../fixtures/fixtures';
 

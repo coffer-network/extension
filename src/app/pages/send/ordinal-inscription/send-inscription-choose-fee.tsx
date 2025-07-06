@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
-import type { BtcFeeType } from '@leather.io/models';
-import { Sheet, SheetHeader } from '@leather.io/ui';
-import { createMoney } from '@leather.io/utils';
+import type { BtcFeeType } from '@coffer.network/models';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
+import { createMoney } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 

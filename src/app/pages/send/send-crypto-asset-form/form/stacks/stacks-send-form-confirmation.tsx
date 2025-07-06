@@ -1,10 +1,10 @@
 import { Outlet, useParams } from 'react-router-dom';
 
 import { deserializeTransaction } from '@stacks/transactions';
-import { Box, Stack } from 'leather-styles/jsx';
+import { Box, Stack } from 'coffer-styles/jsx';
 
-import type { CryptoCurrency } from '@leather.io/models';
-import { InfoCircleIcon } from '@leather.io/ui';
+import type { CryptoCurrency } from '@coffer.network/models';
+import { InfoCircleIcon } from '@coffer.network/ui';
 
 import { useLocationStateWithCache } from '@app/common/hooks/use-location-state';
 import { Content, Page } from '@app/components/layout';

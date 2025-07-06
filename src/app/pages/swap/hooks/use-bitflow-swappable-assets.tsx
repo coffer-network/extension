@@ -4,9 +4,9 @@ import type { Token } from '@bitflowlabs/core-sdk';
 import { useQuery } from '@tanstack/react-query';
 import BigNumber from 'bignumber.js';
 
-import { type Currency, createMarketData, createMarketPair } from '@leather.io/models';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { convertAmountToFractionalUnit, createMoney, isDefined } from '@leather.io/utils';
+import { type Currency, createMarketData, createMarketPair } from '@coffer.network/models';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { convertAmountToFractionalUnit, createMoney, isDefined } from '@coffer.network/utils';
 
 import { useSip10FiatMarketData } from '@app/common/hooks/use-calculate-sip10-fiat-value';
 import { createGetBitflowAvailableTokensQueryOptions } from '@app/query/bitflow-sdk/bitflow-available-tokens.query';

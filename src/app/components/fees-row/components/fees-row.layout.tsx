@@ -1,7 +1,7 @@
 import { useField } from 'formik';
-import { HStack, HstackProps, styled } from 'leather-styles/jsx';
+import { HStack, HstackProps, styled } from 'coffer-styles/jsx';
 
-import { Callout, InfoCircleIcon } from '@leather.io/ui';
+import { Callout, InfoCircleIcon } from '@coffer.network/ui';
 
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';
 import { SponsoredLabel } from '@app/components/sponsored-label';

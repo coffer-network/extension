@@ -1,8 +1,8 @@
 import { Dispatch, SetStateAction } from 'react';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { BtcAvatarIcon, StxAvatarIcon } from '@leather.io/ui';
+import { BtcAvatarIcon, StxAvatarIcon } from '@coffer.network/ui';
 
 import {
   BitcoinNativeSegwitAccountLoader,
@@ -87,7 +87,7 @@ export function AssetList({
         </BitcoinNativeSegwitAccountLoader>
       )}
 
-      <CurrentStacksAccountLoader
+      {/* <CurrentStacksAccountLoader
         fallback={
           (!currentAccount && !isLedger) || !showUnmanageableTokens ? null : (
             <ConnectLedgerAssetItemFallback
@@ -139,7 +139,7 @@ export function AssetList({
             )}
           </>
         )}
-      </CurrentStacksAccountLoader>
+      </CurrentStacksAccountLoader> */}
 
       <BitcoinNativeSegwitAccountLoader current>
         {nativeSegwitAccount => (

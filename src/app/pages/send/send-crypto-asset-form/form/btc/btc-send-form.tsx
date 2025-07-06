@@ -2,11 +2,11 @@ import { Outlet } from 'react-router-dom';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { Form, Formik } from 'formik';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import type { CryptoCurrency } from '@leather.io/models';
-import { BtcAvatarIcon, Button, Callout, Link } from '@leather.io/ui';
-import { formatMoney } from '@leather.io/utils';
+import type { CryptoCurrency } from '@coffer.network/models';
+import { BtcAvatarIcon, Button, Callout, Link } from '@coffer.network/ui';
+import { formatMoney } from '@coffer.network/utils';
 
 import { AvailableBalance, ButtonRow, Card, Content, Page } from '@app/components/layout';
 import { PageHeader } from '@app/features/container/headers/page.header';

@@ -6,7 +6,7 @@ import { openProfileUpdateRequestPopup } from '@stacks/connect-jwt';
 import { StacksNetwork } from '@stacks/network';
 import { PublicPersonProfile, PublicProfile } from '@stacks/profile';
 import { TestAppSelectors } from '@tests/selectors/test-app.selectors';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 export const Profile = () => {
   const name = 'Name ' + new Date().getTime().toString();

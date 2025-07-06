@@ -1,6 +1,6 @@
-import { Center, styled } from 'leather-styles/jsx';
+import { Center, styled } from 'coffer-styles/jsx';
 
-import { Approver, Button } from '@leather.io/ui';
+import { Approver, Button } from '@coffer.network/ui';
 
 import { useOnMount } from '@app/common/hooks/use-on-mount';
 

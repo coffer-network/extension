@@ -1,6 +1,6 @@
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { Caption, ErrorTriangleIcon } from '@leather.io/ui';
+import { Caption, ErrorTriangleIcon } from '@coffer.network/ui';
 
 interface ErrorMessageProps {
   errorMessage: string;

@@ -1,6 +1,6 @@
 import Stx20AvatarIconSrc from '@assets/avatars/stx20-avatar-icon.png';
 
-import { Avatar, AvatarProps } from '@leather.io/ui';
+import { Avatar, AvatarProps } from '@coffer.network/ui';
 
 const fallback = 'ST';
 

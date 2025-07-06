@@ -2,9 +2,9 @@ import { useCallback, useState } from 'react';
 
 import { TransactionInput } from '@scure/btc-signer/psbt';
 
-import { decodeBitcoinTx } from '@leather.io/bitcoin';
-import { filterOutIntentionalUtxoSpend } from '@leather.io/query';
-import { delay } from '@leather.io/utils';
+import { decodeBitcoinTx } from '@coffer.network/bitcoin';
+import { filterOutIntentionalUtxoSpend } from '@coffer.network/query';
+import { delay } from '@coffer.network/utils';
 
 import { useBitcoinClient } from '../clients/bitcoin-client';
 import { useCheckUnspendableUtxos } from './use-check-utxos';

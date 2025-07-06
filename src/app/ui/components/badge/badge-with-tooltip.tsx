@@ -1,4 +1,4 @@
-import { Badge, type BadgeProps } from '@leather.io/ui';
+import { Badge, type BadgeProps } from '@coffer.network/ui';
 
 import { BasicTooltip } from '../tooltip/basic-tooltip';
 

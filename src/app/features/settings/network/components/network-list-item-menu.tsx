@@ -1,8 +1,8 @@
 import { NetworkSelectors } from '@tests/selectors/network.selectors';
-import { css } from 'leather-styles/css';
-import { HStack, styled } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { DropdownMenu, EllipsisVIcon, PencilIcon, TrashIcon } from '@leather.io/ui';
+import { DropdownMenu, EllipsisVIcon, PencilIcon, TrashIcon } from '@coffer.network/ui';
 
 interface Props {
   onEditNetwork(): void;

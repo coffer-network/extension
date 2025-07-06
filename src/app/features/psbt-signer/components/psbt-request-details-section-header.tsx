@@ -1,6 +1,6 @@
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { ArrowUpIcon, Link } from '@leather.io/ui';
+import { ArrowUpIcon, Link } from '@coffer.network/ui';
 
 interface PsbtRequestDetailsSectionHeaderProps {
   hasDetails?: boolean;

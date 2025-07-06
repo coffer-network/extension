@@ -1,6 +1,6 @@
 import { useFormikContext } from 'formik';
 
-import type { Fees } from '@leather.io/models';
+import type { Fees } from '@coffer.network/models';
 
 import { StacksTransactionFormValues } from '@shared/models/form.model';
 

@@ -1,11 +1,11 @@
-import { isSupportedMessageSigningPaymentType } from '@leather.io/bitcoin';
+import { isSupportedMessageSigningPaymentType } from '@coffer.network/bitcoin';
 import {
   type PaymentTypes,
   RpcErrorCode,
   createRpcErrorResponse,
   signMessage,
-} from '@leather.io/rpc';
-import { isDefined, isUndefined } from '@leather.io/utils';
+} from '@coffer.network/rpc';
+import { isDefined, isUndefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import {

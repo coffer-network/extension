@@ -1,6 +1,6 @@
-import { Box, Circle, HStack, styled } from 'leather-styles/jsx';
+import { Box, Circle, HStack, styled } from 'coffer-styles/jsx';
 
-import { LockIcon } from '@leather.io/ui';
+import { LockIcon } from '@coffer.network/ui';
 
 /**
  * @deprecated Legacy transaction request

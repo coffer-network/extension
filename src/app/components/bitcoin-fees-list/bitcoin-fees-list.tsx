@@ -1,8 +1,8 @@
 import { useCallback } from 'react';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import type { BtcFeeType } from '@leather.io/models';
+import type { BtcFeeType } from '@coffer.network/models';
 
 import { LoadingSpinner } from '../loading-spinner';
 import { FeesListError } from './components/fees-list-error';

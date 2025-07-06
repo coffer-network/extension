@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import * as RadixTooltip from '@radix-ui/react-tooltip';
 import { Theme as RadixTheme } from '@radix-ui/themes';
 
-import { noop } from '@leather.io/utils';
+import { noop } from '@coffer.network/utils';
 
 import { store } from '@app/store';
 import { settingsActions } from '@app/store/settings/settings.actions';

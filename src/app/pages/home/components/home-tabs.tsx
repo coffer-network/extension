@@ -1,9 +1,9 @@
 import { Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { Box, Stack } from 'leather-styles/jsx';
+import { Box, Stack } from 'coffer-styles/jsx';
 
-import { Tabs } from '@leather.io/ui';
+import { Tabs } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

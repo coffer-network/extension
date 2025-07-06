@@ -1,6 +1,6 @@
 import { type ReactNode } from 'react';
 
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 interface PageProps {
   children: ReactNode;

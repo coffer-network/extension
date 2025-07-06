@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { useFormikContext } from 'formik';
 
-import type { BnsV2Client } from '@leather.io/query';
+import type { BnsV2Client } from '@coffer.network/query';
 
 import { BitcoinSendFormValues, StacksSendFormValues } from '@shared/models/form.model';
 

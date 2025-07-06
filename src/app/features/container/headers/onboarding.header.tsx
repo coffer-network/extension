@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 
-import { ArrowLeftIcon, BarsTwoIcon } from '@leather.io/ui';
+import { ArrowLeftIcon, BarsTwoIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

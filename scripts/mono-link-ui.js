@@ -18,8 +18,8 @@ async function modifyUiPackageJson() {
     const data = await fs.readFile(filePath, 'utf-8');
     let packageJson = JSON.parse(data);
 
-    // Modify the @leather.io/ui dependency
-    packageJson.dependencies['@leather.io/ui'] = 'file:../mono/packages/ui';
+    // Modify the @coffer.network/ui dependency
+    packageJson.dependencies['@coffer.network/ui'] = 'file:../mono/packages/ui';
 
     // Ensure pnpm and pnpm.overrides are initialized
     if (!packageJson.pnpm) {
@@ -31,11 +31,11 @@ async function modifyUiPackageJson() {
 
     // Add the specified overrides
     const overrides = {
-      '@leather.io/rpc': 'file:../mono/packages/rpc',
-      '@leather.io/constants': 'file:../mono/packages/constants',
-      '@leather.io/models': 'file:../mono/packages/models',
-      '@leather.io/tokens': 'file:../mono/packages/tokens',
-      '@leather.io/utils': 'file:../mono/packages/utils'
+      '@coffer.network/rpc': 'file:../mono/packages/rpc',
+      '@coffer.network/constants': 'file:../mono/packages/constants',
+      '@coffer.network/models': 'file:../mono/packages/models',
+      '@coffer.network/tokens': 'file:../mono/packages/tokens',
+      '@coffer.network/utils': 'file:../mono/packages/utils'
     };
 
     packageJson.pnpm.overrides = { ...packageJson.pnpm.overrides, ...overrides };

@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 import { FormikHelpers } from 'formik';
 import * as yup from 'yup';
 
-import type { CryptoAssetBalance, Sip10CryptoAssetInfo } from '@leather.io/models';
-import { convertAmountToBaseUnit } from '@leather.io/utils';
+import type { CryptoAssetBalance, Sip10CryptoAssetInfo } from '@coffer.network/models';
+import { convertAmountToBaseUnit } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { StacksSendFormValues } from '@shared/models/form.model';

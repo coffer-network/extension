@@ -12,9 +12,9 @@ import { base58 } from '@scure/base';
 import { AnalyticsBrowser } from '@segment/analytics-next';
 import { browserTracingIntegration, feedbackIntegration, setTag } from '@sentry/browser';
 import { init as SentryInit, reactRouterV6BrowserTracingIntegration } from '@sentry/react';
-import { token } from 'leather-styles/tokens';
+import { token } from 'coffer-styles/tokens';
 
-import { configureAnalyticsClient } from '@leather.io/analytics';
+import { configureAnalyticsClient } from '@coffer.network/analytics';
 
 import {
   IS_TEST_ENV,

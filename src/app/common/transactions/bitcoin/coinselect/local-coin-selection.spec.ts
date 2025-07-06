@@ -1,5 +1,5 @@
-import { BTC_P2WPKH_DUST_AMOUNT } from '@leather.io/constants';
-import { createMoney, createNullArrayOfLength, sumNumbers } from '@leather.io/utils';
+import { BTC_P2WPKH_DUST_AMOUNT } from '@coffer.network/constants';
+import { createMoney, createNullArrayOfLength, sumNumbers } from '@coffer.network/utils';
 
 import { filterUneconomicalUtxos, getSizeInfo } from '../utils';
 import { determineUtxosForSpend, determineUtxosForSpendAll } from './local-coin-selection';

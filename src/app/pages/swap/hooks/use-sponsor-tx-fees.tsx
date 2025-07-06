@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 import type { StacksTransactionWire } from '@stacks/transactions';
 
-import { FeeTypes } from '@leather.io/models';
-import { defaultFeesMaxValuesAsMoney } from '@leather.io/query';
+import { FeeTypes } from '@coffer.network/models';
+import { defaultFeesMaxValuesAsMoney } from '@coffer.network/query';
 
 import { logger } from '@shared/logger';
 import { RouteUrls } from '@shared/route-urls';

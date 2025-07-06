@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 
-import { ChevronRightIcon, Flag, ItemLayout, Pressable, Spinner } from '@leather.io/ui';
+import { ChevronRightIcon, Flag, ItemLayout, Pressable, Spinner } from '@coffer.network/ui';
 
 import { useWindowMinWidth } from '@app/common/hooks/use-media-query';
 

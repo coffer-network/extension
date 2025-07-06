@@ -1,6 +1,6 @@
 import { defineGlobalStyles } from '@pandacss/dev';
 
-import { tokens } from '@leather.io/tokens';
+import { tokens } from '@coffer.network/tokens';
 
 // ts-unused-exports:disable-next-line
 export const globalCss = defineGlobalStyles({

@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
-import { delay, formatMoneyPadded, truncateMiddle } from '@leather.io/utils';
+import { Link } from '@coffer.network/ui';
+import { delay, formatMoneyPadded, truncateMiddle } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

@@ -8,8 +8,8 @@ import {
   type RpcMethodNames,
   createRpcErrorResponse,
   createRpcSuccessResponse,
-} from '@leather.io/rpc';
-import { delay, isString } from '@leather.io/utils';
+} from '@coffer.network/rpc';
+import { delay, isString } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';

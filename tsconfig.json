@@ -29,14 +29,14 @@
       "@inpage/*": ["inpage/*"],
       "@app/*": ["app/*"],
       "@tests/*": ["../tests/*"],
-      "leather-styles/*": ["../leather-styles/*"]
+      "coffer-styles/*": ["../coffer-styles/*"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["vitest/globals", "chrome"]
   },
-  "include": ["./src/**/*", "./tests/**/*", "./scripts-ts/**/*", "leather-styles", "theme"],
+  "include": ["./src/**/*", "./tests/**/*", "./scripts-ts/**/*", "coffer-styles", "theme"],
   "exclude": ["test-app"],
   "parserOptions": {
     "extraFileExtensions": [".mdx"]

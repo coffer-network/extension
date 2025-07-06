@@ -1,4 +1,4 @@
-import type { BitcoinNetworkModes } from '@leather.io/models';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
 
 import { getRootState } from '@shared/storage/get-root-state';
 

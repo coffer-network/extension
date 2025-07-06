@@ -1,5 +1,5 @@
 import { Profile } from '@stacks/profile';
-import { Box, Stack, styled } from 'leather-styles/jsx';
+import { Box, Stack, styled } from 'coffer-styles/jsx';
 
 function Value({ v }: { v: any }) {
   if (typeof v === 'string' || typeof v === 'number' || typeof v === 'boolean') {

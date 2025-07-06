@@ -4,7 +4,7 @@ import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 import { getDisplayerAddress } from '@tests/utils';
 
-import { BESTINSLOT_API_BASE_URL_TESTNET, BtcFeeType } from '@leather.io/models';
+import { BESTINSLOT_API_BASE_URL_TESTNET, BtcFeeType } from '@coffer.network/models';
 
 import { test } from '../../fixtures/fixtures';
 

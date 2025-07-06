@@ -1,4 +1,4 @@
-import { type HTMLStyledProps } from 'leather-styles/jsx';
+import { type HTMLStyledProps } from 'coffer-styles/jsx';
 
 import { PrivateTextLayout } from '@app/components/privacy/private-text.layout';
 import { useTogglePrivateMode } from '@app/store/settings/settings.actions';

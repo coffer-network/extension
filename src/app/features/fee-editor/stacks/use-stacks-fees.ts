@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import type { Fees } from '@leather.io/models';
-import { convertAmountToBaseUnit } from '@leather.io/utils';
+import type { Fees } from '@coffer.network/models';
+import { convertAmountToBaseUnit } from '@coffer.network/utils';
 
 import { type Fees as StacksFees } from '../fee-editor.context';
 

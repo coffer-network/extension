@@ -1,9 +1,9 @@
 import { Suspense, memo } from 'react';
 
 import { TransactionRequestSelectors } from '@tests/selectors/requests.selectors';
-import { HStack, HstackProps, styled } from 'leather-styles/jsx';
+import { HStack, HstackProps, styled } from 'coffer-styles/jsx';
 
-import { ErrorTriangleIcon } from '@leather.io/ui';
+import { ErrorTriangleIcon } from '@coffer.network/ui';
 
 import { useTransactionError } from '@app/features/stacks-transaction-request/hooks/use-transaction-error';
 import { TransactionErrorReason } from '@app/features/stacks-transaction-request/legacy-transaction-error/transaction-error';

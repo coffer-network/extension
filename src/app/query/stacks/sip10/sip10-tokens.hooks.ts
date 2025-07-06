@@ -4,10 +4,10 @@ import type {
   BaseCryptoAssetBalance,
   CryptoAssetBalance,
   Sip10CryptoAssetInfo,
-} from '@leather.io/models';
-import { type Sip10CryptoAssetFilter } from '@leather.io/query';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { isDefined, isUndefined } from '@leather.io/utils';
+} from '@coffer.network/models';
+import { type Sip10CryptoAssetFilter } from '@coffer.network/query';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { isDefined, isUndefined } from '@coffer.network/utils';
 
 import { type SwapAsset, useAlexSwappableAssets } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 

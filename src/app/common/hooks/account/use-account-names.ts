@@ -1,8 +1,8 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { bitcoinNetworkModeToCoreNetworkMode } from '@leather.io/bitcoin';
-import { createGetBnsNamesOwnedByAddressQueryOptions } from '@leather.io/query';
-import { isUndefined } from '@leather.io/utils';
+import { bitcoinNetworkModeToCoreNetworkMode } from '@coffer.network/bitcoin';
+import { createGetBnsNamesOwnedByAddressQueryOptions } from '@coffer.network/query';
+import { isUndefined } from '@coffer.network/utils';
 
 import { parseIfValidPunycode } from '@app/common/utils';
 import { formatAccountName } from '@app/common/utils/format-account-name';

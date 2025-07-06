@@ -5,8 +5,8 @@ import { signatureVrsToRsv } from '@stacks/common';
 import { serializeCV } from '@stacks/transactions';
 import { LedgerError } from '@zondax/ledger-stacks';
 
-import { Sheet, SheetHeader } from '@leather.io/ui';
-import { delay, isError } from '@leather.io/utils';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
+import { delay, isError } from '@coffer.network/utils';
 
 import { UnsignedMessage, whenSignableMessageOfType } from '@shared/signature/signature-types';
 

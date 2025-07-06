@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { type HTMLStyledProps, styled } from 'leather-styles/jsx';
+import { type HTMLStyledProps, styled } from 'coffer-styles/jsx';
 
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';
 

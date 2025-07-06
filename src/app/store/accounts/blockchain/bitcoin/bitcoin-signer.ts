@@ -11,8 +11,8 @@ import {
   makeNativeSegwitAddressIndexDerivationPath,
   makeTaprootAddressIndexDerivationPath,
   whenPaymentType,
-} from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes } from '@leather.io/models';
+} from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
 
 import { useBitcoinExtendedPublicKeyVersions } from './bitcoin-keychain';
 

@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 import { AuthType, StacksTransactionWire } from '@stacks/transactions';
 
-import type { CryptoCurrency } from '@leather.io/models';
-import { delay, isError, isString } from '@leather.io/utils';
+import type { CryptoCurrency } from '@coffer.network/models';
+import { delay, isError, isString } from '@coffer.network/utils';
 
 import { finalizeTxSignature } from '@shared/actions/finalize-tx-signature';
 import { logger } from '@shared/logger';

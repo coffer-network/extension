@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
-import { ExternalLinkIcon } from '@leather.io/ui';
+import { ExternalLinkIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

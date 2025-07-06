@@ -140,9 +140,9 @@ We consider the security of our systems a top priority. But no matter how much e
 If you discover a security vulnerability, please use one of the following means of communications to report it to us:
 
 - Report the security issue to our [HackerOne program](https://hackerone.com/leather_wallet)
-- Report the security issue directly at [security@leather.io](mailto:security@leather.io)
+- Report the security issue directly at [security@coffer.network](mailto:security@coffer.network)
 
-Please note this email is strictly for reporting security vulnerabilities. For support queries, contact [contact@leather.io](mailto:contact@leather.io). Your efforts to responsibly disclose your findings are sincerely appreciated and will be taken into account to acknowledge your contributions.
+Please note this email is strictly for reporting security vulnerabilities. For support queries, contact [contact@coffer.network](mailto:contact@coffer.network). Your efforts to responsibly disclose your findings are sincerely appreciated and will be taken into account to acknowledge your contributions.
 
 ### Audit Report
 

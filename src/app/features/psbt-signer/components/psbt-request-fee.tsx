@@ -1,7 +1,7 @@
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { formatMoney, i18nFormatCurrency } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { formatMoney, i18nFormatCurrency } from '@coffer.network/utils';
 
 import { useCalculateBitcoinFiatValue } from '@app/query/common/market-data/market-data.hooks';
 

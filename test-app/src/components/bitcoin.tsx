@@ -7,7 +7,7 @@ import { bytesToHex, hexToBytes } from '@stacks/common';
 import { PsbtData, PsbtRequestOptions } from '@stacks/connect-jwt';
 import { useConnect } from '@stacks/connect-react-jwt';
 import { StacksNetwork } from '@stacks/network';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
 interface BitcoinNetwork {
   bech32: string;

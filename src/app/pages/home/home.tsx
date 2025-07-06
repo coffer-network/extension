@@ -1,7 +1,7 @@
 import { Route, useNavigate } from 'react-router-dom';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { Box, Stack } from 'leather-styles/jsx';
+import { Box, Stack } from 'coffer-styles/jsx';
 
 import { RouteUrls } from '@shared/route-urls';
 
@@ -86,9 +86,9 @@ export function Home() {
         >
           <AccountActions />
         </AccountCard>
-        <PromoCard onClick={() => openInNewTab(leatherWebAppUrl)} />
+        {/* <PromoCard onClick={() => openInNewTab(leatherWebAppUrl)} /> */}
       </Box>
-      {whenPageMode({ full: <FeedbackButton />, popup: null })}
+      {/* {whenPageMode({ full: <FeedbackButton />, popup: null })} */}
       <HomeTabs>
         <ModalBackgroundWrapper>
           <Route index element={<Assets />} />

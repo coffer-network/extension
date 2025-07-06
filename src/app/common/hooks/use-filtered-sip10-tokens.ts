@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { type Sip10CryptoAssetFilter } from '@leather.io/query';
+import { type Sip10CryptoAssetFilter } from '@coffer.network/query';
 
 import { useBitflowSwappableAssets } from '@app/pages/swap/hooks/use-bitflow-swappable-assets';
 import { useAlexSwappableAssets } from '@app/query/common/alex-sdk/alex-sdk.hooks';

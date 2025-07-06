@@ -1,7 +1,7 @@
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
-import { Box, BoxProps } from 'leather-styles/jsx';
+import { Box, BoxProps } from 'coffer-styles/jsx';
 
-import { Logo } from '@leather.io/ui';
+import { Logo } from '@coffer.network/ui';
 
 interface LogoBoxProps extends BoxProps {
   onClick?(): void;

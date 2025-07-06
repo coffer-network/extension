@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 

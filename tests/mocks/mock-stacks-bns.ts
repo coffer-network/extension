@@ -1,6 +1,6 @@
 import type { Page } from '@playwright/test';
 
-import { bnsV2NamesByAddressResponseSchema, bnsV2ZoneFileResponseSchema } from '@leather.io/query';
+import { bnsV2NamesByAddressResponseSchema, bnsV2ZoneFileResponseSchema } from '@coffer.network/query';
 
 import { TEST_ACCOUNT_1_STX_ADDRESS } from './constants';
 

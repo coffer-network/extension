@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'leather-styles/jsx';
+import { Box, BoxProps } from 'coffer-styles/jsx';
 
 import { HasChildren } from '@app/common/has-children';
 

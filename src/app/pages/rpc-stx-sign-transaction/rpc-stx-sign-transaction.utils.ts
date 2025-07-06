@@ -4,8 +4,8 @@ import {
   deserializeTransaction,
 } from '@stacks/transactions';
 
-import { type RpcParams, createRequestEncoder, stxSignTransaction } from '@leather.io/rpc';
-import { isDefined } from '@leather.io/utils';
+import { type RpcParams, createRequestEncoder, stxSignTransaction } from '@coffer.network/rpc';
+import { isDefined } from '@coffer.network/utils';
 
 import { initialSearchParams } from '@app/common/initial-search-params';
 

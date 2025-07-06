@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 
-import { type MarketData, createMarketData, createMarketPair } from '@leather.io/models';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { createMoney } from '@leather.io/utils';
+import { type MarketData, createMarketData, createMarketPair } from '@coffer.network/models';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { createMoney } from '@coffer.network/utils';
 
 import { useAlexCurrencyPriceAsMarketData } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';

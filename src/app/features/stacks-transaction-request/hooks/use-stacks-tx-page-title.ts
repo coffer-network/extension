@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { TransactionTypes } from '@leather.io/stacks';
+import { TransactionTypes } from '@coffer.network/stacks';
 
 import { useTransactionRequestState } from '@app/store/transactions/requests.hooks';
 

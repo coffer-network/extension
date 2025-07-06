@@ -1,9 +1,9 @@
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 import { Form, Formik } from 'formik';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
-import { createNullArrayOfLength, isEmpty } from '@leather.io/utils';
+import { Button } from '@coffer.network/ui';
+import { createNullArrayOfLength, isEmpty } from '@coffer.network/utils';
 
 import { ErrorLabel } from '@app/components/error-label';
 import { useSignIn } from '@app/pages/onboarding/sign-in/hooks/use-sign-in';

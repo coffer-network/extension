@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-import { noop } from '@leather.io/utils';
+import { noop } from '@coffer.network/utils';
 
 export function useInterval(callback: () => void, delay: number | null) {
   const savedCallback = useRef(noop);

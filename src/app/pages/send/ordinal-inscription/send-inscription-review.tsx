@@ -2,10 +2,10 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import { bytesToHex } from '@noble/hashes/utils';
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { Box, Flex, Stack } from 'leather-styles/jsx';
+import { Box, Flex, Stack } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
-import { Button, Sheet, SheetHeader } from '@leather.io/ui';
+import { Button, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

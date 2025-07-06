@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 
 import { createSelector } from '@reduxjs/toolkit';
 
-import { initBigNumber } from '@leather.io/utils';
+import { initBigNumber } from '@coffer.network/utils';
 
 import { defaultWalletKeyId } from '@shared/utils';
 

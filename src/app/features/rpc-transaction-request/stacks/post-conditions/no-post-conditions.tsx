@@ -1,6 +1,6 @@
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { Avatar, Flag, LockIcon } from '@leather.io/ui';
+import { Avatar, Flag, LockIcon } from '@coffer.network/ui';
 
 export function NoPostConditions() {
   return (

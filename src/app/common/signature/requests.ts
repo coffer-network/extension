@@ -1,7 +1,7 @@
 import { deserializeCV } from '@stacks/transactions';
 import { TokenInterface, decodeToken } from 'jsontokens';
 
-import { isString } from '@leather.io/utils';
+import { isString } from '@coffer.network/utils';
 
 import type { StructuredMessageDataDomain } from '@shared/signature/signature-types';
 import type { CommonSignaturePayload, SignaturePayload } from '@shared/utils/legacy-requests';

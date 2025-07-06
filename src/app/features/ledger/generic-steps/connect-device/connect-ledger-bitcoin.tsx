@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { Sheet, SheetHeader } from '@leather.io/ui';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { closeWindow } from '@shared/utils';

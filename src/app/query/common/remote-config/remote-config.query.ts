@@ -9,9 +9,9 @@ import {
   type DefaultMinMaxRangeFeeEstimations,
   HiroMessage,
   type RemoteConfig,
-} from '@leather.io/query';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { createMoney, isUndefined } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { createMoney, isUndefined } from '@coffer.network/utils';
 
 import { useWalletType } from '@app/common/use-wallet-type';
 import {
@@ -22,7 +22,7 @@ import {
 import { useHasCurrentBitcoinAccount } from '@app/store/accounts/blockchain/bitcoin/bitcoin.hooks';
 import { useCurrentNetwork } from '@app/store/networks/networks.selectors';
 
-export { ActiveFiatProvider, AvailableRegions, HiroMessage } from '@leather.io/query';
+export { ActiveFiatProvider, AvailableRegions, HiroMessage } from '@coffer.network/query';
 
 function fetchLeatherMessages(env: string, leatherGh: LeatherEnvironment['github']) {
   const IS_DEV_ENV = env === 'development';

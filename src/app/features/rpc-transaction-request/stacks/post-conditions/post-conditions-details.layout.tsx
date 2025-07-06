@@ -4,8 +4,8 @@ import {
   type PostConditionWire,
 } from '@stacks/transactions';
 
-import { ensurePostConditionWireFormat } from '@leather.io/stacks';
-import { Approver } from '@leather.io/ui';
+import { ensurePostConditionWireFormat } from '@coffer.network/stacks';
+import { Approver } from '@coffer.network/ui';
 
 import { NoPostConditions } from './no-post-conditions';
 import { PostConditionList } from './post-condition-list';

@@ -2,10 +2,10 @@ import { FormEvent, useCallback } from 'react';
 
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 import { useField } from 'formik';
-import { Flex, Stack, styled } from 'leather-styles/jsx';
+import { Flex, Stack, styled } from 'coffer-styles/jsx';
 
-import type { CryptoCurrency, StacksFeeEstimate } from '@leather.io/models';
-import { stxToMicroStx } from '@leather.io/utils';
+import type { CryptoCurrency, StacksFeeEstimate } from '@coffer.network/models';
+import { stxToMicroStx } from '@coffer.network/utils';
 
 import { SendFormWarningMessages } from '@app/common/warning-messages';
 

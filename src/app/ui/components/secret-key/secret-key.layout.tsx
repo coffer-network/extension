@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
-import { Flex, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Flex, HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Button, CopyIcon, Eye1ClosedIcon, Eye1Icon } from '@leather.io/ui';
+import { Button, CopyIcon, Eye1ClosedIcon, Eye1Icon } from '@coffer.network/ui';
 
 import { SecretKeyGrid } from './secret-key-grid';
 import { SecretKeyWord } from './secret-key-word';

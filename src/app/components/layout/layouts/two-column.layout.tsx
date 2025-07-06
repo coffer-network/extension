@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Box, Flex, Stack, styled } from 'leather-styles/jsx';
+import { Box, Flex, Stack, styled } from 'coffer-styles/jsx';
 
 interface TwoColumnLayoutProps {
   title: ReactNode;

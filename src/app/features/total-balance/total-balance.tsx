@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import { Box, HStack } from 'leather-styles/jsx';
+import { Box, HStack } from 'coffer-styles/jsx';
 
 import { BtcBalance } from '@app/components/balance/btc-balance';
 import { StxBalance } from '@app/components/balance/stx-balance';

@@ -1,8 +1,8 @@
 import { Network, getAddressInfo, validate } from 'bitcoin-address-validation';
 import * as yup from 'yup';
 
-import type { BitcoinNetworkModes } from '@leather.io/models';
-import { isEmptyString, isUndefined } from '@leather.io/utils';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
+import { isEmptyString, isUndefined } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

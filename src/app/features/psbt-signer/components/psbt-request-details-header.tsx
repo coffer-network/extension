@@ -1,6 +1,6 @@
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { LockIcon, UnlockIcon } from '@leather.io/ui';
+import { LockIcon, UnlockIcon } from '@coffer.network/ui';
 
 import { usePsbtSignerContext } from '@app/features/psbt-signer/psbt-signer.context';
 import { BadgeWithTooltip } from '@app/ui/components/badge/badge-with-tooltip';

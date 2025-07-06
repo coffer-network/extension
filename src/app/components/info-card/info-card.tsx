@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Box, BoxProps, Flex, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Box, BoxProps, Flex, HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Button, DashedHr } from '@leather.io/ui';
-import { isString } from '@leather.io/utils';
+import { Button, DashedHr } from '@coffer.network/ui';
+import { isString } from '@coffer.network/utils';
 
 // InfoCardRow
 interface InfoCardRowProps {

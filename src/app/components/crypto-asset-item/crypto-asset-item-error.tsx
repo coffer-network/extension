@@ -1,7 +1,7 @@
 import type { QueryObserverResult } from '@tanstack/react-query';
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { ItemLayout } from '@leather.io/ui';
+import { ItemLayout } from '@coffer.network/ui';
 
 interface CryptoAssetItemErrorProps {
   caption: string;

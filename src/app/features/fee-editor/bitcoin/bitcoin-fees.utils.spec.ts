@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import { mockUtxos } from '@leather.io/query';
-import { createMoney } from '@leather.io/utils';
+import { mockUtxos } from '@coffer.network/query';
+import { createMoney } from '@coffer.network/utils';
 
 import { getApproximateFee, getBitcoinFee, getBitcoinSendMaxFee } from './bitcoin-fees.utils';
 

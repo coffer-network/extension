@@ -1,11 +1,11 @@
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 
 import { CryptoAssetSelectors } from '@tests/selectors/crypto-asset.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import type { Brc20CryptoAssetInfo, CryptoAssetBalance, MarketData } from '@leather.io/models';
-import { Brc20AvatarIcon } from '@leather.io/ui';
-import { getAssetDisplayName } from '@leather.io/utils';
+import type { Brc20CryptoAssetInfo, CryptoAssetBalance, MarketData } from '@coffer.network/models';
+import { Brc20AvatarIcon } from '@coffer.network/ui';
+import { getAssetDisplayName } from '@coffer.network/utils';
 
 import { convertAssetBalanceToFiat } from '@app/common/asset-utils';
 import { useManageTokens } from '@app/common/hooks/use-manage-tokens';

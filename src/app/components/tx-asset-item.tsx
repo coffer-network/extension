@@ -1,4 +1,4 @@
-import { HStack, HstackProps, styled } from 'leather-styles/jsx';
+import { HStack, HstackProps, styled } from 'coffer-styles/jsx';
 
 import { isValidUrl } from '@shared/utils/urls';
 

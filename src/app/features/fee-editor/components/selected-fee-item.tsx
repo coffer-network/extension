@@ -1,5 +1,5 @@
-import type { MarketData } from '@leather.io/models';
-import { Approver, Pressable } from '@leather.io/ui';
+import type { MarketData } from '@coffer.network/models';
+import { Approver, Pressable } from '@coffer.network/ui';
 
 import { CryptoAssetItemPlaceholder } from '@app/components/crypto-asset-item/crypto-asset-item-placeholder';
 import type { Fee, FeeType } from '@app/features/fee-editor/fee-editor.context';

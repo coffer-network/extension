@@ -4,8 +4,8 @@ import {
   type RpcSendTransferParams,
   createRpcErrorResponse,
   sendTransfer,
-} from '@leather.io/rpc';
-import { isUndefined } from '@leather.io/utils';
+} from '@coffer.network/rpc';
+import { isUndefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import {

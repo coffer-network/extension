@@ -1,6 +1,6 @@
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 
-import { BarsTwoIcon } from '@leather.io/ui';
+import { BarsTwoIcon } from '@coffer.network/ui';
 
 import { useSwitchAccountSheet } from '@app/common/switch-account/use-switch-account-sheet-context';
 import { Header } from '@app/components/layout/headers/header';
@@ -14,7 +14,8 @@ export function HomeHeader() {
   return (
     <Header>
       <HeaderGrid
-        leftCol={<LogoBox hideBelow={undefined} />}
+        // leftCol={<LogoBox hideBelow={undefined} />}
+        leftCol={<></>}
         rightCol={
           <HeaderGridRightCol>
             <Settings

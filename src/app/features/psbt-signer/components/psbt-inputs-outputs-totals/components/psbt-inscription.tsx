@@ -1,6 +1,6 @@
-import type { Inscription } from '@leather.io/models';
-import { OrdinalAvatarIcon } from '@leather.io/ui';
-import { isUndefined } from '@leather.io/utils';
+import type { Inscription } from '@coffer.network/models';
+import { OrdinalAvatarIcon } from '@coffer.network/ui';
+import { isUndefined } from '@coffer.network/utils';
 
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';
 import { InscriptionPreview } from '@app/components/inscription-preview-card/components/inscription-preview';

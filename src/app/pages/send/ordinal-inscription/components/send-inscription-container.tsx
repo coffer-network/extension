@@ -3,10 +3,10 @@ import { Outlet, useLocation, useOutletContext } from 'react-router-dom';
 
 import get from 'lodash.get';
 
-import { createBitcoinAddress, lookupDerivationByAddress } from '@leather.io/bitcoin';
-import { extractAddressIndexFromPath } from '@leather.io/crypto';
-import type { AverageBitcoinFeeRates, BtcFeeType, Inscription } from '@leather.io/models';
-import { type UtxoWithDerivationPath } from '@leather.io/query';
+import { createBitcoinAddress, lookupDerivationByAddress } from '@coffer.network/bitcoin';
+import { extractAddressIndexFromPath } from '@coffer.network/crypto';
+import type { AverageBitcoinFeeRates, BtcFeeType, Inscription } from '@coffer.network/models';
+import { type UtxoWithDerivationPath } from '@coffer.network/query';
 
 import { analytics } from '@shared/utils/analytics';
 

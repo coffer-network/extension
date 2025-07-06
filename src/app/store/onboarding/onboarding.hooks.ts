@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { useAtom, useAtomValue } from 'jotai';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import { useLocationState } from '@app/common/hooks/use-location-state';
 

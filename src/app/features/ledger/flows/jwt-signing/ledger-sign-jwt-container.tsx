@@ -5,8 +5,8 @@ import { getAddressFromPublicKey } from '@stacks/transactions';
 import { LedgerError } from '@zondax/ledger-stacks';
 import get from 'lodash.get';
 
-import { Sheet, SheetHeader } from '@leather.io/ui';
-import { delay, isError } from '@leather.io/utils';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
+import { delay, isError } from '@coffer.network/utils';
 
 import { finalizeAuthResponse } from '@shared/actions/finalize-auth-response';
 import { logger } from '@shared/logger';

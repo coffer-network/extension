@@ -1,6 +1,6 @@
-import { Box, HStack } from 'leather-styles/jsx';
+import { Box, HStack } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { LedgerTitle } from '../../components/ledger-title';
 import { LedgerWrapper } from '../../components/ledger-wrapper';

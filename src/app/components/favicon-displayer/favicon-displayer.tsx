@@ -1,7 +1,7 @@
-import { css } from 'leather-styles/css';
-import { Box } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Box } from 'coffer-styles/jsx';
 
-import { Favicon } from '@leather.io/ui';
+import { Favicon } from '@coffer.network/ui';
 
 interface FaviconDisplayerProps {
   requester: string;

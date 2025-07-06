@@ -1,6 +1,6 @@
-import { Box, BoxProps } from 'leather-styles/jsx';
+import { Box, BoxProps } from 'coffer-styles/jsx';
 
-import { Avatar, DynamicColorCircle, StxAvatarIcon } from '@leather.io/ui';
+import { Avatar, DynamicColorCircle, StxAvatarIcon } from '@coffer.network/ui';
 
 interface StacksAssetAvatarProps extends BoxProps {
   img?: string;

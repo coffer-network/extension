@@ -5,7 +5,7 @@ import {
   AnimalEagleIcon,
   AnimalRabbitIcon,
   AnimalSnailIcon,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { IconWrapper } from '@app/components/icon-wrapper';
 

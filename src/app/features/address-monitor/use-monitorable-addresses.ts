@@ -8,9 +8,9 @@ import {
   deriveAddressIndexZeroFromAccount,
   getNativeSegwitPaymentFromAddressIndex,
   getTaprootPaymentFromAddressIndex,
-} from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes } from '@leather.io/models';
-import { createNullArrayOfLength, isDefined } from '@leather.io/utils';
+} from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
+import { createNullArrayOfLength, isDefined } from '@coffer.network/utils';
 
 import { useCurrentAccountIndex } from '@app/store/accounts/account';
 import { useGenerateNativeSegwitAccount } from '@app/store/accounts/blockchain/bitcoin/native-segwit-account.hooks';

@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { analytics } from '@shared/utils/analytics';
 

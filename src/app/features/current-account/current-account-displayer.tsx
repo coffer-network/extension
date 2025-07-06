@@ -1,4 +1,4 @@
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 import { useAccountDisplayName } from '@app/common/hooks/account/use-account-names';
 import { AccountTotalBalance } from '@app/components/account-total-balance';

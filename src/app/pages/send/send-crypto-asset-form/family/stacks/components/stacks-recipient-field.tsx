@@ -1,4 +1,4 @@
-import { fetchStacksNameOwner } from '@leather.io/query';
+import { fetchStacksNameOwner } from '@coffer.network/query';
 
 import { RecipientField } from '../../../components/recipient-fields/recipient-field';
 

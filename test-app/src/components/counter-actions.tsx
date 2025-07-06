@@ -5,7 +5,7 @@ import { AppContext } from '@common/context';
 import { getRPCClient, stacksTestnetNetwork as network } from '@common/utils';
 import { ExplorerLink } from '@components/explorer-link';
 import { useConnect } from '@stacks/connect-react-jwt';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 export const CounterActions: React.FC = () => {
   const { userData } = React.useContext(AppContext);

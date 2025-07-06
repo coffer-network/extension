@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom';
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import { useFormikContext } from 'formik';
 
-import { Button } from '@leather.io/ui';
-import { isUndefined } from '@leather.io/utils';
+import { Button } from '@coffer.network/ui';
+import { isUndefined } from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 

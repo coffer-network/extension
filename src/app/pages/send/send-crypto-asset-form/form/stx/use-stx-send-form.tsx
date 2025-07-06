@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 import { FormikHelpers } from 'formik';
 import * as yup from 'yup';
 
-import { STX_DECIMALS } from '@leather.io/constants';
-import { convertAmountToBaseUnit, createMoney } from '@leather.io/utils';
+import { STX_DECIMALS } from '@coffer.network/constants';
+import { convertAmountToBaseUnit, createMoney } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { StacksSendFormValues } from '@shared/models/form.model';

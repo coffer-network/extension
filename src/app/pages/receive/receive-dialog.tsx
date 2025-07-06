@@ -1,10 +1,10 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
-import { Sheet, SheetHeader, Tabs } from '@leather.io/ui';
+import { Sheet, SheetHeader, Tabs } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

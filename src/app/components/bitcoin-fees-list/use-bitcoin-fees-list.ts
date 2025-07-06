@@ -1,13 +1,13 @@
 import { useMemo } from 'react';
 
-import { BtcFeeType, Money, btcTxTimeMap } from '@leather.io/models';
-import { type UtxoResponseItem } from '@leather.io/query';
+import { BtcFeeType, Money, btcTxTimeMap } from '@coffer.network/models';
+import { type UtxoResponseItem } from '@coffer.network/query';
 import {
   baseCurrencyAmountInQuote,
   createMoney,
   formatMoneyPadded,
   i18nFormatCurrency,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import {
   DetermineUtxosForSpendArgs,

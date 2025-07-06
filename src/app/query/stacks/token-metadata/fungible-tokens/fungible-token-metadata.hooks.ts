@@ -7,9 +7,9 @@ import {
   createGetFungibleTokenMetadataQueryOptions,
   createSip10CryptoAssetInfo,
   isFtAsset,
-} from '@leather.io/query';
-import { getPrincipalFromAssetString, getStacksAssetStringParts } from '@leather.io/stacks';
-import { createBaseCryptoAssetBalance, createMoney } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { getPrincipalFromAssetString, getStacksAssetStringParts } from '@coffer.network/stacks';
+import { createBaseCryptoAssetBalance, createMoney } from '@coffer.network/utils';
 
 import { getTicker } from '@app/common/utils';
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';

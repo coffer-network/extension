@@ -1,6 +1,6 @@
-import { Box, BoxProps, styled } from 'leather-styles/jsx';
+import { Box, BoxProps, styled } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
+import { Link } from '@coffer.network/ui';
 
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';
 

@@ -1,9 +1,9 @@
 import { memo } from 'react';
 import { Virtuoso } from 'react-virtuoso';
 
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
-import { Button, Sheet, SheetHeader } from '@leather.io/ui';
+import { Button, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { useCreateAccount } from '@app/common/hooks/account/use-create-account';
 import { useWalletType } from '@app/common/use-wallet-type';

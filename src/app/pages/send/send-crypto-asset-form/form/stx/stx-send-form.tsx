@@ -1,5 +1,5 @@
-import type { CryptoCurrency } from '@leather.io/models';
-import { StxAvatarIcon } from '@leather.io/ui';
+import type { CryptoCurrency } from '@coffer.network/models';
+import { StxAvatarIcon } from '@coffer.network/ui';
 
 import { Content } from '@app/components/layout';
 import { PageHeader } from '@app/features/container/headers/page.header';

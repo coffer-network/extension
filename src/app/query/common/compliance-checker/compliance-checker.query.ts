@@ -1,8 +1,8 @@
 import { useQueries } from '@tanstack/react-query';
 import axios from 'axios';
 
-import { makeComplianceQuery } from '@leather.io/query';
-import { ensureArray, isEmptyString } from '@leather.io/utils';
+import { makeComplianceQuery } from '@coffer.network/query';
+import { ensureArray, isEmptyString } from '@coffer.network/utils';
 
 import { analytics } from '@shared/utils/analytics';
 

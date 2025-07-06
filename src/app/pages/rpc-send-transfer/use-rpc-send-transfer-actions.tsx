@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { createRpcSuccessResponse } from '@leather.io/rpc';
-import { delay } from '@leather.io/utils';
+import { createRpcSuccessResponse } from '@coffer.network/rpc';
+import { delay } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { RouteUrls } from '@shared/route-urls';

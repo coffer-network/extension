@@ -2,10 +2,10 @@ import type React from 'react';
 
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import { useField } from 'formik';
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { Avatar, Button, ChevronDownIcon } from '@leather.io/ui';
-import { isString } from '@leather.io/utils';
+import { Avatar, Button, ChevronDownIcon } from '@coffer.network/ui';
+import { isString } from '@coffer.network/utils';
 
 interface SelectAssetTriggerButtonProps {
   icon?: React.ReactNode;

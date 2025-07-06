@@ -1,8 +1,8 @@
 import { Suspense } from 'react';
 
-import { Box, Stack, StackProps } from 'leather-styles/jsx';
+import { Box, Stack, StackProps } from 'coffer-styles/jsx';
 
-import { Tabs } from '@leather.io/ui';
+import { Tabs } from '@coffer.network/ui';
 
 import { analytics } from '@shared/utils/analytics';
 

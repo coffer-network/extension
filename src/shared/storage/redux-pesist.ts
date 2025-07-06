@@ -1,7 +1,7 @@
 import { PersistConfig, createMigrate, getStoredState } from 'redux-persist';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 
-import { makeStxDerivationPath } from '@leather.io/stacks';
+import { makeStxDerivationPath } from '@coffer.network/stacks';
 
 import { defaultWalletKeyId } from '@shared/utils';
 

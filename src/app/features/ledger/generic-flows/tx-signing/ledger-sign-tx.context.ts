@@ -3,7 +3,7 @@ import { createContext, useContext } from 'react';
 import * as btc from '@scure/btc-signer';
 import { StacksTransactionWire } from '@stacks/transactions';
 
-import type { SupportedBlockchains } from '@leather.io/models';
+import type { SupportedBlockchains } from '@coffer.network/models';
 
 import { createWaitableAction } from '@app/common/utils/create-waitable-action';
 

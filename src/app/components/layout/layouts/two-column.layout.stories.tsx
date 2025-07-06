@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 import { TwoColumnLayout as Component } from './two-column.layout';
 

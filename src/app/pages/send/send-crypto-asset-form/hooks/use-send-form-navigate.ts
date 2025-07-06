@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { StacksTransactionWire } from '@stacks/transactions';
 import { AxiosError } from 'axios';
 
-import type { UtxoResponseItem } from '@leather.io/query';
+import type { UtxoResponseItem } from '@coffer.network/query';
 
 import { BitcoinSendFormValues } from '@shared/models/form.model';
 import { RouteUrls } from '@shared/route-urls';

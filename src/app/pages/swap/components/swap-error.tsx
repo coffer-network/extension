@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
 import { RouteUrls } from '@shared/route-urls';

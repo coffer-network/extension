@@ -1,11 +1,11 @@
 import { useMemo } from 'react';
 
-import { stxTransferSip10Ft } from '@leather.io/rpc';
+import { stxTransferSip10Ft } from '@coffer.network/rpc';
 import {
   ensurePostConditionWireFormat,
   generateStacksUnsignedTransaction,
-} from '@leather.io/stacks';
-import { createMoneyFromDecimal } from '@leather.io/utils';
+} from '@coffer.network/stacks';
+import { createMoneyFromDecimal } from '@coffer.network/utils';
 
 import { useConvertCryptoCurrencyToFiatAmount } from '@app/common/hooks/use-convert-to-fiat-amount';
 import { AccountStacksAddress } from '@app/components/account/account-stacks-address';

@@ -1,4 +1,4 @@
-import { isObject } from '@leather.io/utils';
+import { isObject } from '@coffer.network/utils';
 
 import { formatAuthResponse } from '@shared/actions/finalize-auth-reaponse-format';
 import { formatMessageSigningResponse } from '@shared/actions/finalize-message-signature-format';

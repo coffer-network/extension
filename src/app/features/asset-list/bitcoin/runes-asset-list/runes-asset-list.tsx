@@ -1,8 +1,8 @@
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 
-import type { CryptoAssetBalance, MarketData, RuneCryptoAssetInfo } from '@leather.io/models';
-import { RunesAvatarIcon } from '@leather.io/ui';
-import { convertAmountToBaseUnit, createMoneyFromDecimal } from '@leather.io/utils';
+import type { CryptoAssetBalance, MarketData, RuneCryptoAssetInfo } from '@coffer.network/models';
+import { RunesAvatarIcon } from '@coffer.network/ui';
+import { convertAmountToBaseUnit, createMoneyFromDecimal } from '@coffer.network/utils';
 
 import { convertAssetBalanceToFiat } from '@app/common/asset-utils';
 import { useManageTokens } from '@app/common/hooks/use-manage-tokens';

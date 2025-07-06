@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
 import { motion, useAnimationControls } from 'framer-motion';
-import { Box, Flex, VStack, styled } from 'leather-styles/jsx';
+import { Box, Flex, VStack, styled } from 'coffer-styles/jsx';
 
 import {
   Approver,
@@ -10,8 +10,8 @@ import {
   Flag,
   LeatherLogomarkIcon,
   QuestionCircleIcon,
-} from '@leather.io/ui';
-import { delay } from '@leather.io/utils';
+} from '@coffer.network/ui';
+import { delay } from '@coffer.network/utils';
 
 import { closeWindow } from '@shared/utils';
 

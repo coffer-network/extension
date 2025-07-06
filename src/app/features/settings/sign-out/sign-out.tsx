@@ -1,8 +1,8 @@
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 import { useFormik } from 'formik';
-import { Flex, HStack, styled } from 'leather-styles/jsx';
+import { Flex, HStack, styled } from 'coffer-styles/jsx';
 
-import { Button, Callout, Sheet, SheetHeader } from '@leather.io/ui';
+import { Button, Callout, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { useWalletType } from '@app/common/use-wallet-type';
 import { ButtonRow } from '@app/components/layout';

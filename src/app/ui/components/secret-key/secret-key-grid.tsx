@@ -1,4 +1,4 @@
-import { Grid } from 'leather-styles/jsx';
+import { Grid } from 'coffer-styles/jsx';
 
 interface SecretKeyGridProps {
   children: React.ReactNode;

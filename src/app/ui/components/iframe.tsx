@@ -12,7 +12,7 @@
 //
 // Below, we use the sandbox attribute to limit what they can do, as well as
 // disabling any interaction with pointer events and user selection.
-import { HTMLStyledProps, styled } from 'leather-styles/jsx';
+import { HTMLStyledProps, styled } from 'coffer-styles/jsx';
 
 interface IframeProps extends HTMLStyledProps<'iframe'> {
   onError(): void;

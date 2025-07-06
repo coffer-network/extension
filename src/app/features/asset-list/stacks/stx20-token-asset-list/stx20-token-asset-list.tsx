@@ -1,7 +1,7 @@
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 
-import type { CryptoAssetBalance, Stx20CryptoAssetInfo } from '@leather.io/models';
-import { getAssetDisplayName } from '@leather.io/utils';
+import type { CryptoAssetBalance, Stx20CryptoAssetInfo } from '@coffer.network/models';
+import { getAssetDisplayName } from '@coffer.network/utils';
 
 import { useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { CryptoAssetItem } from '@app/components/crypto-asset-item/crypto-asset-item';

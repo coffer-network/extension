@@ -37,7 +37,7 @@ import {
 } from '@stacks/transactions';
 import { TestAppSelectors } from '@tests/selectors/test-app.selectors';
 import BN from 'bn.js';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 import { ExplorerLink } from './explorer-link';
 

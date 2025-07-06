@@ -6,13 +6,13 @@ import {
   Money,
   createMarketData,
   createMarketPair,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 import {
   pullPriceDataFromAvailableResponses,
   selectBinanceUsdPrice,
   selectCoingeckoUsdPrice,
-} from '@leather.io/query';
-import { baseCurrencyAmountInQuote, calculateMeanAverage, createMoney } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { baseCurrencyAmountInQuote, calculateMeanAverage, createMoney } from '@coffer.network/utils';
 
 import { useBinanceMarketDataQuery } from './vendors/binance-market-data.query';
 import { useCoinGeckoMarketDataQuery } from './vendors/coingecko-market-data.query';

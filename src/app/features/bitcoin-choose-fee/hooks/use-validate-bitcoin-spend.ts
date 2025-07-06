@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import type { Money } from '@leather.io/models';
-import { createMoney, subtractMoney, sumMoney } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { createMoney, subtractMoney, sumMoney } from '@coffer.network/utils';
 
 import { useCurrentBtcCryptoAssetBalanceNativeSegwit } from '@app/query/bitcoin/balance/btc-balance-native-segwit.hooks';
 

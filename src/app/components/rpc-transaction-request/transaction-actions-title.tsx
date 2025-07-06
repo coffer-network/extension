@@ -1,6 +1,6 @@
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { SkeletonLoader } from '@leather.io/ui';
+import { SkeletonLoader } from '@coffer.network/ui';
 
 interface TransactionActionsTitleProps {
   amount: string;

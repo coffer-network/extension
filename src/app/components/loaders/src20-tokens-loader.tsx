@@ -1,4 +1,4 @@
-import type { CryptoAssetBalance, Src20CryptoAssetInfo } from '@leather.io/models';
+import type { CryptoAssetBalance, Src20CryptoAssetInfo } from '@coffer.network/models';
 
 import { type AssetFilter, useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { useSrc20TokensByAddress } from '@app/query/bitcoin/stamps/stamps-by-address.hooks';

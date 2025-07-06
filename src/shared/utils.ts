@@ -1,5 +1,5 @@
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { delay } from '@leather.io/utils';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { delay } from '@coffer.network/utils';
 
 import { logger } from './logger';
 

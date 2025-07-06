@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 
 import BigNumber from 'bignumber.js';
 
-import { createMoney, isUndefined, sumNumbers } from '@leather.io/utils';
+import { createMoney, isUndefined, sumNumbers } from '@coffer.network/utils';
 
 import { useInscribedSpendableUtxos } from '@app/features/discarded-inscriptions/use-inscribed-spendable-utxos';
 import { useCurrentAccountNativeSegwitIndexZeroSigner } from '@app/store/accounts/blockchain/bitcoin/native-segwit-account.hooks';

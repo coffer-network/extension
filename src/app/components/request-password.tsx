@@ -2,9 +2,9 @@ import { FormEvent, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
-import { Box, Stack, styled } from 'leather-styles/jsx';
+import { Box, Stack, styled } from 'coffer-styles/jsx';
 
-import { Button, Link, Logo } from '@leather.io/ui';
+import { Button, Link, Logo } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

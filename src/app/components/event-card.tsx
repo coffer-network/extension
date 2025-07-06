@@ -1,6 +1,6 @@
-import { Box, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Box, HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Caption } from '@leather.io/ui';
+import { Caption } from '@coffer.network/ui';
 
 import { TxAssetItem } from './tx-asset-item';
 

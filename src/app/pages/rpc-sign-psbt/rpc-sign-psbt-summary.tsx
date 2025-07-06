@@ -1,8 +1,8 @@
 import { useLocation } from 'react-router-dom';
 
-import { Flex, HStack, Stack } from 'leather-styles/jsx';
+import { Flex, HStack, Stack } from 'coffer-styles/jsx';
 
-import { CheckmarkIcon, CopyIcon, ExternalLinkIcon } from '@leather.io/ui';
+import { CheckmarkIcon, CopyIcon, ExternalLinkIcon } from '@coffer.network/ui';
 
 import { analytics } from '@shared/utils/analytics';
 

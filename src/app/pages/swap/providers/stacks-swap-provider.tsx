@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import type { RouteQuote } from '@bitflowlabs/core-sdk';
 import type { StacksTransactionWire } from '@stacks/transactions';
 
-import { defaultSwapFee } from '@leather.io/query';
+import { defaultSwapFee } from '@coffer.network/query';
 
 import type { SbtcSponsorshipEligibility } from '@app/query/sbtc/sponsored-transactions.query';
 

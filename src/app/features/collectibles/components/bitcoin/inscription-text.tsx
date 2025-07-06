@@ -1,6 +1,6 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 
-import { OrdinalAvatarIcon } from '@leather.io/ui';
+import { OrdinalAvatarIcon } from '@coffer.network/ui';
 
 import { parseJson } from '@app/components/json';
 import { useGetInscriptionTextContentQuery } from '@app/query/bitcoin/ordinals/inscription-text-content.query';

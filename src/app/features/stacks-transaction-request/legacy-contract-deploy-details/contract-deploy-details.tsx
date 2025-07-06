@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import { HStack, HTMLStyledProps, Stack, styled } from 'leather-styles/jsx';
+import { HStack, HTMLStyledProps, Stack, styled } from 'coffer-styles/jsx';
 
-import { Title } from '@leather.io/ui';
+import { Title } from '@coffer.network/ui';
 
 import { Prism } from '@app/common/clarity-prism';
 import { AttachmentRow } from '@app/features/stacks-transaction-request/attachment-row';

@@ -1,5 +1,5 @@
-import { type UtxoResponseItem } from '@leather.io/query';
-import { createMoney } from '@leather.io/utils';
+import { type UtxoResponseItem } from '@coffer.network/query';
+import { createMoney } from '@coffer.network/utils';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

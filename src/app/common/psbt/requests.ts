@@ -2,8 +2,8 @@ import type { TransactionInput } from '@scure/btc-signer/psbt';
 import { PsbtPayload } from '@stacks/connect-jwt';
 import { decodeToken } from 'jsontokens';
 
-import type { Money } from '@leather.io/models';
-import { isString } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { isString } from '@coffer.network/utils';
 
 export interface SignPsbtArgs {
   addressNativeSegwitTotal?: Money;

@@ -1,6 +1,6 @@
 import { FormikHelpers } from 'formik';
 
-import { FeeTypes, type Money } from '@leather.io/models';
+import { FeeTypes, type Money } from '@coffer.network/models';
 
 import { FormErrorMessages } from '@shared/error-messages';
 import { StacksSendFormValues } from '@shared/models/form.model';

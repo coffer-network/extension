@@ -3,8 +3,8 @@ import { useAsync } from 'react-async-hook';
 
 import { StacksTransactionWire, TransactionSigner } from '@stacks/transactions';
 
-import { TransactionTypes } from '@leather.io/stacks';
-import { isUndefined, stxToMicroStx } from '@leather.io/utils';
+import { TransactionTypes } from '@coffer.network/stacks';
+import { isUndefined, stxToMicroStx } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { StacksTransactionFormValues } from '@shared/models/form.model';

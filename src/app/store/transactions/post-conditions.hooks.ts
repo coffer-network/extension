@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 
 import { FungiblePostConditionWire, addressToString } from '@stacks/transactions';
 
-import { isFtAsset } from '@leather.io/query';
-import { ensurePostConditionWireFormat, getPostCondition } from '@leather.io/stacks';
+import { isFtAsset } from '@coffer.network/query';
+import { ensurePostConditionWireFormat, getPostCondition } from '@coffer.network/stacks';
 
 import type { TransactionPayload } from '@shared/utils/legacy-requests';
 

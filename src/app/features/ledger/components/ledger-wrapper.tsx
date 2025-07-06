@@ -1,4 +1,4 @@
-import { Box, BoxProps, Flex } from 'leather-styles/jsx';
+import { Box, BoxProps, Flex } from 'coffer-styles/jsx';
 
 interface LedgerWrapperProps extends BoxProps {
   image?: React.ReactNode;

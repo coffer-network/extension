@@ -1,6 +1,6 @@
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { Flag, type FlagProps } from '@leather.io/ui';
+import { Flag, type FlagProps } from '@coffer.network/ui';
 
 import { useConfigPromoCardEnabled } from '@app/query/common/remote-config/remote-config.query';
 

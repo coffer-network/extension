@@ -1,4 +1,4 @@
-import { tokens } from '@leather.io/tokens';
+import { tokens } from '@coffer.network/tokens';
 
 import { pxStringToNumber } from '@shared/utils/px-string-to-number';
 

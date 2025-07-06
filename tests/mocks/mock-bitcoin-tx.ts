@@ -1,6 +1,6 @@
 import type { Page } from '@playwright/test';
 
-import { BITCOIN_API_BASE_URL_TESTNET3 } from '@leather.io/models';
+import { BITCOIN_API_BASE_URL_TESTNET3 } from '@coffer.network/models';
 
 import { mockMainnetNsTransactionsTestAccount } from './mock-utxos';
 

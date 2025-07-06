@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 
-import { Flex, FlexProps } from 'leather-styles/jsx';
+import { Flex, FlexProps } from 'coffer-styles/jsx';
 
 import { RouteUrls } from '@shared/route-urls';
 

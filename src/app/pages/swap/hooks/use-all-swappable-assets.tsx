@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { isDefined, migratePositiveAssetBalancesToTop } from '@leather.io/utils';
+import { isDefined, migratePositiveAssetBalancesToTop } from '@coffer.network/utils';
 
 import type { SwapAsset } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 import { useConfigSbtc } from '@app/query/common/remote-config/remote-config.query';

@@ -1,8 +1,8 @@
 import { NetworkSelectors } from '@tests/selectors/network.selectors';
 import { Form, Formik } from 'formik';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { Button, Link } from '@leather.io/ui';
+import { Button, Link } from '@coffer.network/ui';
 
 import { ErrorLabel } from '@app/components/error-label';
 import { Card } from '@app/components/layout';

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { createNullArrayOfLength } from '@leather.io/utils';
+import { createNullArrayOfLength } from '@coffer.network/utils';
 
 import { ValidatedPassword } from '@app/common/validation/validate-password';
 

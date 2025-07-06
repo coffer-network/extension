@@ -2,13 +2,13 @@ import { memo } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
 import { Formik, FormikHelpers } from 'formik';
-import { Flex } from 'leather-styles/jsx';
+import { Flex } from 'coffer-styles/jsx';
 import * as yup from 'yup';
 
-import { HIGH_FEE_WARNING_LEARN_MORE_URL_STX } from '@leather.io/constants';
-import { FeeTypes } from '@leather.io/models';
-import { Link } from '@leather.io/ui';
-import { isString } from '@leather.io/utils';
+import { HIGH_FEE_WARNING_LEARN_MORE_URL_STX } from '@coffer.network/constants';
+import { FeeTypes } from '@coffer.network/models';
+import { Link } from '@coffer.network/ui';
+import { isString } from '@coffer.network/utils';
 
 import { finalizeTxSignature } from '@shared/actions/finalize-tx-signature';
 import { logger } from '@shared/logger';

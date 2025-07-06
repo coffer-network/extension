@@ -3,7 +3,7 @@ import {
   createRpcErrorResponse,
   createRpcSuccessResponse,
   open,
-} from '@leather.io/rpc';
+} from '@coffer.network/rpc';
 
 import { hasRequestedAccountPermission } from '@shared/permissions/permission.helpers';
 import { RouteUrls } from '@shared/route-urls';

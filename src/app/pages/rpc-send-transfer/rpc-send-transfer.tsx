@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { Approver, BtcAvatarIcon } from '@leather.io/ui';
-import { baseCurrencyAmountInQuote, i18nFormatCurrency, sumMoney } from '@leather.io/utils';
+import { Approver, BtcAvatarIcon } from '@coffer.network/ui';
+import { baseCurrencyAmountInQuote, i18nFormatCurrency, sumMoney } from '@coffer.network/utils';
 
 import { analytics } from '@shared/utils/analytics';
 

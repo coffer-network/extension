@@ -1,7 +1,7 @@
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { Button, LeatherLettermarkIcon, LeatherLogomarkIcon, Link } from '@leather.io/ui';
+import { Button, LeatherLettermarkIcon, LeatherLogomarkIcon, Link } from '@coffer.network/ui';
 
 import { useThemeSwitcher } from '@app/common/theme-provider';
 
@@ -55,7 +55,7 @@ export function WelcomeLayout({
   const tagline = 'Bitcoin for the rest of us';
   const taglineExtended = 'The bitcoin wallet for the rest of us';
   const subheader =
-    'Leather is the only Bitcoin wallet you need to tap into the emerging Bitcoin economy';
+    '';
 
   return (
     <Flex flexDir={{ base: 'column-reverse', md: 'row' }} minW="100vw" minH="100vh">
@@ -119,24 +119,7 @@ export function WelcomeLayout({
           </Flex>
         </Flex>
       </Flex>
-      <Flex
-        p="space.05"
-        bg={{ base: inkTextPrimary, md: 'ink.background-secondary' }}
-        color={{ base: inkBgSecondary, md: 'ink.text-primary' }}
-        flexDir="column"
-        justifyContent="space-between"
-        flex={{ base: 0, md: 1 }}
-      >
-        <Flex justifyContent="space-between">
-          <LeatherLogomarkIcon height={34} width={150} />
-          <Link href="https://leather.io/" hideBelow="md" variant="text">
-            leather.io
-          </Link>
-        </Flex>
-        <Box hideBelow="md">
-          <LeatherLettermarkIcon height="auto" width="100%" />
-        </Box>
-      </Flex>
+     
     </Flex>
   );
 }

@@ -1,4 +1,4 @@
-import type { SupportedBlockchains } from '@leather.io/models';
+import type { SupportedBlockchains } from '@coffer.network/models';
 
 import { useLocationState } from '@app/common/hooks/use-location-state';
 

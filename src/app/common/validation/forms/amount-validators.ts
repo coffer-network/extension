@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js';
 import * as yup from 'yup';
 
-import type { Money } from '@leather.io/models';
-import type { UtxoResponseItem } from '@leather.io/query';
+import type { Money } from '@coffer.network/models';
+import type { UtxoResponseItem } from '@coffer.network/query';
 import {
   btcToSat,
   convertAmountToBaseUnit,
@@ -11,7 +11,7 @@ import {
   microStxToStx,
   satToBtc,
   stxToMicroStx,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { analytics } from '@shared/utils/analytics';
 

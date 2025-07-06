@@ -1,5 +1,5 @@
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import type { SwapAsset } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 

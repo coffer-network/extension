@@ -1,4 +1,4 @@
-import { HStack, HstackProps } from 'leather-styles/jsx';
+import { HStack, HstackProps } from 'coffer-styles/jsx';
 
 import { FeeMultiplierButton } from './fee-multiplier-button';
 

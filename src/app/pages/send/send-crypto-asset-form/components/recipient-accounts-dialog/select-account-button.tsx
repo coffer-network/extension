@@ -1,7 +1,7 @@
 import type { ComponentProps } from 'react';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
 interface SelectAccountButtonProps extends ComponentProps<typeof styled.button> {
   onClick(): void;

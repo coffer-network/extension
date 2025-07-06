@@ -1,4 +1,4 @@
-import { createMoney, formatMoney, truncateMiddle } from '@leather.io/utils';
+import { createMoney, formatMoney, truncateMiddle } from '@coffer.network/utils';
 
 import { PsbtOutput } from '@app/features/psbt-signer/hooks/use-parsed-outputs';
 import { BadgeWithTooltip } from '@app/ui/components/badge/badge-with-tooltip';

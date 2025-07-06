@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { useFormikContext } from 'formik';
 
-import { createMoneyFromDecimal, isUndefined } from '@leather.io/utils';
+import { createMoneyFromDecimal, isUndefined } from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 import { RouteUrls } from '@shared/route-urls';

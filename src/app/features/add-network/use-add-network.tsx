@@ -10,8 +10,8 @@ import {
   type NetworkConfiguration,
   bitcoinNetworkToNetworkMode,
   networkConfigurationSchema,
-} from '@leather.io/models';
-import { isDefined } from '@leather.io/utils';
+} from '@coffer.network/models';
+import { isDefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { isValidUrl } from '@shared/utils/urls';

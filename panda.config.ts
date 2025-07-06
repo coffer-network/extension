@@ -6,7 +6,7 @@ export default defineConfig({
   preflight: true,
 
   include: [
-    './node_modules/@leather.io/ui/dist-web/**/*.{js,jsx,ts,tsx}',
+    './node_modules/@coffer.network/ui/dist-web/**/*.{js,jsx,ts,tsx}',
     './src/**/*.{js,jsx,ts,tsx}',
   ],
 
@@ -14,7 +14,7 @@ export default defineConfig({
 
   prefix: 'leather',
 
-  presets: ['@leather.io/panda-preset'],
+  presets: ['@coffer.network/panda-preset'],
 
   studio: { logo: '💼' },
 
@@ -22,7 +22,7 @@ export default defineConfig({
 
   strictTokens: false,
 
-  outdir: 'leather-styles',
+  outdir: 'coffer-styles',
   outExtension: 'js',
   minify: true,
   globalCss,

@@ -4,9 +4,9 @@ import type { P2Ret } from '@scure/btc-signer/payment';
 import BigNumber from 'bignumber.js';
 import { DEFAULT_MAX_SIGNER_FEE } from 'sbtc';
 
-import { BitcoinSigner } from '@leather.io/bitcoin';
-import type { UtxoResponseItem } from '@leather.io/query';
-import { createMoney } from '@leather.io/utils';
+import { BitcoinSigner } from '@coffer.network/bitcoin';
+import type { UtxoResponseItem } from '@coffer.network/query';
+import { createMoney } from '@coffer.network/utils';
 
 import { SwapForm } from '../form/swap-form';
 import { useAllSwappableAssets } from '../hooks/use-all-swappable-assets';

@@ -1,11 +1,11 @@
 import { memo, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
-import { Flex, HStack, Stack } from 'leather-styles/jsx';
+import { Flex, HStack, Stack } from 'coffer-styles/jsx';
 
-import { TransactionTypes } from '@leather.io/stacks';
-import { Button, Caption } from '@leather.io/ui';
-import { truncateMiddle } from '@leather.io/utils';
+import { TransactionTypes } from '@coffer.network/stacks';
+import { Button, Caption } from '@coffer.network/ui';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { closeWindow } from '@shared/utils';

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Caption, ChevronRightIcon, Pressable, Sheet, SheetHeader } from '@leather.io/ui';
+import { Caption, ChevronRightIcon, Pressable, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { AssetList } from '../asset-list';
 

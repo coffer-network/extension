@@ -1,6 +1,6 @@
 import { useQueries } from '@tanstack/react-query';
 
-import { createGetRunesWalletBalancesByAddressesQueryOptions } from '@leather.io/query';
+import { createGetRunesWalletBalancesByAddressesQueryOptions } from '@coffer.network/query';
 
 import { useConfigRunesEnabled } from '@app/query/common/remote-config/remote-config.query';
 import { useLeatherNetwork } from '@app/query/leather-query-provider';

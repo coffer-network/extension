@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 import BigNumber from 'bignumber.js';
 import { useFormikContext } from 'formik';
 
-import { TransactionTypes } from '@leather.io/stacks';
-import { stxToMicroStx } from '@leather.io/utils';
+import { TransactionTypes } from '@coffer.network/stacks';
+import { stxToMicroStx } from '@coffer.network/utils';
 
 import { StacksTransactionFormValues } from '@shared/models/form.model';
 

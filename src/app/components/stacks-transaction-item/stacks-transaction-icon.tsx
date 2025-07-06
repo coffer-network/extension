@@ -1,7 +1,7 @@
-import { BoxProps } from 'leather-styles/jsx';
+import { BoxProps } from 'coffer-styles/jsx';
 
-import { StacksTx } from '@leather.io/models';
-import { BarsThreeIcon, DynamicColorCircle, ErrorCircleIcon, StxAvatarIcon } from '@leather.io/ui';
+import { StacksTx } from '@coffer.network/models';
+import { BarsThreeIcon, DynamicColorCircle, ErrorCircleIcon, StxAvatarIcon } from '@coffer.network/ui';
 
 import { TransactionIconWrapper } from '../transaction/transaction-icon-wrapper';
 import { TransactionTypeIcon } from '../transaction/transaction-type-icon';

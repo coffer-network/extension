@@ -1,5 +1,5 @@
 import { ActivitySelectors } from '@tests/selectors/activity.selectors';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 interface ActivityListTabWrapperProps {
   children: React.ReactNode;

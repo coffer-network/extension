@@ -1,9 +1,9 @@
 import BigNumber from 'bignumber.js';
 import { validate } from 'bitcoin-address-validation';
 
-import { BTC_P2WPKH_DUST_AMOUNT } from '@leather.io/constants';
-import type { UtxoResponseItem } from '@leather.io/query';
-import { sumMoney, sumNumbers } from '@leather.io/utils';
+import { BTC_P2WPKH_DUST_AMOUNT } from '@coffer.network/constants';
+import type { UtxoResponseItem } from '@coffer.network/query';
+import { sumMoney, sumNumbers } from '@coffer.network/utils';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetRunesOutputsByAddressQueryOptions } from '@leather.io/query';
+import { createGetRunesOutputsByAddressQueryOptions } from '@coffer.network/query';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 import { useBestInSlotApiRateLimiter } from '@app/query/rate-limiter/best-in-slot-limiter';

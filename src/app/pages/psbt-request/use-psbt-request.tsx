@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { bytesToHex, hexToBytes } from '@noble/hashes/utils';
 
-import { isError } from '@leather.io/utils';
+import { isError } from '@coffer.network/utils';
 
 import { finalizePsbt } from '@shared/actions/finalize-psbt';
 import { RouteUrls } from '@shared/route-urls';

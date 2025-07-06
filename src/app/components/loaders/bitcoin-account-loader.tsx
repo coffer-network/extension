@@ -1,7 +1,7 @@
 import { P2Ret } from '@scure/btc-signer/payment';
 import type { DistributedOmit } from 'type-fest';
 
-import { BitcoinSigner } from '@leather.io/bitcoin';
+import { BitcoinSigner } from '@coffer.network/bitcoin';
 
 import { useConfigBitcoinEnabled } from '@app/query/common/remote-config/remote-config.query';
 import { useCurrentAccountIndex } from '@app/store/accounts/account';

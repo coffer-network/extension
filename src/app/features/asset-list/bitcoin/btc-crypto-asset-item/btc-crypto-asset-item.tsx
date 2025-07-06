@@ -1,6 +1,6 @@
-import type { BtcCryptoAssetBalance } from '@leather.io/models';
-import { BtcAvatarIcon } from '@leather.io/ui';
-import { baseCurrencyAmountInQuote, i18nFormatCurrency } from '@leather.io/utils';
+import type { BtcCryptoAssetBalance } from '@coffer.network/models';
+import { BtcAvatarIcon } from '@coffer.network/ui';
+import { baseCurrencyAmountInQuote, i18nFormatCurrency } from '@coffer.network/utils';
 
 import { CryptoAssetItemLayout } from '@app/components/crypto-asset-item/crypto-asset-item.layout';
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';

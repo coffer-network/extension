@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { createSelector } from '@reduxjs/toolkit';
 
-import type { Inscription } from '@leather.io/models';
+import type { Inscription } from '@coffer.network/models';
 
 import { useCurrentAccountInscriptions } from '@app/query/bitcoin/ordinals/inscriptions/inscriptions.query';
 import { RootState } from '@app/store';

@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 import * as yup from 'yup';
 
-import { bitcoinNetworkModeToCoreNetworkMode } from '@leather.io/bitcoin';
-import { isError } from '@leather.io/utils';
+import { bitcoinNetworkModeToCoreNetworkMode } from '@coffer.network/bitcoin';
+import { isError } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 import { btcAddressNetworkValidator, btcAddressValidator } from '@shared/forms/address-validators';

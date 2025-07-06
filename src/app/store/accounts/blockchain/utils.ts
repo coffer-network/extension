@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import type { Blockchain } from '@leather.io/models';
+import type { Blockchain } from '@coffer.network/models';
 
 import { useHasCurrentBitcoinAccount } from './bitcoin/bitcoin.hooks';
 import { useHasStacksLedgerKeychain } from './stacks/stacks.hooks';

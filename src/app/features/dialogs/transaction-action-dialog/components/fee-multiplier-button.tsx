@@ -1,4 +1,4 @@
-import { HTMLStyledProps, styled } from 'leather-styles/jsx';
+import { HTMLStyledProps, styled } from 'coffer-styles/jsx';
 
 interface FeeMultiplierButtonProps extends HTMLStyledProps<'button'> {
   multiplier: number;

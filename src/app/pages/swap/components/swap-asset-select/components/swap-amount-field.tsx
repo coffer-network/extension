@@ -3,14 +3,14 @@ import { ChangeEvent } from 'react';
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import BigNumber from 'bignumber.js';
 import { useField, useFormikContext } from 'formik';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
 import {
   createMoneyFromDecimal,
   formatMoneyWithoutSymbol,
   isDefined,
   isUndefined,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 

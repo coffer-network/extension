@@ -1,11 +1,11 @@
 import { toUnicode } from 'punycode';
 
-import { KEBAB_REGEX } from '@leather.io/constants';
+import { KEBAB_REGEX } from '@coffer.network/constants';
 import {
   type BitcoinChainConfig,
   type BitcoinNetworkModes,
   HIRO_API_BASE_URL_NAKAMOTO_TESTNET,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 
 import { HIRO_EXPLORER_URL } from '@shared/constants';
 

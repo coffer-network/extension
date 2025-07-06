@@ -1,7 +1,7 @@
 import { useQueries } from '@tanstack/react-query';
 import axios from 'axios';
 
-import { getHiroApiRateLimiter } from '@leather.io/query';
+import { getHiroApiRateLimiter } from '@coffer.network/query';
 
 import { useCurrentNetwork } from '@app/store/networks/networks.selectors';
 

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { isNftAsset } from '@leather.io/query';
+import { isNftAsset } from '@coffer.network/query';
 
 import { useGetNonFungibleTokenMetadataListQuery } from './non-fungible-token-metadata.query';
 

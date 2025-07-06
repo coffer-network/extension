@@ -1,6 +1,6 @@
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
-import { Button, MegaphoneIcon } from '@leather.io/ui';
+import { Button, MegaphoneIcon } from '@coffer.network/ui';
 
 import { openFeedbackSheet } from '@shared/utils/analytics';
 

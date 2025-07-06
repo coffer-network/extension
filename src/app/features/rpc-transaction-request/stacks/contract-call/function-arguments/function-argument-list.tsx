@@ -5,10 +5,10 @@ import {
   deserializeCV,
   getCVTypeString,
 } from '@stacks/transactions';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { cleanHex } from '@leather.io/stacks';
-import { Caption } from '@leather.io/ui';
+import { cleanHex } from '@coffer.network/stacks';
+import { Caption } from '@coffer.network/ui';
 
 import { FunctionArgumentItem } from './function-argument-item';
 

@@ -3,7 +3,7 @@ import { resolvePath, useLocation, useNavigate } from 'react-router-dom';
 
 import { bytesToHex } from '@stacks/common';
 
-import type { SupportedBlockchains } from '@leather.io/models';
+import type { SupportedBlockchains } from '@coffer.network/models';
 
 import { BitcoinInputSigningConfig } from '@shared/crypto/bitcoin/signer-config';
 import { RouteUrls } from '@shared/route-urls';

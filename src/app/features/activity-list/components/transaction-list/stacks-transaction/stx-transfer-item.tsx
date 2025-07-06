@@ -1,7 +1,7 @@
 import type { AddressTransactionWithTransfers } from '@stacks/stacks-blockchain-api-types';
 
-import type { StxTransfer } from '@leather.io/models';
-import { ArrowDownIcon, ArrowUpIcon } from '@leather.io/ui';
+import type { StxTransfer } from '@coffer.network/models';
+import { ArrowDownIcon, ArrowUpIcon } from '@coffer.network/ui';
 
 import { stacksValue } from '@app/common/stacks-utils';
 import { getTxCaption } from '@app/common/transactions/stacks/transaction.utils';

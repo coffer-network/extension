@@ -1,4 +1,4 @@
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
 interface SwapAssetSelectedProps {
   contentLeft: React.JSX.Element;

@@ -3,7 +3,7 @@ import { TestAppPage } from '@tests/page-object-models/test-app.page';
 import { TransactionRequestPage } from '@tests/page-object-models/transaction-request.page';
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 
-import { stxToMicroStx } from '@leather.io/utils';
+import { stxToMicroStx } from '@coffer.network/utils';
 
 import { createDelay } from '@shared/utils';
 

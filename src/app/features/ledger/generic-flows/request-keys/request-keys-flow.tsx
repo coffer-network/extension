@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 
-import { Sheet, SheetHeader } from '@leather.io/ui';
+import { Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { useScrollLock } from '@app/common/hooks/use-scroll-lock';
 

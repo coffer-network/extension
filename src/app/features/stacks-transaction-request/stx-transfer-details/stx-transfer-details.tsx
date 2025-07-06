@@ -1,6 +1,6 @@
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Title } from '@leather.io/ui';
+import { Title } from '@coffer.network/ui';
 
 import { AttachmentRow } from '@app/features/stacks-transaction-request/attachment-row';
 import { Row } from '@app/features/stacks-transaction-request/row';

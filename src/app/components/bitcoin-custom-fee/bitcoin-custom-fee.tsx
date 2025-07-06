@@ -2,11 +2,11 @@ import { Dispatch, SetStateAction, useCallback, useRef } from 'react';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { Form, Formik } from 'formik';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 import * as yup from 'yup';
 
-import type { BtcFeeType } from '@leather.io/models';
-import { Button, Link } from '@leather.io/ui';
+import type { BtcFeeType } from '@coffer.network/models';
+import { Button, Link } from '@coffer.network/ui';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

@@ -10,10 +10,10 @@ import {
   getNativeSegwitPaymentFromAddressIndex,
   lookUpLedgerKeysByPath,
   makeNativeSegwitAccountDerivationPath,
-} from '@leather.io/bitcoin';
-import { extractAddressIndexFromPath } from '@leather.io/crypto';
-import { bitcoinNetworkToNetworkMode } from '@leather.io/models';
-import { reverseBytes } from '@leather.io/utils';
+} from '@coffer.network/bitcoin';
+import { extractAddressIndexFromPath } from '@coffer.network/crypto';
+import { bitcoinNetworkToNetworkMode } from '@coffer.network/models';
+import { reverseBytes } from '@coffer.network/utils';
 
 import { BitcoinInputSigningConfig } from '@shared/crypto/bitcoin/signer-config';
 import { analytics } from '@shared/utils/analytics';

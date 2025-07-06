@@ -1,7 +1,7 @@
 //
 // This file is the entrypoint to the extension's background script
 // https://developer.chrome.com/docs/extensions/mv3/architecture-overview/#background_script
-import type { RpcRequests } from '@leather.io/rpc';
+import type { RpcRequests } from '@coffer.network/rpc';
 
 import { logger } from '@shared/logger';
 import { CONTENT_SCRIPT_PORT, type LegacyMessageFromContentScript } from '@shared/message-types';

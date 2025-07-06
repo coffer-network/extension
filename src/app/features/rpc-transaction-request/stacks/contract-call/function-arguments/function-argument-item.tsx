@@ -1,6 +1,6 @@
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
+import { Link } from '@coffer.network/ui';
 
 import { makeStacksAddressExplorerLink } from '@app/common/utils';
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';

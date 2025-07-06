@@ -4,8 +4,8 @@ import { AppContext } from '@common/context';
 import { useAuth } from '@common/use-auth';
 import { Home } from '@components/home';
 import { Connect } from '@stacks/connect-react-jwt';
-import { Box, styled } from 'leather-styles/jsx';
-import { Flex } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
+import { Flex } from 'coffer-styles/jsx';
 
 export const App: React.FC = () => {
   const { authOptions, state, authResponse, appPrivateKey, handleSignOut } = useAuth();

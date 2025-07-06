@@ -2,10 +2,10 @@ import QRCode from 'react-qr-code';
 import { useNavigate } from 'react-router-dom';
 
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Box, Flex, styled } from 'leather-styles/jsx';
-import { token } from 'leather-styles/tokens';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
+import { token } from 'coffer-styles/tokens';
 
-import { AddressDisplayer, Button, Sheet, SheetHeader } from '@leather.io/ui';
+import { AddressDisplayer, Button, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { useLocationState } from '@app/common/hooks/use-location-state';
 import { useBackgroundLocationRedirect } from '@app/routes/hooks/use-background-location-redirect';

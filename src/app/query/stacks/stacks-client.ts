@@ -1,4 +1,4 @@
-import { stacksClient } from '@leather.io/query';
+import { stacksClient } from '@coffer.network/query';
 
 import { useLeatherNetwork } from '../leather-query-provider';
 

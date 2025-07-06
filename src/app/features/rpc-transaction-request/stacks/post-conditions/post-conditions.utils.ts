@@ -1,8 +1,8 @@
 import type { FtMetadataResponse } from '@hirosystems/token-metadata-api-client';
 import { type PostConditionWire, addressToString } from '@stacks/transactions';
 
-import { formatContractId } from '@leather.io/stacks';
-import { truncateMiddle } from '@leather.io/utils';
+import { formatContractId } from '@coffer.network/stacks';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { ftDecimals } from '@app/common/stacks-utils';
 import {

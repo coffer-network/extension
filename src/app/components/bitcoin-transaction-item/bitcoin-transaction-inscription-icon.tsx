@@ -1,7 +1,7 @@
-import { Circle } from 'leather-styles/jsx';
+import { Circle } from 'coffer-styles/jsx';
 
-import type { Inscription } from '@leather.io/models';
-import { OrdinalAvatarIcon } from '@leather.io/ui';
+import type { Inscription } from '@coffer.network/models';
+import { OrdinalAvatarIcon } from '@coffer.network/ui';
 
 export function InscriptionIcon({ inscription, ...rest }: { inscription: Inscription }) {
   switch (inscription.mimeType) {

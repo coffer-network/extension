@@ -1,7 +1,7 @@
 import PQueue from 'p-queue';
 
-import { bestInSlotMainnetApiLimiter, bestInSlotTestnetApiLimiter } from '@leather.io/query';
-import { assertUnreachable } from '@leather.io/utils';
+import { bestInSlotMainnetApiLimiter, bestInSlotTestnetApiLimiter } from '@coffer.network/query';
+import { assertUnreachable } from '@coffer.network/utils';
 
 import { useCurrentNetworkState } from '../leather-query-provider';
 

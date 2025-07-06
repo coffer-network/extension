@@ -11,11 +11,11 @@ import {
   getTaprootAddress,
   makeNativeSegwitAccountDerivationPath,
   makeTaprootAccountDerivationPath,
-} from '@leather.io/bitcoin';
-import { extractAddressIndexFromPath } from '@leather.io/crypto';
-import { bitcoinNetworkToNetworkMode } from '@leather.io/models';
-import { PaymentTypes } from '@leather.io/rpc';
-import { isNumber, isString, isUndefined } from '@leather.io/utils';
+} from '@coffer.network/bitcoin';
+import { extractAddressIndexFromPath } from '@coffer.network/crypto';
+import { bitcoinNetworkToNetworkMode } from '@coffer.network/models';
+import { PaymentTypes } from '@coffer.network/rpc';
+import { isNumber, isString, isUndefined } from '@coffer.network/utils';
 
 import {
   BitcoinInputSigningConfig,

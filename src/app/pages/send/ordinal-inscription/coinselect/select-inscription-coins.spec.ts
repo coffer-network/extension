@@ -1,4 +1,4 @@
-import { sumNumbers } from '@leather.io/utils';
+import { sumNumbers } from '@coffer.network/utils';
 
 import { selectTaprootInscriptionTransferCoins } from './select-inscription-coins';
 

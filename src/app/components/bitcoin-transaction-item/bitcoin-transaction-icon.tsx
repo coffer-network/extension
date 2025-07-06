@@ -1,7 +1,7 @@
-import { Circle, CircleProps, Flex } from 'leather-styles/jsx';
+import { Circle, CircleProps, Flex } from 'coffer-styles/jsx';
 
-import type { BitcoinTx } from '@leather.io/models';
-import { ArrowDownIcon, ArrowUpIcon } from '@leather.io/ui';
+import type { BitcoinTx } from '@coffer.network/models';
+import { ArrowDownIcon, ArrowUpIcon } from '@coffer.network/ui';
 
 import { isBitcoinTxInbound } from '@app/common/transactions/bitcoin/utils';
 

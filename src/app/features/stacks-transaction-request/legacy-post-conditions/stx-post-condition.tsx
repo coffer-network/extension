@@ -1,5 +1,5 @@
-import { TransactionTypes } from '@leather.io/stacks';
-import { truncateMiddle } from '@leather.io/utils';
+import { TransactionTypes } from '@coffer.network/stacks';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { stacksValue } from '@app/common/stacks-utils';
 import { EventCard } from '@app/components/event-card';

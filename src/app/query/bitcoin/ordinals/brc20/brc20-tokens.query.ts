@@ -3,10 +3,10 @@ import { useCallback, useEffect } from 'react';
 import { P2TROut } from '@scure/btc-signer/payment';
 import { useInfiniteQuery } from '@tanstack/react-query';
 
-import type { BitcoinSigner } from '@leather.io/bitcoin';
-import { BitcoinAddress } from '@leather.io/models';
-import { BitcoinQueryPrefixes } from '@leather.io/query';
-import { createNumArrayOfRange } from '@leather.io/utils';
+import type { BitcoinSigner } from '@coffer.network/bitcoin';
+import { BitcoinAddress } from '@coffer.network/models';
+import { BitcoinQueryPrefixes } from '@coffer.network/query';
+import { createNumArrayOfRange } from '@coffer.network/utils';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 import { useBestInSlotApiRateLimiter } from '@app/query/rate-limiter/best-in-slot-limiter';

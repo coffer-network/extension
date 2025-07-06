@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 
-import type { BtcFeeType } from '@leather.io/models';
-import type { UtxoResponseItem } from '@leather.io/query';
+import type { BtcFeeType } from '@coffer.network/models';
+import type { UtxoResponseItem } from '@coffer.network/query';
 
 import { BitcoinSendFormValues } from '@shared/models/form.model';
 

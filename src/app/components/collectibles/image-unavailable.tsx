@@ -1,6 +1,6 @@
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { Eye1ClosedIcon } from '@leather.io/ui';
+import { Eye1ClosedIcon } from '@coffer.network/ui';
 
 import { CollectiblePlaceholderLayout } from './collectible-placeholder.layout';
 

@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { baseCurrencyAmountInQuote, createMoney, i18nFormatCurrency } from '@leather.io/utils';
+import { baseCurrencyAmountInQuote, createMoney, i18nFormatCurrency } from '@coffer.network/utils';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

@@ -8,8 +8,8 @@ import {
   bitcoinNetworkModeToCoreNetworkMode,
   getBtcSignerLibNetworkConfigByMode,
   getHdKeyVersionsFromNetwork,
-} from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes } from '@leather.io/models';
+} from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
 
 import { useWalletType } from '@app/common/use-wallet-type';
 import { selectRootKeychain } from '@app/store/in-memory-key/in-memory-key.selectors';

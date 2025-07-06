@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import { z } from 'zod';
 
-import { HIRO_API_BASE_URL_MAINNET, HIRO_API_BASE_URL_TESTNET } from '@leather.io/models';
+import { HIRO_API_BASE_URL_MAINNET, HIRO_API_BASE_URL_TESTNET } from '@coffer.network/models';
 
 import { IS_TEST_ENV, SEGMENT_WRITE_KEY } from '@shared/environment';
 import {

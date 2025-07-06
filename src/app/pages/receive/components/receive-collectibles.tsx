@@ -1,8 +1,8 @@
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { css } from 'leather-styles/css';
-import { Stack } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Stack } from 'coffer-styles/jsx';
 
-import { OrdinalAvatarIcon, StxAvatarIcon } from '@leather.io/ui';
+import { OrdinalAvatarIcon, StxAvatarIcon } from '@coffer.network/ui';
 
 import { copyToClipboard } from '@app/common/utils/copy-to-clipboard';
 import { useToast } from '@app/features/toasts/use-toast';

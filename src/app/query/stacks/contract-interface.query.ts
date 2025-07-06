@@ -1,7 +1,7 @@
 import type { ClarityAbi } from '@stacks/transactions';
 import { type UseQueryResult, useQuery } from '@tanstack/react-query';
 
-import { StacksQueryPrefixes } from '@leather.io/query';
+import { StacksQueryPrefixes } from '@coffer.network/query';
 
 import { useStacksClient } from './stacks-client';
 

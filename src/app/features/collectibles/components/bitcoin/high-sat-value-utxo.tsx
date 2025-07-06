@@ -1,6 +1,6 @@
-import { Box, Circle } from 'leather-styles/jsx';
+import { Box, Circle } from 'coffer-styles/jsx';
 
-import type { Inscription } from '@leather.io/models';
+import type { Inscription } from '@coffer.network/models';
 
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';
 

@@ -1,9 +1,9 @@
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import { sanitize } from 'dompurify';
 
-import { isFtAsset } from '@leather.io/query';
-import { Avatar, ItemLayout, Pressable } from '@leather.io/ui';
-import { formatMoneyWithoutSymbol, isString } from '@leather.io/utils';
+import { isFtAsset } from '@coffer.network/query';
+import { Avatar, ItemLayout, Pressable } from '@coffer.network/ui';
+import { formatMoneyWithoutSymbol, isString } from '@coffer.network/utils';
 
 import { convertSwapAssetBalanceToFiat } from '@app/pages/swap/swap.utils';
 import type { SwapAsset } from '@app/query/common/alex-sdk/alex-sdk.hooks';

@@ -1,6 +1,6 @@
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
+import { Link } from '@coffer.network/ui';
 
 export function SwapsDisabledTooltipLabel() {
   return (

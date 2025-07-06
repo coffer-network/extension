@@ -1,4 +1,4 @@
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
 import { DividerSeparator } from '@app/components/layout/divider-separator';
 import { SignLedgerTransaction } from '@app/features/ledger/illustrations/ledger-illu-sign-ledger-transaction';

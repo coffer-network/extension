@@ -1,6 +1,6 @@
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { useWalletType } from '@app/common/use-wallet-type';
 

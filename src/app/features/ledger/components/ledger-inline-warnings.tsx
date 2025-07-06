@@ -1,7 +1,7 @@
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import type { SupportedBlockchains } from '@leather.io/models';
-import { Callout } from '@leather.io/ui';
+import type { SupportedBlockchains } from '@coffer.network/models';
+import { Callout } from '@coffer.network/ui';
 
 import { Capitalize } from '@app/ui/utils/capitalize';
 

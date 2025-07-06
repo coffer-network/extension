@@ -1,6 +1,6 @@
 import type { P2Ret, P2TROut } from '@scure/btc-signer/payment';
 
-import { BitcoinSigner } from '@leather.io/bitcoin';
+import { BitcoinSigner } from '@coffer.network/bitcoin';
 
 import { ZERO_INDEX } from '@shared/constants';
 

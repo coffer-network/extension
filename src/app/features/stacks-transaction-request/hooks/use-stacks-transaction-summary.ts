@@ -11,7 +11,7 @@ import {
 } from '@stacks/transactions';
 import BigNumber from 'bignumber.js';
 
-import type { CryptoCurrency } from '@leather.io/models';
+import type { CryptoCurrency } from '@coffer.network/models';
 import {
   baseCurrencyAmountInQuote,
   convertToMoneyTypeWithDefaultOfZero,
@@ -21,7 +21,7 @@ import {
   isDefined,
   isEmptyString,
   microStxToStx,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { removeTrailingNullCharacters } from '@app/common/utils';
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';

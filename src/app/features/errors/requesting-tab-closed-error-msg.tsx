@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Callout } from '@leather.io/ui';
+import { Callout } from '@coffer.network/ui';
 
 import { useOnOriginTabClose } from '@app/routes/hooks/use-on-tab-closed';
 

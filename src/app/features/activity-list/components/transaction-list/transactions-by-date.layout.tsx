@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Box, Stack, styled } from 'leather-styles/jsx';
+import { Box, Stack, styled } from 'coffer-styles/jsx';
 
 interface TransactionByDateLayoutProps {
   children: ReactNode;

@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 import { useField } from 'formik';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Input } from '@leather.io/ui';
-import { satToBtc } from '@leather.io/utils';
+import { Input } from '@coffer.network/ui';
+import { satToBtc } from '@coffer.network/utils';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

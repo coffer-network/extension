@@ -7,7 +7,7 @@ import { hexToBytes } from '@stacks/common';
 import BitcoinApp from 'ledger-bitcoin';
 import get from 'lodash.get';
 
-import { delay } from '@leather.io/utils';
+import { delay } from '@coffer.network/utils';
 
 import { BitcoinInputSigningConfig } from '@shared/crypto/bitcoin/signer-config';
 import { logger } from '@shared/logger';

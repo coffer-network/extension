@@ -1,6 +1,6 @@
 import { FundPageSelectors } from '@tests/selectors/fund.selectors';
 
-import { Badge, StarIcon, ZapIcon } from '@leather.io/ui';
+import { Badge, StarIcon, ZapIcon } from '@coffer.network/ui';
 
 import { AvailableRegions } from '@app/query/common/remote-config/remote-config.query';
 

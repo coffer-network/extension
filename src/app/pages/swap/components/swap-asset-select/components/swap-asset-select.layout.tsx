@@ -1,7 +1,7 @@
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
-import { noop } from '@leather.io/utils';
+import { Link } from '@coffer.network/ui';
+import { noop } from '@coffer.network/utils';
 
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';
 

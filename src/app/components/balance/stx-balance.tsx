@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { Caption } from '@leather.io/ui';
+import { Caption } from '@coffer.network/ui';
 
 import { stacksValue } from '@app/common/stacks-utils';
 import { PrivateText } from '@app/components/privacy/private-text';

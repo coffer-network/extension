@@ -1,4 +1,4 @@
-import { stxSignMessage } from '@leather.io/rpc';
+import { stxSignMessage } from '@coffer.network/rpc';
 
 import { formatValidationErrors, getRpcParamErrors, validateRpcParams } from './validation.utils';
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { toRelativeTime } from '@common/utils';
 import type { ContractCallTransaction } from '@stacks/stacks-blockchain-api-types';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 interface TxCardProps {
   tx: ContractCallTransaction;

@@ -1,6 +1,6 @@
 import { PayloadType, StacksTransactionWire } from '@stacks/transactions';
 
-import { StacksTx } from '@leather.io/models';
+import { StacksTx } from '@coffer.network/models';
 
 import { stacksValue } from '@app/common/stacks-utils';
 import { getTxCaption } from '@app/common/transactions/stacks/transaction.utils';

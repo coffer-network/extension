@@ -29,9 +29,9 @@ import {
   tupleCV,
   uintCV,
 } from '@stacks/transactions';
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { LeatherProvider } from '@leather.io/rpc';
+import { LeatherProvider } from '@coffer.network/rpc';
 
 declare global {
   interface Window {

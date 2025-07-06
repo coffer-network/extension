@@ -1,8 +1,8 @@
-import { HStack, Stack } from 'leather-styles/jsx';
+import { HStack, Stack } from 'coffer-styles/jsx';
 
-import { formatContractId } from '@leather.io/stacks';
-import { Caption, DynamicColorCircle, Title } from '@leather.io/ui';
-import { truncateMiddle } from '@leather.io/utils';
+import { formatContractId } from '@coffer.network/stacks';
+import { Caption, DynamicColorCircle, Title } from '@coffer.network/ui';
+import { truncateMiddle } from '@coffer.network/utils';
 
 interface ContractPreviewLayoutProps {
   contractAddress: string;

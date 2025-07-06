@@ -33,7 +33,7 @@
       "@common/*": ["./common/*"],
       "@cards/*": ["./components/cards/*"],
       "@tests/*": ["../../tests/*"],
-      "leather-styles/*": ["../../leather-styles/*"]
+      "coffer-styles/*": ["../../coffer-styles/*"]
     },
     "baseUrl": "./src",
     "allowSyntheticDefaultImports": true,

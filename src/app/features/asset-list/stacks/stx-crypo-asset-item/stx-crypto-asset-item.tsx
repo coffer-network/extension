@@ -1,12 +1,12 @@
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import type { StxCryptoAssetBalance } from '@leather.io/models';
-import { Caption, StxAvatarIcon } from '@leather.io/ui';
+import type { StxCryptoAssetBalance } from '@coffer.network/models';
+import { Caption, StxAvatarIcon } from '@coffer.network/ui';
 import {
   baseCurrencyAmountInQuote,
   formatMoneyWithoutSymbol,
   i18nFormatCurrency,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { CryptoAssetItemLayout } from '@app/components/crypto-asset-item/crypto-asset-item.layout';
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';

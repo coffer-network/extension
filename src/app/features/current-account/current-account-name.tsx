@@ -1,7 +1,7 @@
 import { Suspense, memo } from 'react';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
-import { Box, BoxProps, styled } from 'leather-styles/jsx';
+import { Box, BoxProps, styled } from 'coffer-styles/jsx';
 
 import { HasChildren } from '@app/common/has-children';
 import { useCurrentAccountDisplayName } from '@app/common/hooks/account/use-account-names';

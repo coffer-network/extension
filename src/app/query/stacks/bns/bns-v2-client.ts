@@ -1,7 +1,7 @@
-import { bitcoinNetworkModeToCoreNetworkMode } from '@leather.io/bitcoin';
-import { BNS_V2_API_BASE_URL } from '@leather.io/models';
-import { bnsV2Client } from '@leather.io/query';
-import { whenNetwork } from '@leather.io/utils';
+import { bitcoinNetworkModeToCoreNetworkMode } from '@coffer.network/bitcoin';
+import { BNS_V2_API_BASE_URL } from '@coffer.network/models';
+import { bnsV2Client } from '@coffer.network/query';
+import { whenNetwork } from '@coffer.network/utils';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 

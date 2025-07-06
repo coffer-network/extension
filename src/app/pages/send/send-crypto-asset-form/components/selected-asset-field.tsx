@@ -1,7 +1,7 @@
 import { Field, useField } from 'formik';
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 
-import { Flag } from '@leather.io/ui';
+import { Flag } from '@coffer.network/ui';
 
 import { useOnMount } from '@app/common/hooks/use-on-mount';
 

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
-import { type AverageBitcoinFeeRates, type Money, btcTxTimeMap } from '@leather.io/models';
-import type { UtxoResponseItem } from '@leather.io/query';
+import { type AverageBitcoinFeeRates, type Money, btcTxTimeMap } from '@coffer.network/models';
+import type { UtxoResponseItem } from '@coffer.network/query';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

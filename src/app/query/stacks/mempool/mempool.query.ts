@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetAddressMempoolTransactionsQueryOptions } from '@leather.io/query';
+import { createGetAddressMempoolTransactionsQueryOptions } from '@coffer.network/query';
 
 import { useStacksClient } from '../stacks-client';
 

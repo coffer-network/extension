@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 
-import { bitcoinNetworkModeToCoreNetworkMode } from '@leather.io/bitcoin';
+import { bitcoinNetworkModeToCoreNetworkMode } from '@coffer.network/bitcoin';
 import {
   BESTINSLOT_API_BASE_URL_MAINNET,
   BESTINSLOT_API_BASE_URL_TESTNET,
-} from '@leather.io/models';
-import { bitcoinClient } from '@leather.io/query';
-import { whenNetwork } from '@leather.io/utils';
+} from '@coffer.network/models';
+import { bitcoinClient } from '@coffer.network/query';
+import { whenNetwork } from '@coffer.network/utils';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 

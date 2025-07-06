@@ -1,6 +1,6 @@
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { LedgerIcon } from '@leather.io/ui';
+import { LedgerIcon } from '@coffer.network/ui';
 
 import { Divider } from '@app/components/layout/divider';
 

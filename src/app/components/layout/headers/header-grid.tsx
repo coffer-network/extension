@@ -1,7 +1,7 @@
 import { ChainId } from '@stacks/network';
-import { Flex, Grid, GridItem, type GridProps, HStack } from 'leather-styles/jsx';
+import { Flex, Grid, GridItem, type GridProps, HStack } from 'coffer-styles/jsx';
 
-import { NetworkModeBadge } from '@leather.io/ui';
+import { NetworkModeBadge } from '@coffer.network/ui';
 
 import type { HasChildren } from '@app/common/has-children';
 import { useCurrentNetworkState } from '@app/store/networks/networks.hooks';

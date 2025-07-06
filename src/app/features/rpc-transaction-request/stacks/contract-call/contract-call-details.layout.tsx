@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { formatContractId } from '@leather.io/stacks';
-import { AddressDisplayer, Approver } from '@leather.io/ui';
+import { formatContractId } from '@coffer.network/stacks';
+import { AddressDisplayer, Approver } from '@coffer.network/ui';
 
 import { useStacksExplorerLink } from '@app/common/hooks/use-stacks-explorer-link';
 import { LoadingSpinner } from '@app/components/loading-spinner';

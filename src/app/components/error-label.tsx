@@ -1,4 +1,4 @@
-import { ErrorCircleIcon, Flag, type FlagProps } from '@leather.io/ui';
+import { ErrorCircleIcon, Flag, type FlagProps } from '@coffer.network/ui';
 
 export function ErrorLabel({ children, ...rest }: FlagProps) {
   return (

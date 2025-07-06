@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 
 import { useField } from 'formik';
 
-import type { Money } from '@leather.io/models';
+import type { Money } from '@coffer.network/models';
 
 import { analytics } from '@shared/utils/analytics';
 

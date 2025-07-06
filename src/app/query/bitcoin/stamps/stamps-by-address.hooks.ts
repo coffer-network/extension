@@ -6,9 +6,9 @@ import {
   CryptoAssetChains,
   CryptoAssetProtocols,
   Src20CryptoAssetInfo,
-} from '@leather.io/models';
-import { Src20Token, createGetStampsByAddressQueryOptions } from '@leather.io/query';
-import { createBaseCryptoAssetBalance, createMoney } from '@leather.io/utils';
+} from '@coffer.network/models';
+import { Src20Token, createGetStampsByAddressQueryOptions } from '@coffer.network/query';
+import { createBaseCryptoAssetBalance, createMoney } from '@coffer.network/utils';
 
 function createSrc20CryptoAssetInfo(src20: Src20Token): Src20CryptoAssetInfo {
   return {

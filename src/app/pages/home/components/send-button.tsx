@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
 
-import { IconButton, PaperPlaneIcon } from '@leather.io/ui';
+import { IconButton, PaperPlaneIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

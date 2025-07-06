@@ -1,8 +1,8 @@
 import { type ReactNode } from 'react';
 
-import { Circle } from 'leather-styles/jsx';
+import { Circle } from 'coffer-styles/jsx';
 
-import { StxAvatarIcon } from '@leather.io/ui';
+import { StxAvatarIcon } from '@coffer.network/ui';
 
 import { TransactionTypeIconWrapper } from '@app/components/transaction/transaction-type-icon-wrapper';
 

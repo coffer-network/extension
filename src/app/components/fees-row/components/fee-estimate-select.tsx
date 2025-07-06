@@ -1,4 +1,4 @@
-import { FeeTypes, type StacksFeeEstimate } from '@leather.io/models';
+import { FeeTypes, type StacksFeeEstimate } from '@coffer.network/models';
 
 import { FeeEstimateItem } from './fee-estimate-item';
 import { FeeEstimateSelectLayout } from './fee-estimate-select.layout';

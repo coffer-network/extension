@@ -1,4 +1,4 @@
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { LoadingSpinner } from '@app/components/loading-spinner';
 

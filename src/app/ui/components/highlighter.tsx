@@ -1,6 +1,6 @@
 import { memo } from 'react';
 
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 import { Highlight } from 'prism-react-renderer';
 
 import type { PrismType } from '@app/common/clarity-prism';

@@ -1,6 +1,6 @@
 import { memo } from 'react';
 
-import { isUndefined } from '@leather.io/utils';
+import { isUndefined } from '@coffer.network/utils';
 
 import { closeWindow } from '@shared/utils';
 

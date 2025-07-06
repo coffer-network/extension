@@ -13,7 +13,7 @@ import { getRPCClient, stacksTestnetNetwork as network } from '@common/utils';
 import { TxCard } from '@components/tx-card';
 import { useConnect } from '@stacks/connect-react-jwt';
 import type { ContractCallTransaction } from '@stacks/stacks-blockchain-api-types';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
 import { ExplorerLink } from './explorer-link';
 

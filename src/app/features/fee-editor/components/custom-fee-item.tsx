@@ -1,9 +1,9 @@
 import { useRef } from 'react';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Button, Input } from '@leather.io/ui';
+import { Button, Input } from '@coffer.network/ui';
 
 import { type Fee, useFeeEditorContext } from '../fee-editor.context';
 import { FeeRateItemLayout } from './fee-rate-item.layout';

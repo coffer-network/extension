@@ -1,6 +1,6 @@
-import { FlexProps } from 'leather-styles/jsx';
+import { FlexProps } from 'coffer-styles/jsx';
 
-import { IconButton } from '@leather.io/ui';
+import { IconButton } from '@coffer.network/ui';
 
 interface HeaderActionButtonProps extends FlexProps {
   icon: React.JSX.Element;

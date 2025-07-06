@@ -1,5 +1,5 @@
-import { Box, Flex, Grid, HStack, styled } from 'leather-styles/jsx';
-import { token } from 'leather-styles/tokens';
+import { Box, Flex, Grid, HStack, styled } from 'coffer-styles/jsx';
+import { token } from 'coffer-styles/tokens';
 
 import {
   ArrowOutOfBoxIcon,
@@ -9,7 +9,7 @@ import {
   Flag,
   Spinner,
   TrashIcon,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 interface CollectiblesLayoutProps {
   title: string;

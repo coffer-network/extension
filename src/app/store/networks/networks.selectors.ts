@@ -6,7 +6,7 @@ import {
   type NetworkConfiguration,
   defaultCurrentNetwork,
   defaultNetworksKeyedById,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 
 import { initialSearchParams } from '@app/common/initial-search-params';
 import { RootState } from '@app/store';

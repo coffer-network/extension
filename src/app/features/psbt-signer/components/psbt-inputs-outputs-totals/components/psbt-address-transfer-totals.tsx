@@ -1,4 +1,4 @@
-import { formatMoney, i18nFormatCurrency, truncateMiddle } from '@leather.io/utils';
+import { formatMoney, i18nFormatCurrency, truncateMiddle } from '@coffer.network/utils';
 
 import { usePsbtSignerContext } from '@app/features/psbt-signer/psbt-signer.context';
 import { useCalculateBitcoinFiatValue } from '@app/query/common/market-data/market-data.hooks';

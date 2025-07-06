@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react';
 
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 
 export type FeePriority = 'slow' | 'standard' | 'fast' | 'custom';
 

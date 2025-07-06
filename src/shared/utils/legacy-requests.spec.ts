@@ -1,6 +1,6 @@
 import { HEYSTACK_HEY_TX_REQUEST } from '@tests/mocks';
 
-import { TransactionTypes } from '@leather.io/stacks';
+import { TransactionTypes } from '@coffer.network/stacks';
 
 import { getLegacyTransactionPayloadFromToken } from './legacy-requests';
 

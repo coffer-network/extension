@@ -3,7 +3,7 @@ import {
   RpcErrorCode,
   type RpcRequests,
   createRpcErrorResponse,
-} from '@leather.io/rpc';
+} from '@coffer.network/rpc';
 
 import { getAddressesHandler, stxGetAddressesHandler } from './rpc-methods/get-addresses';
 import { openHandler } from './rpc-methods/open';

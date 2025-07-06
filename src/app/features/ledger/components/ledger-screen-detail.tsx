@@ -1,6 +1,6 @@
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { Caption, InfoCircleIcon } from '@leather.io/ui';
+import { Caption, InfoCircleIcon } from '@coffer.network/ui';
 
 import { BasicTooltip } from '@app/ui/components/tooltip/basic-tooltip';
 

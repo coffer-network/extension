@@ -1,6 +1,6 @@
 import { cvToString, deserializeCV, getCVTypeString } from '@stacks/transactions';
 
-import { formatContractId } from '@leather.io/stacks';
+import { formatContractId } from '@coffer.network/stacks';
 
 import { logger } from '@shared/logger';
 

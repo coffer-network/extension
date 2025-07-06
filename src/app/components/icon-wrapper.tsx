@@ -1,4 +1,4 @@
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 export function IconWrapper({ children }: { children: React.ReactNode }) {
   return (

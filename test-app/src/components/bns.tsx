@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
 /** TODO 4370 - Delete this as the link is broken ???? */
 /** @deprecated */

@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
 interface PendingTransactionListLayoutProps {
   children: ReactNode;

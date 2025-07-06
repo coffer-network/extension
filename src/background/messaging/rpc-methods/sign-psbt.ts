@@ -1,8 +1,8 @@
 import * as btc from '@scure/btc-signer';
 import { hexToBytes } from '@stacks/common';
 
-import { RpcErrorCode, createRpcErrorResponse, signPsbt } from '@leather.io/rpc';
-import { ensureArray, isDefined, isUndefined } from '@leather.io/utils';
+import { RpcErrorCode, createRpcErrorResponse, signPsbt } from '@coffer.network/rpc';
+import { ensureArray, isDefined, isUndefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import {

@@ -8,7 +8,7 @@ import {
   createGetUtxosByAddressQueryOptions,
   filterUtxosWithInscriptions,
   filterUtxosWithRunes,
-} from '@leather.io/query';
+} from '@coffer.network/query';
 
 import { useInscribedSpendableUtxos } from '@app/features/discarded-inscriptions/use-inscribed-spendable-utxos';
 import { useCurrentAccountNativeSegwitIndexZeroSignerNullable } from '@app/store/accounts/blockchain/bitcoin/native-segwit-account.hooks';

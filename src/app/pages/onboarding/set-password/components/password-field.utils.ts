@@ -1,4 +1,4 @@
-import { token } from 'leather-styles/tokens';
+import { token } from 'coffer-styles/tokens';
 
 import { PasswordStrength, ValidatedPassword } from '@app/common/validation/validate-password';
 

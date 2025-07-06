@@ -1,4 +1,4 @@
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { PopupHeader } from '@app/features/container/headers/popup.header';
 

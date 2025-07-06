@@ -1,5 +1,5 @@
-import type { Money } from '@leather.io/models';
-import { isFunction } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { isFunction } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

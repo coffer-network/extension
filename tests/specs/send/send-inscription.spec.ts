@@ -4,8 +4,8 @@ import { mockTestnetTestAccountEmptyUtxosRequests } from '@tests/mocks/mock-utxo
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { getDisplayerAddress } from '@tests/utils';
 
-import { BtcFeeType } from '@leather.io/models';
-import { mockInscriptionResponse3, mockInscriptionResponseNonZeroOffset } from '@leather.io/query';
+import { BtcFeeType } from '@coffer.network/models';
+import { mockInscriptionResponse3, mockInscriptionResponseNonZeroOffset } from '@coffer.network/query';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

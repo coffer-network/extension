@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { delay } from '@leather.io/utils';
+import { delay } from '@coffer.network/utils';
 
 import { useGetAddressMempoolTransactionsQuery } from '@app/query/stacks/mempool/mempool.query';
 import { useCurrentStacksAccountAddress } from '@app/store/accounts/blockchain/stacks/stacks-account.hooks';

@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 
-import type { NetworkModes } from '@leather.io/models';
-import { isEmptyString, isUndefined } from '@leather.io/utils';
+import type { NetworkModes } from '@coffer.network/models';
+import { isEmptyString, isUndefined } from '@coffer.network/utils';
 
 import { checkEntityAddressIsCompliant } from '@app/query/common/compliance-checker/compliance-checker.query';
 

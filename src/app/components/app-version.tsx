@@ -1,6 +1,6 @@
 import { forwardRef, useMemo } from 'react';
 
-import { Box, HTMLStyledProps, styled } from 'leather-styles/jsx';
+import { Box, HTMLStyledProps, styled } from 'coffer-styles/jsx';
 
 import { BRANCH_NAME, COMMIT_SHA } from '@shared/environment';
 

@@ -1,5 +1,5 @@
-import type { Money } from '@leather.io/models';
-import { formatMoneyWithoutSymbol } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { formatMoneyWithoutSymbol } from '@coffer.network/utils';
 
 import { formatBalance } from '@app/common/format-balance';
 

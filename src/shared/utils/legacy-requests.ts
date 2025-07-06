@@ -9,8 +9,8 @@ import type { StacksNetwork } from '@stacks/network';
 import { type PostCondition, type PostConditionWire } from '@stacks/transactions';
 import { decodeToken } from 'jsontokens';
 
-import type { ReplaceTypes } from '@leather.io/models';
-import type { TransactionTypes } from '@leather.io/stacks';
+import type { ReplaceTypes } from '@coffer.network/models';
+import type { TransactionTypes } from '@coffer.network/stacks';
 
 // This file exists to support legacy requests and type inconsistencies from @stacks/connect
 

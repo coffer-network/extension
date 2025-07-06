@@ -9,7 +9,7 @@ import {
 import BN from 'bn.js';
 import { vi } from 'vitest';
 
-import { formatAssetString } from '@leather.io/stacks';
+import { formatAssetString } from '@coffer.network/stacks';
 
 (window as any).fetch = vi.fn(() => ({
   text: () => Promise.resolve(1),

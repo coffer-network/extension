@@ -9,7 +9,7 @@ import {
   signAndUploadProfile,
 } from '@stacks/wallet-sdk';
 
-import { gaiaUrl } from '@leather.io/constants';
+import { gaiaUrl } from '@coffer.network/constants';
 
 import { finalizeProfileUpdate } from '@shared/actions/finalize-profile-update';
 import { analytics } from '@shared/utils/analytics';

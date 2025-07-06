@@ -2,9 +2,9 @@ import { useRef, useTransition } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { sanitize } from 'dompurify';
-import { Box, VStack } from 'leather-styles/jsx';
+import { Box, VStack } from 'coffer-styles/jsx';
 
-import { ItemLayout, Pressable, Switch } from '@leather.io/ui';
+import { ItemLayout, Pressable, Switch } from '@coffer.network/ui';
 
 import { useSpamFilterWithWhitelist } from '@app/common/spam-filter/use-spam-filter';
 import { useCurrentAccountIndex } from '@app/store/accounts/account';

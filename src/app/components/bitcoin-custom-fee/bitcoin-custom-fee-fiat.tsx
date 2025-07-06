@@ -1,4 +1,4 @@
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 
 interface BitcoinCustomFeeFiatProps {
   feeInBtc: string;

@@ -1,7 +1,7 @@
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Stack, styled } from 'leather-styles/jsx';
+import { Stack, styled } from 'coffer-styles/jsx';
 
-import { AddressDisplayer, Approver, Highlighter } from '@leather.io/ui';
+import { AddressDisplayer, Approver, Highlighter } from '@coffer.network/ui';
 
 import { Prism } from '@app/common/clarity-prism';
 

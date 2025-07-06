@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import BitcoinApp from 'ledger-bitcoin';
 
-import { bitcoinNetworkModeToCoreNetworkMode } from '@leather.io/bitcoin';
+import { bitcoinNetworkModeToCoreNetworkMode } from '@coffer.network/bitcoin';
 
 import { pullBitcoinKeysFromLedgerDevice } from '@app/features/ledger/flows/request-bitcoin-keys/request-bitcoin-keys.utils';
 import { ledgerRequestKeysRoutes } from '@app/features/ledger/generic-flows/request-keys/ledger-request-keys-route-generator';

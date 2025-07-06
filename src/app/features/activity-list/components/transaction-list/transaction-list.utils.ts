@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 
-import { isUndefined } from '@leather.io/utils';
+import { isUndefined } from '@coffer.network/utils';
 
 import { displayDate, isoDateToLocalDateSafe, todaysIsoDate } from '@app/common/date-utils';
 import type {

@@ -1,4 +1,4 @@
-import type { UtxoResponseItem } from '@leather.io/query';
+import type { UtxoResponseItem } from '@coffer.network/query';
 
 import { useCurrentNativeSegwitUtxos } from '@app/query/bitcoin/address/utxos-by-address.hooks';
 

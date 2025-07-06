@@ -1,10 +1,10 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import GenericError from '@assets/images/generic-error.png';
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
-import { Button, Sheet, SheetHeader } from '@leather.io/ui';
+import { Button, Sheet, SheetHeader } from '@coffer.network/ui';
 
 export function BroadcastErrorSheet() {
   const navigate = useNavigate();

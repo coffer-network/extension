@@ -6,8 +6,8 @@ import { Form, Formik } from 'formik';
 import { debounce } from 'ts-debounce';
 import * as yup from 'yup';
 
-import { Button } from '@leather.io/ui';
-import { isUndefined } from '@leather.io/utils';
+import { Button } from '@coffer.network/ui';
+import { isUndefined } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

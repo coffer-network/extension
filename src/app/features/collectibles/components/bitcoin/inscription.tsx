@@ -1,9 +1,9 @@
 import { useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { type Inscription } from '@leather.io/models';
+import { type Inscription } from '@coffer.network/models';
 import {
   DropdownMenu,
   EllipsisVIcon,
@@ -14,7 +14,7 @@ import {
   OrdinalAvatarIcon,
   TrashIcon,
   UnlockIcon,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { ORD_IO_URL } from '@shared/constants';
 import { RouteUrls } from '@shared/route-urls';

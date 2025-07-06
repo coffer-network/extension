@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 
-import type { NetworkConfiguration } from '@leather.io/models';
-import { isEmptyString, isUndefined } from '@leather.io/utils';
+import type { NetworkConfiguration } from '@coffer.network/models';
+import { isEmptyString, isUndefined } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

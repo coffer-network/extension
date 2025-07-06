@@ -1,6 +1,6 @@
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 
-import { BtcAvatarIcon, Button, Callout, Sheet, SheetHeader } from '@leather.io/ui';
+import { BtcAvatarIcon, Button, Callout, Sheet, SheetHeader } from '@coffer.network/ui';
 
 interface RetrieveTaprootToNativeSegwitLayoutProps {
   isBroadcasting: boolean;

@@ -1,4 +1,4 @@
-import { isString } from '@leather.io/utils';
+import { isString } from '@coffer.network/utils';
 
 import {
   type SignedMessageType,

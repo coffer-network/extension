@@ -1,4 +1,4 @@
-import type { Inscription, Money } from '@leather.io/models';
+import type { Inscription, Money } from '@coffer.network/models';
 
 import type { SwapAsset } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 

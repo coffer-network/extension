@@ -2,11 +2,11 @@ import type React from 'react';
 
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import { sanitize } from 'dompurify';
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { Flag } from '@leather.io/ui';
-import { formatMoneyWithoutSymbol, isString } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { Flag } from '@coffer.network/ui';
+import { formatMoneyWithoutSymbol, isString } from '@coffer.network/utils';
 
 interface SwapAssetItemLayoutProps {
   caption: string;

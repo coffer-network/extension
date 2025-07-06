@@ -1,4 +1,4 @@
-import { type RpcRequest, encodeBase64Json, getAddresses, stxGetAddresses } from '@leather.io/rpc';
+import { type RpcRequest, encodeBase64Json, getAddresses, stxGetAddresses } from '@coffer.network/rpc';
 
 import { RouteUrls } from '@shared/route-urls';
 

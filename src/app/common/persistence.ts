@@ -4,7 +4,7 @@ import { persistQueryClient } from '@tanstack/react-query-persist-client';
 import { isAxiosError } from 'axios';
 import { ZodError } from 'zod';
 
-import { PERSISTENCE_CACHE_TIME } from '@leather.io/constants';
+import { PERSISTENCE_CACHE_TIME } from '@coffer.network/constants';
 
 import { IS_TEST_ENV } from '@shared/environment';
 import { logger } from '@shared/logger';
@@ -46,7 +46,7 @@ export const queryClient = new QueryClient({
           error: JSON.stringify(error.issues),
         };
         logger.error('schema_fail', zodErrorReport);
-        // Replace with `formatQueryZodErrors` from `@leather.io/query`
+        // Replace with `formatQueryZodErrors` from `@coffer.network/query`
         // Example:
         // `void analytics.track(...formatQueryZodErrors(error, query))`
         void analytics.track('schema_fail', zodErrorReport);

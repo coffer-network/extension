@@ -2,7 +2,7 @@ import { sha256 } from '@noble/hashes/sha256';
 import { bytesToHex, utf8ToBytes } from '@noble/hashes/utils';
 import { HDKey } from '@scure/bip32';
 
-import { makeAccountIndexDerivationPathFactory } from '@leather.io/stacks';
+import { makeAccountIndexDerivationPathFactory } from '@coffer.network/stacks';
 
 export const DATA_DERIVATION_PATH = `m/888'/0'`;
 

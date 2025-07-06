@@ -1,6 +1,6 @@
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { Flag, Logo } from '@leather.io/ui';
+import { Flag, Logo } from '@coffer.network/ui';
 
 import { useSwitchAccountSheet } from '@app/common/switch-account/use-switch-account-sheet-context';
 import { Header } from '@app/components/layout/headers/header';

@@ -13,9 +13,9 @@ import {
   createRpcErrorResponse,
   createRpcSuccessResponse,
   stxSignTransaction,
-} from '@leather.io/rpc';
-import { StxAvatarIcon } from '@leather.io/ui';
-import { createMoney, isString } from '@leather.io/utils';
+} from '@coffer.network/rpc';
+import { StxAvatarIcon } from '@coffer.network/ui';
+import { createMoney, isString } from '@coffer.network/utils';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 import { closeWindow } from '@shared/utils';

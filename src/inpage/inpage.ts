@@ -1,4 +1,4 @@
-import { initInpageProvider } from '@leather.io/provider';
+import { initInpageProvider } from '@coffer.network/provider';
 
 import { BRANCH, COMMIT_SHA } from '@shared/environment';
 import { DomEventName } from '@shared/inpage-types';

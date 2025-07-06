@@ -5,12 +5,12 @@ import { hexToBytes } from '@noble/hashes/utils';
 import * as btc from '@scure/btc-signer';
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
-import { decodeBitcoinTx } from '@leather.io/bitcoin';
-import type { CryptoCurrency } from '@leather.io/models';
-import { Button } from '@leather.io/ui';
+import { decodeBitcoinTx } from '@coffer.network/bitcoin';
+import type { CryptoCurrency } from '@coffer.network/models';
+import { Button } from '@coffer.network/ui';
 import {
   baseCurrencyAmountInQuote,
   createMoney,
@@ -18,7 +18,7 @@ import {
   formatMoneyPadded,
   i18nFormatCurrency,
   satToBtc,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

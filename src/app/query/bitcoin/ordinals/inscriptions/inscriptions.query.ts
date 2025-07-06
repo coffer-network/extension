@@ -11,8 +11,8 @@ import {
   filterUninscribedUtxosToRecoverFromTaproot,
   filterUtxosWithInscriptions,
   utxosToBalance,
-} from '@leather.io/query';
-import { isString } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { isString } from '@coffer.network/utils';
 
 import { useCurrentAccountIndex } from '@app/store/accounts/account';
 import {

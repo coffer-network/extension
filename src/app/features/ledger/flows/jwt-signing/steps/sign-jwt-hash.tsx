@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
 import { DeviceOperationApprovalStatus } from '@app/features/ledger/components/device-approval-status';
 import { LedgerScreenDetail } from '@app/features/ledger/components/ledger-screen-detail';

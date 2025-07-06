@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { token } from 'leather-styles/tokens';
+import { token } from 'coffer-styles/tokens';
 
 export function BackgroundOverlay({ show = false }: { show?: boolean }) {
   return (

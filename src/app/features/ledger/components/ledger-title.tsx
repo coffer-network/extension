@@ -1,6 +1,6 @@
-import { BoxProps, styled } from 'leather-styles/jsx';
+import { BoxProps, styled } from 'coffer-styles/jsx';
 
-import type { SupportedBlockchains } from '@leather.io/models';
+import type { SupportedBlockchains } from '@coffer.network/models';
 
 import { Capitalize } from '@app/ui/utils/capitalize';
 

@@ -1,4 +1,4 @@
-import { Callout } from '@leather.io/ui';
+import { Callout } from '@coffer.network/ui';
 
 import { SwapAssetsPair } from '../swap-assets-pair/swap-assets-pair';
 import { BitcoinSwapDetails } from '../swap-details/bitcoin-swap-details';

@@ -1,9 +1,9 @@
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { AddressDisplayer, Approver, ItemLayout, UserIcon } from '@leather.io/ui';
-import { formatDustUsdAmounts, formatMoney, i18nFormatCurrency } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { AddressDisplayer, Approver, ItemLayout, UserIcon } from '@coffer.network/ui';
+import { formatDustUsdAmounts, formatMoney, i18nFormatCurrency } from '@coffer.network/utils';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

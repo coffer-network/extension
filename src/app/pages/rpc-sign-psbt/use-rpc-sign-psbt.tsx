@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { hexToBytes } from '@noble/hashes/utils';
 import { bytesToHex } from '@stacks/common';
 
-import type { Money } from '@leather.io/models';
-import { RpcErrorCode, createRpcErrorResponse, createRpcSuccessResponse } from '@leather.io/rpc';
+import type { Money } from '@coffer.network/models';
+import { RpcErrorCode, createRpcErrorResponse, createRpcSuccessResponse } from '@coffer.network/rpc';
 import {
   formatMoney,
   formatMoneyPadded,
   i18nFormatCurrency,
   isError,
   sumMoney,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { closeWindow } from '@shared/utils';

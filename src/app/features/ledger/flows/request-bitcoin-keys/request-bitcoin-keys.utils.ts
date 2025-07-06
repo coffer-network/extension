@@ -4,9 +4,9 @@ import {
   createWalletIdDecoratedPath,
   getNativeSegwitAccountDerivationPath,
   getTaprootAccountDerivationPath,
-} from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes, NetworkModes } from '@leather.io/models';
-import { delay } from '@leather.io/utils';
+} from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes, NetworkModes } from '@coffer.network/models';
+import { delay } from '@coffer.network/utils';
 
 import { defaultNumberOfKeysToPullFromLedgerDevice } from '../../generic-flows/request-keys/use-request-ledger-keys';
 import {

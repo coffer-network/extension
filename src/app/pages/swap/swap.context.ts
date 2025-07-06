@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react';
 
-import type { Blockchain, Money } from '@leather.io/models';
+import type { Blockchain, Money } from '@coffer.network/models';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 

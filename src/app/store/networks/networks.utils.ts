@@ -7,7 +7,7 @@ import {
   type NetworkConfiguration,
   bitcoinNetworkToNetworkMode,
   bitcoinNetworks,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 
 import { PersistedNetworkConfiguration } from './networks.slice';
 

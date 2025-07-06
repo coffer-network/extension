@@ -6,7 +6,7 @@ import {
   BnsV2QueryPrefixes,
   type StacksClient,
   fetchNamesForAddress,
-} from '@leather.io/query';
+} from '@coffer.network/query';
 
 import { decryptMnemonic, encryptMnemonic } from '@shared/crypto/mnemonic-encryption';
 import { logger } from '@shared/logger';

@@ -1,4 +1,4 @@
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
 import { usePsbtSignerContext } from '@app/features/psbt-signer/psbt-signer.context';
 

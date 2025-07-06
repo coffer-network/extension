@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
-import type { CryptoCurrency, Money } from '@leather.io/models';
-import { baseCurrencyAmountInQuote } from '@leather.io/utils';
+import type { CryptoCurrency, Money } from '@coffer.network/models';
+import { baseCurrencyAmountInQuote } from '@coffer.network/utils';
 
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';
 

@@ -1,6 +1,6 @@
 import { AddressVersion, privateKeyToPublic, publicKeyToAddress } from '@stacks/transactions';
 
-import { deriveStxPrivateKey } from '@leather.io/stacks';
+import { deriveStxPrivateKey } from '@coffer.network/stacks';
 
 import { mnemonicToRootNode } from '@app/common/keychain/keychain';
 

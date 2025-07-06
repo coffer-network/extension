@@ -1,7 +1,7 @@
 import { type Dispatch, type SetStateAction, useEffect } from 'react';
 
-import { Src20AvatarIcon } from '@leather.io/ui';
-import { getAssetDisplayName } from '@leather.io/utils';
+import { Src20AvatarIcon } from '@coffer.network/ui';
+import { getAssetDisplayName } from '@coffer.network/utils';
 
 import { useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { CryptoAssetItem } from '@app/components/crypto-asset-item/crypto-asset-item';

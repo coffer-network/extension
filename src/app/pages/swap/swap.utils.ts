@@ -1,11 +1,11 @@
-import type { MarketData, Money } from '@leather.io/models';
+import type { MarketData, Money } from '@coffer.network/models';
 import {
   baseCurrencyAmountInQuote,
   createMoney,
   i18nFormatCurrency,
   isMoneyGreaterThanZero,
   unitToFractionalUnit,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import type { SwapAsset } from '@app/query/common/alex-sdk/alex-sdk.hooks';
 

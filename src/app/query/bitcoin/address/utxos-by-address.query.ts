@@ -1,7 +1,7 @@
 import { HDKey } from '@scure/bip32';
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetTaprootUtxosByAddressQueryOptions } from '@leather.io/query';
+import { createGetTaprootUtxosByAddressQueryOptions } from '@coffer.network/query';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 

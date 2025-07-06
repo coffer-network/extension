@@ -1,6 +1,6 @@
 import type { StacksTransactionWire } from '@stacks/transactions';
 
-import { createMoneyFromDecimal } from '@leather.io/utils';
+import { createMoneyFromDecimal } from '@coffer.network/utils';
 
 import { useCalculateStacksTxFees } from '@app/query/stacks/fees/fees.hooks';
 

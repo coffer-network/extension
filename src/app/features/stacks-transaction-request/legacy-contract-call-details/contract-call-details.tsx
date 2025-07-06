@@ -1,9 +1,9 @@
 import { Suspense } from 'react';
 
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { formatContractId } from '@leather.io/stacks';
-import { Title } from '@leather.io/ui';
+import { formatContractId } from '@coffer.network/stacks';
+import { Title } from '@coffer.network/ui';
 
 import { useStacksExplorerLink } from '@app/common/hooks/use-stacks-explorer-link';
 import { AttachmentRow } from '@app/features/stacks-transaction-request/attachment-row';

@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 import { RouteUrls } from '@shared/route-urls';
 

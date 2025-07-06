@@ -3,7 +3,7 @@ import { BytesReader, addressToString, deserializeAddress } from '@stacks/transa
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import { useConfigSbtc } from '../common/remote-config/remote-config.query';
 import { type StacksBlock, useGetStacksBlocks } from './get-stacks-block.query';

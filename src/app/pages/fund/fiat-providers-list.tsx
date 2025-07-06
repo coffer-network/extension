@@ -1,8 +1,8 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { Grid } from 'leather-styles/jsx';
+import { Grid } from 'coffer-styles/jsx';
 
-import type { CryptoCurrency } from '@leather.io/models';
+import type { CryptoCurrency } from '@coffer.network/models';
 
 import { analytics } from '@shared/utils/analytics';
 

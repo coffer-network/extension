@@ -1,10 +1,10 @@
 import { SwapSelectors } from '@tests/selectors/swap.selectors';
 import BigNumber from 'bignumber.js';
 import { useFormikContext } from 'formik';
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { ChevronRightIcon } from '@leather.io/ui';
-import { createMoneyFromDecimal, formatMoney, isUndefined, satToBtc } from '@leather.io/utils';
+import { ChevronRightIcon } from '@coffer.network/ui';
+import { createMoneyFromDecimal, formatMoney, isUndefined, satToBtc } from '@coffer.network/utils';
 
 import type { SwapFormValues } from '@shared/models/form.model';
 

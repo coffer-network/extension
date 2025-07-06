@@ -3,7 +3,7 @@ import { bytesToHex } from '@stacks/common';
 import { ChainId } from '@stacks/network';
 import { ClarityType, ClarityValue, cvToString, encodeStructuredData } from '@stacks/transactions';
 
-import { stacksChainIdToCoreNetworkMode } from '@leather.io/stacks';
+import { stacksChainIdToCoreNetworkMode } from '@coffer.network/stacks';
 
 import { UnsignedMessageStructured } from '@shared/signature/signature-types';
 

@@ -1,9 +1,9 @@
 import { Suspense, useMemo } from 'react';
 
 import { PostConditionMode } from '@stacks/transactions';
-import { Flex } from 'leather-styles/jsx';
+import { Flex } from 'coffer-styles/jsx';
 
-import { TransactionTypes } from '@leather.io/stacks';
+import { TransactionTypes } from '@coffer.network/stacks';
 
 import { IS_TEST_ENV } from '@shared/environment';
 

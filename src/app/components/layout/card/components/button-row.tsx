@@ -1,4 +1,4 @@
-import { Flex, FlexProps } from 'leather-styles/jsx';
+import { Flex, FlexProps } from 'coffer-styles/jsx';
 
 import { HasChildren } from '@app/common/has-children';
 

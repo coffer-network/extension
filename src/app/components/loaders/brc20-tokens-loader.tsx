@@ -1,4 +1,4 @@
-import type { Brc20CryptoAssetInfo, CryptoAssetBalance, MarketData } from '@leather.io/models';
+import type { Brc20CryptoAssetInfo, CryptoAssetBalance, MarketData } from '@coffer.network/models';
 
 import { type AssetFilter, useManageTokens } from '@app/common/hooks/use-manage-tokens';
 import { useBrc20Tokens } from '@app/query/bitcoin/ordinals/brc20/brc20-tokens.hooks';

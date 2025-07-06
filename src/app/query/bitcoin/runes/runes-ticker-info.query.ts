@@ -6,8 +6,8 @@ import {
   type RuneTickerInfo,
   createGetRunesTickerInfoQueryOptions,
   createRuneCryptoAssetDetails,
-} from '@leather.io/query';
-import { baseCurrencyAmountInQuote, createMoney } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { baseCurrencyAmountInQuote, createMoney } from '@coffer.network/utils';
 
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';
 import { useBestInSlotApiRateLimiter } from '@app/query/rate-limiter/best-in-slot-limiter';

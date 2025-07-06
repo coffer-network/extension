@@ -1,9 +1,9 @@
 import type { StacksNetwork } from '@stacks/network';
 
-import type { Money } from '@leather.io/models';
-import { createRequestEncoder, stxTransferStx } from '@leather.io/rpc';
-import { type StacksUnsignedTokenTransferOptions, TransactionTypes } from '@leather.io/stacks';
-import { createMoney } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { createRequestEncoder, stxTransferStx } from '@coffer.network/rpc';
+import { type StacksUnsignedTokenTransferOptions, TransactionTypes } from '@coffer.network/stacks';
+import { createMoney } from '@coffer.network/utils';
 
 import { initialSearchParams } from '@app/common/initial-search-params';
 import type { Nonce } from '@app/features/nonce-editor/nonce-editor.context';

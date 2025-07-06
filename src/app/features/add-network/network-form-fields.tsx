@@ -2,14 +2,14 @@ import { useCallback } from 'react';
 
 import { NetworkSelectors } from '@tests/selectors/network.selectors';
 import { useFormikContext } from 'formik';
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
 import {
   BITCOIN_API_BASE_URL_MAINNET,
   BITCOIN_API_BASE_URL_TESTNET3,
   BITCOIN_API_BASE_URL_TESTNET4,
   type BitcoinNetwork,
-} from '@leather.io/models';
+} from '@coffer.network/models';
 import {
   CheckmarkIcon,
   ChevronDownIcon,
@@ -17,7 +17,7 @@ import {
   Select,
   SelectItemLayout,
   Title,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { useOnMount } from '@app/common/hooks/use-on-mount';
 

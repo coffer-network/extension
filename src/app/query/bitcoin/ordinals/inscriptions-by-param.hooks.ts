@@ -1,14 +1,14 @@
 import { TransactionInput } from '@scure/btc-signer/psbt';
 import { useQuery } from '@tanstack/react-query';
 
-import { BitcoinTx } from '@leather.io/models';
+import { BitcoinTx } from '@coffer.network/models';
 import {
   BestinSlotInscriptionBatchInfoResponse,
   createBestInSlotInscription,
   createGetInscriptionsByParamQueryOptions,
   normalizeBestInSlotInscriptionResponse,
-} from '@leather.io/query';
-import { isUndefined } from '@leather.io/utils';
+} from '@coffer.network/query';
+import { isUndefined } from '@coffer.network/utils';
 
 import { useBitcoinClient } from '../clients/bitcoin-client';
 import { useGetInscriptionsByOutputList } from './inscriptions-by-param.query';

@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 
-import type { NetworkConfiguration } from '@leather.io/models';
-import { stacksChainIdToCoreNetworkMode } from '@leather.io/stacks';
+import type { NetworkConfiguration } from '@coffer.network/models';
+import { stacksChainIdToCoreNetworkMode } from '@coffer.network/stacks';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

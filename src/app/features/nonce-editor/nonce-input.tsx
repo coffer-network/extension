@@ -1,4 +1,4 @@
-import { Input } from '@leather.io/ui';
+import { Input } from '@coffer.network/ui';
 
 import type { Nonce } from './nonce-editor.context';
 

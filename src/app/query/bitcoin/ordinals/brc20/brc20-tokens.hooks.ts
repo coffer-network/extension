@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js';
 
-import { type Brc20CryptoAssetInfo, createMarketData, createMarketPair } from '@leather.io/models';
-import { isFetchedWithSuccess } from '@leather.io/query';
-import { createBaseCryptoAssetBalance, createMoney, unitToFractionalUnit } from '@leather.io/utils';
+import { type Brc20CryptoAssetInfo, createMarketData, createMarketPair } from '@coffer.network/models';
+import { isFetchedWithSuccess } from '@coffer.network/query';
+import { createBaseCryptoAssetBalance, createMoney, unitToFractionalUnit } from '@coffer.network/utils';
 
 import { useCalculateBitcoinFiatValue } from '@app/query/common/market-data/market-data.hooks';
 import { useConfigOrdinalsbot } from '@app/query/common/remote-config/remote-config.query';

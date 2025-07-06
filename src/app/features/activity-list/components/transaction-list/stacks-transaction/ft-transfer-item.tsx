@@ -1,9 +1,9 @@
 import type { AddressTransactionWithTransfers } from '@stacks/stacks-blockchain-api-types';
 
-import { FtTransfer } from '@leather.io/models';
-import { isFtAsset } from '@leather.io/query';
-import { getPrincipalFromAssetString } from '@leather.io/stacks';
-import { ArrowDownIcon, ArrowUpIcon } from '@leather.io/ui';
+import { FtTransfer } from '@coffer.network/models';
+import { isFtAsset } from '@coffer.network/query';
+import { getPrincipalFromAssetString } from '@coffer.network/stacks';
+import { ArrowDownIcon, ArrowUpIcon } from '@coffer.network/ui';
 
 import { logger } from '@shared/logger';
 

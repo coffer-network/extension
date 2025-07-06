@@ -1,8 +1,8 @@
 import { z } from 'zod';
 
-import { type BitcoinNetworkModes, type DefaultNetworkConfigurations } from '@leather.io/models';
-import type { RpcParams, sendTransfer } from '@leather.io/rpc';
-import { uniqueArray } from '@leather.io/utils';
+import { type BitcoinNetworkModes, type DefaultNetworkConfigurations } from '@coffer.network/models';
+import type { RpcParams, sendTransfer } from '@coffer.network/rpc';
+import { uniqueArray } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 import {

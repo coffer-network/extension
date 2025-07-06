@@ -1,4 +1,4 @@
-import { Flex, HStack, styled } from 'leather-styles/jsx';
+import { Flex, HStack, styled } from 'coffer-styles/jsx';
 
 interface CollectibleAssetProps {
   icon: React.JSX.Element;

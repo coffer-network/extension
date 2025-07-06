@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import { PsbtInput } from './use-parsed-inputs';
 import { PsbtOutput } from './use-parsed-outputs';

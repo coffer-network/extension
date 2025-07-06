@@ -3,7 +3,7 @@ import { ClarityVersion } from '@stacks/transactions';
 import { mockStacksTokenContract } from '@tests/mocks/mock-stacks-contract';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 
-import type { RpcParams, stxDeployContract } from '@leather.io/rpc';
+import type { RpcParams, stxDeployContract } from '@coffer.network/rpc';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 

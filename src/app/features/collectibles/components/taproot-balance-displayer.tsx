@@ -1,5 +1,5 @@
-import { Link } from '@leather.io/ui';
-import { formatMoney } from '@leather.io/utils';
+import { Link } from '@coffer.network/ui';
+import { formatMoney } from '@coffer.network/utils';
 
 import { useCurrentTaprootAccountBalance } from '@app/query/bitcoin/ordinals/inscriptions/inscriptions.query';
 import { useRecoverUninscribedTaprootUtxosFeatureEnabled } from '@app/query/common/remote-config/remote-config.query';

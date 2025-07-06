@@ -1,4 +1,4 @@
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
 interface PasswordStrengthBarsProps {
   bars: string[];

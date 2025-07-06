@@ -1,6 +1,6 @@
-import { Box, type BoxProps, Circle } from 'leather-styles/jsx';
+import { Box, type BoxProps, Circle } from 'coffer-styles/jsx';
 
-import { ItemLayout, SkeletonLoader } from '@leather.io/ui';
+import { ItemLayout, SkeletonLoader } from '@coffer.network/ui';
 
 export function CryptoAssetItemPlaceholder({ ...props }: BoxProps) {
   return (

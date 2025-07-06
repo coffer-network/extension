@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 
-import { stxTransferStx } from '@leather.io/rpc';
-import { generateStacksUnsignedTransaction } from '@leather.io/stacks';
-import { StxAvatarIcon } from '@leather.io/ui';
-import { isString } from '@leather.io/utils';
+import { stxTransferStx } from '@coffer.network/rpc';
+import { generateStacksUnsignedTransaction } from '@coffer.network/stacks';
+import { StxAvatarIcon } from '@coffer.network/ui';
+import { isString } from '@coffer.network/utils';
 
 import { useConvertCryptoCurrencyToFiatAmount } from '@app/common/hooks/use-convert-to-fiat-amount';
 import { AccountStacksAddress } from '@app/components/account/account-stacks-address';

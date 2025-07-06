@@ -1,8 +1,8 @@
 import GenericErrorImg from '@assets/images/generic-error.png';
-import { Box, HStack, styled } from 'leather-styles/jsx';
+import { Box, HStack, styled } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
-import { delay } from '@leather.io/utils';
+import { Button } from '@coffer.network/ui';
+import { delay } from '@coffer.network/utils';
 
 import { useLoading } from '@app/common/hooks/use-loading';
 import { LedgerTitle } from '@app/features/ledger/components/ledger-title';

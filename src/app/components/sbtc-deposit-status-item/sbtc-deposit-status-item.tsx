@@ -1,8 +1,8 @@
 import SbtcAvatarIconSrc from '@assets/avatars/sbtc-avatar-icon.png';
-import { HStack } from 'leather-styles/jsx';
+import { HStack } from 'coffer-styles/jsx';
 
-import { Avatar, Caption, Link, Title } from '@leather.io/ui';
-import { satToBtc, truncateMiddle } from '@leather.io/utils';
+import { Avatar, Caption, Link, Title } from '@coffer.network/ui';
+import { satToBtc, truncateMiddle } from '@coffer.network/utils';
 
 import { analytics } from '@shared/utils/analytics';
 

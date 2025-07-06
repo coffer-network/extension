@@ -1,6 +1,6 @@
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Caption } from '@leather.io/ui';
+import { Caption } from '@coffer.network/ui';
 
 import { PrincipalValue } from './principal-value';
 

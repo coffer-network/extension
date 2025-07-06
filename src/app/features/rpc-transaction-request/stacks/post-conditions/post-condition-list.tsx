@@ -3,7 +3,7 @@ import {
   PostConditionType,
   type PostConditionWire,
 } from '@stacks/transactions';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { FungiblePostConditionItem } from './fungible-post-condition-item';
 import { PostConditionItem } from './post-condition-item';

@@ -1,9 +1,9 @@
 import { memo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { Eye1ClosedIcon, KeyIcon, LockIcon } from '@leather.io/ui';
+import { Eye1ClosedIcon, KeyIcon, LockIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 
@@ -30,8 +30,8 @@ export const BackUpSecretKeyPage = memo(() => {
           title="Back up your Secret Key"
           content={
             <>
-              You'll need it to access your wallet on a new device, or this one if you lose your
-              password — so back it up somewhere safe!
+              {/* You'll need it to access your wallet on a new device, or this one if you lose your
+              password — so back it up somewhere safe! */}
             </>
           }
           action={

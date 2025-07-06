@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 
-import { BarsTwoIcon } from '@leather.io/ui';
+import { BarsTwoIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 

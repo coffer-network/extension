@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import type { RpcMethodNames } from '@leather.io/rpc';
+import type { RpcMethodNames } from '@coffer.network/rpc';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 import { closeWindow } from '@shared/utils';

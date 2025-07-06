@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { FormError } from '@app/components/form-error';
 

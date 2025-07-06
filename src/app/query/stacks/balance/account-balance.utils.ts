@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js';
 
-import type { Money, StxCryptoAssetBalance } from '@leather.io/models';
-import type { HiroStxAddressBalanceResponse } from '@leather.io/query';
-import { createMoney, subtractMoney, sumMoney } from '@leather.io/utils';
+import type { Money, StxCryptoAssetBalance } from '@coffer.network/models';
+import type { HiroStxAddressBalanceResponse } from '@coffer.network/query';
+import { createMoney, subtractMoney, sumMoney } from '@coffer.network/utils';
 
 const accountBalanceStxKeys = ['balance', 'locked'] as const;
 type AccountBalanceStxKeys = (typeof accountBalanceStxKeys)[number];

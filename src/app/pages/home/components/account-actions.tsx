@@ -1,9 +1,9 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { HomePageSelectors } from '@tests/selectors/home.selectors';
-import { Box, Flex } from 'leather-styles/jsx';
+import { Box, Flex } from 'coffer-styles/jsx';
 
-import { ArrowsRepeatLeftRightIcon, CreditCardIcon, IconButton, InboxIcon } from '@leather.io/ui';
+import { ArrowsRepeatLeftRightIcon, CreditCardIcon, IconButton, InboxIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { replaceRouteParams } from '@shared/utils/replace-route-params';
@@ -60,6 +60,7 @@ export function AccountActions() {
           data-testid={HomePageSelectors.FundAccountBtn}
           icon={<CreditCardIcon />}
           label="Buy"
+          disabled
           onClick={() => navigate(RouteUrls.FundChooseCurrency)}
         />
       )}
@@ -67,7 +68,7 @@ export function AccountActions() {
         <Box display="flex">
           <IconButton
             data-testid={HomePageSelectors.SwapBtn}
-            disabled={swapsBtnDisabled}
+            disabled
             icon={<ArrowsRepeatLeftRightIcon />}
             label="Swap"
             onClick={navigateToDefaultSwapRoute}

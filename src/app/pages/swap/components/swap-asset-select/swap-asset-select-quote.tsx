@@ -5,7 +5,7 @@ import {
   i18nFormatCurrency,
   isDefined,
   isMoneyGreaterThanZero,
-} from '@leather.io/utils';
+} from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 

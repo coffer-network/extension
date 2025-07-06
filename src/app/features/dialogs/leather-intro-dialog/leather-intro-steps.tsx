@@ -2,10 +2,10 @@ import { useLayoutEffect, useRef, useState } from 'react';
 import Confetti from 'react-dom-confetti';
 
 import { Dialog, Inset } from '@radix-ui/themes';
-import { css } from 'leather-styles/css';
-import { Box, Flex, Stack, styled } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Box, Flex, Stack, styled } from 'coffer-styles/jsx';
 
-import { Button } from '@leather.io/ui';
+import { Button } from '@coffer.network/ui';
 
 import { HasChildren } from '@app/common/has-children';
 import { openInNewTab } from '@app/common/utils/open-in-new-tab';

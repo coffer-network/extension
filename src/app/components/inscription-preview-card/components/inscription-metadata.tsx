@@ -1,6 +1,6 @@
-import { Flex, styled } from 'leather-styles/jsx';
+import { Flex, styled } from 'coffer-styles/jsx';
 
-import { Link } from '@leather.io/ui';
+import { Link } from '@coffer.network/ui';
 
 interface InscriptionMetadataProps {
   action?(): void;

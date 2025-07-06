@@ -1,6 +1,6 @@
-import { HStack, styled } from 'leather-styles/jsx';
+import { HStack, styled } from 'coffer-styles/jsx';
 
-import { Button, CheckmarkIcon, SkeletonLoader } from '@leather.io/ui';
+import { Button, CheckmarkIcon, SkeletonLoader } from '@coffer.network/ui';
 
 interface GetTransactionActionsArgs {
   isLoading: boolean;

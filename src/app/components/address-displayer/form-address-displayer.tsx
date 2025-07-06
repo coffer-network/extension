@@ -1,6 +1,6 @@
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
 
-import { AddressDisplayer, type AddressDisplayerProps } from '@leather.io/ui';
+import { AddressDisplayer, type AddressDisplayerProps } from '@coffer.network/ui';
 
 type FormAddressDisplayerProps = AddressDisplayerProps;
 

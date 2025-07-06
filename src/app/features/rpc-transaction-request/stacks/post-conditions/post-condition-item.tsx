@@ -1,7 +1,7 @@
 import { NonFungiblePostConditionWire, STXPostConditionWire } from '@stacks/transactions';
-import { Box, Stack, styled } from 'leather-styles/jsx';
+import { Box, Stack, styled } from 'coffer-styles/jsx';
 
-import { ItemLayout, StxAvatarIcon } from '@leather.io/ui';
+import { ItemLayout, StxAvatarIcon } from '@coffer.network/ui';
 
 import { isValidUrl } from '@shared/utils/urls';
 

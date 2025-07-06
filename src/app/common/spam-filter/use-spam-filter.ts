@@ -1,4 +1,4 @@
-import { spamFilter } from '@leather.io/utils';
+import { spamFilter } from '@coffer.network/utils';
 
 import { useConfigSpamFilterWhitelist } from '@app/query/common/remote-config/remote-config.query';
 

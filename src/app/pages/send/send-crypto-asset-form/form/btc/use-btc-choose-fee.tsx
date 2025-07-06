@@ -1,4 +1,4 @@
-import { btcToSat, createMoney } from '@leather.io/utils';
+import { btcToSat, createMoney } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 

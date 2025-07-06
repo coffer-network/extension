@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react';
 
-import type { Money } from '@leather.io/models';
-import type { UtxoResponseItem } from '@leather.io/query';
+import type { Money } from '@coffer.network/models';
+import type { UtxoResponseItem } from '@coffer.network/query';
 
 import type { TransferRecipient } from '@shared/models/form.model';
 

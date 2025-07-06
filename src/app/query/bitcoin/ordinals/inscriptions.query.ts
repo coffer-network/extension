@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 
 import { useInfiniteQuery } from '@tanstack/react-query';
 
-import type { WalletDefaultNetworkConfigurationIds } from '@leather.io/models';
-import { createGetInscriptionsByAddressCacheKey } from '@leather.io/query';
+import type { WalletDefaultNetworkConfigurationIds } from '@coffer.network/models';
+import { createGetInscriptionsByAddressCacheKey } from '@coffer.network/query';
 
 import { useLeatherNetwork } from '@app/query/leather-query-provider';
 import { useBestInSlotApiRateLimiter } from '@app/query/rate-limiter/best-in-slot-limiter';

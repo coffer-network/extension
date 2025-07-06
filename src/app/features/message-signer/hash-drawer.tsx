@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import { ChevronDownIcon, ChevronUpIcon } from '@leather.io/ui';
+import { ChevronDownIcon, ChevronUpIcon } from '@coffer.network/ui';
 
 interface ShowHashButtonProps {
   expanded: boolean;

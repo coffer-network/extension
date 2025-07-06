@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import type { RouteQuote } from '@bitflowlabs/core-sdk';
 import { PostConditionMode, serializeCV } from '@stacks/transactions';
 
-import { TransactionTypes, getPostConditions } from '@leather.io/stacks';
-import { isError, isUndefined } from '@leather.io/utils';
+import { TransactionTypes, getPostConditions } from '@coffer.network/stacks';
+import { isError, isUndefined } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { RouteUrls } from '@shared/route-urls';

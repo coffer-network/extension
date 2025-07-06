@@ -49,7 +49,7 @@ const config: StorybookConfig = {
           },
           {
             test: /\.(js)$/,
-            include: [/node_modules\/@leather.io\/ui/],
+            include: [/node_modules\/@coffer.network\/ui/],
             loader: 'esbuild-loader',
             options: { tsconfig: './tsconfig.json', loader: 'jsx', target: 'es2020' },
           },

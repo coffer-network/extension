@@ -12,8 +12,8 @@ import {
 import {
   HIRO_API_BASE_URL_NAKAMOTO_TESTNET,
   bitcoinNetworkToNetworkMode,
-} from '@leather.io/models';
-import { whenStacksChainId } from '@leather.io/stacks';
+} from '@coffer.network/models';
+import { whenStacksChainId } from '@coffer.network/stacks';
 
 import { useAppDispatch } from '@app/store';
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import { ClarityValue } from '@stacks/transactions';
-import { Box, Divider, HStack, Stack, styled } from 'leather-styles/jsx';
+import { Box, Divider, HStack, Stack, styled } from 'coffer-styles/jsx';
 
 import { StructuredMessageDataDomain } from '@shared/signature/signature-types';
 

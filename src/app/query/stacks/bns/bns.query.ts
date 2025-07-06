@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetBnsNamesOwnedByAddressQueryOptions } from '@leather.io/query';
+import { createGetBnsNamesOwnedByAddressQueryOptions } from '@coffer.network/query';
 
 import { useCurrentNetworkState } from '@app/query/leather-query-provider';
 

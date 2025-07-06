@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { baseCurrencyAmountInQuote, createMoney, i18nFormatCurrency } from '@leather.io/utils';
+import { baseCurrencyAmountInQuote, createMoney, i18nFormatCurrency } from '@coffer.network/utils';
 
 import { useBtcCryptoAssetBalanceNativeSegwit } from '@app/query/bitcoin/balance/btc-balance-native-segwit.hooks';
 import { useCryptoCurrencyMarketDataMeanAverage } from '@app/query/common/market-data/market-data.hooks';

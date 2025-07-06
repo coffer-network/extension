@@ -1,4 +1,4 @@
-import { Flex, HStack, styled } from 'leather-styles/jsx';
+import { Flex, HStack, styled } from 'coffer-styles/jsx';
 
 import {
   Approver,
@@ -7,7 +7,7 @@ import {
   Flag,
   NumberedListIcon,
   Pressable,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import type { Nonce } from './nonce-editor.context';
 

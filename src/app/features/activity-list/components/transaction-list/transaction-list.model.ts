@@ -1,6 +1,6 @@
 import { AddressTransactionWithTransfers } from '@stacks/stacks-blockchain-api-types';
 
-import type { BitcoinTx } from '@leather.io/models';
+import type { BitcoinTx } from '@coffer.network/models';
 
 import type { SbtcDeposit } from '@app/query/sbtc/sbtc-deposits.query';
 

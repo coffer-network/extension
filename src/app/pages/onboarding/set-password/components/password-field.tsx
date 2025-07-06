@@ -2,9 +2,9 @@ import { useMemo, useState } from 'react';
 
 import { OnboardingSelectors } from '@tests/selectors/onboarding.selectors';
 import { useField } from 'formik';
-import { Box, Flex, styled } from 'leather-styles/jsx';
+import { Box, Flex, styled } from 'coffer-styles/jsx';
 
-import { Caption, Eye1ClosedIcon, Eye1Icon, Input } from '@leather.io/ui';
+import { Caption, Eye1ClosedIcon, Eye1Icon, Input } from '@coffer.network/ui';
 
 import { useThemeSwitcher } from '@app/common/theme-provider';
 import { ValidatedPassword } from '@app/common/validation/validate-password';

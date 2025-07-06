@@ -1,7 +1,7 @@
 import type React from 'react';
 
-import type { Blockchain, Currency } from '@leather.io/models';
-import { ItemLayout, Pressable } from '@leather.io/ui';
+import type { Blockchain, Currency } from '@coffer.network/models';
+import { ItemLayout, Pressable } from '@coffer.network/ui';
 
 import { capitalize } from '@app/common/utils';
 import { useCheckLedgerBlockchainAvailable } from '@app/store/accounts/blockchain/utils';

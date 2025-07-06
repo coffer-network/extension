@@ -1,8 +1,8 @@
 import { memo } from 'react';
 
-import { type HTMLStyledProps, styled } from 'leather-styles/jsx';
+import { type HTMLStyledProps, styled } from 'coffer-styles/jsx';
 
-import { shimmerStyles } from '@leather.io/ui';
+import { shimmerStyles } from '@coffer.network/ui';
 
 interface AccountNameLayoutProps extends HTMLStyledProps<'span'> {
   children: React.ReactNode;

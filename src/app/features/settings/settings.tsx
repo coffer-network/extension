@@ -2,8 +2,8 @@ import { useMemo, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
-import { css } from 'leather-styles/css';
-import { Flex, Stack, styled } from 'leather-styles/jsx';
+import { css } from 'coffer-styles/css';
+import { Flex, Stack, styled } from 'coffer-styles/jsx';
 
 import {
   ArrowsRepeatLeftRightIcon,
@@ -23,7 +23,7 @@ import {
   MegaphoneIcon,
   SunInCloudIcon,
   SupportIcon,
-} from '@leather.io/ui';
+} from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics, openFeedbackSheet } from '@shared/utils/analytics';
@@ -241,7 +241,7 @@ export function Settings({
               </DropdownMenu.Item>
             </DropdownMenu.Group>
             <Divider />
-            <DropdownMenu.Group>
+            {/* <DropdownMenu.Group>
               <DropdownMenu.Item
                 data-testid={SettingsSelectors.GetSupportMenuItem}
                 onSelect={() => {
@@ -260,7 +260,7 @@ export function Settings({
                   Give feedback
                 </Flag>
               </DropdownMenu.Item>
-            </DropdownMenu.Group>
+            </DropdownMenu.Group> */}
 
             {bottomGroupItems.length > 0 && (
               <>

@@ -1,10 +1,10 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { Box, Flex, HStack, Stack } from 'leather-styles/jsx';
+import { Box, Flex, HStack, Stack } from 'coffer-styles/jsx';
 import get from 'lodash.get';
 
-import type { Blockchain, Inscription } from '@leather.io/models';
-import { CheckmarkIcon, CopyIcon, ExternalLinkIcon, Sheet, SheetHeader } from '@leather.io/ui';
+import type { Blockchain, Inscription } from '@coffer.network/models';
+import { CheckmarkIcon, CopyIcon, ExternalLinkIcon, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

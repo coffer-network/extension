@@ -1,5 +1,5 @@
-import { StacksTx } from '@leather.io/models';
-import { CodeIcon, FunctionIcon, PlusIcon } from '@leather.io/ui';
+import { StacksTx } from '@coffer.network/models';
+import { CodeIcon, FunctionIcon, PlusIcon } from '@coffer.network/ui';
 
 import { TokenTransferIcon } from './token-transfer-icon';
 

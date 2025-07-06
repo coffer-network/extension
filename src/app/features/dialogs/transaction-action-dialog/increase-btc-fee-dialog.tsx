@@ -2,11 +2,11 @@ import { Suspense } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 
 import { Formik } from 'formik';
-import { Flex, Stack } from 'leather-styles/jsx';
+import { Flex, Stack } from 'coffer-styles/jsx';
 
-import type { BitcoinTx } from '@leather.io/models';
-import { Caption, Sheet, SheetHeader, Spinner } from '@leather.io/ui';
-import { btcToSat, createMoney, formatMoney } from '@leather.io/utils';
+import type { BitcoinTx } from '@coffer.network/models';
+import { Caption, Sheet, SheetHeader, Spinner } from '@coffer.network/ui';
+import { btcToSat, createMoney, formatMoney } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 

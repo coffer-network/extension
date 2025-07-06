@@ -1,6 +1,6 @@
 import * as btc from '@scure/btc-signer';
 
-import { getPsbtTxInputs, getPsbtTxOutputs } from '@leather.io/bitcoin';
+import { getPsbtTxInputs, getPsbtTxOutputs } from '@coffer.network/bitcoin';
 
 import { getBitcoinInputValue } from '@shared/crypto/bitcoin/bitcoin.utils';
 

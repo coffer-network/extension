@@ -1,8 +1,8 @@
-import { Box, styled } from 'leather-styles/jsx';
+import { Box, styled } from 'coffer-styles/jsx';
 
-import type { Money } from '@leather.io/models';
-import { Approver, Caption, ItemLayout, SkeletonLoader } from '@leather.io/ui';
-import { formatDustUsdAmounts, formatMoneyPadded, i18nFormatCurrency } from '@leather.io/utils';
+import type { Money } from '@coffer.network/models';
+import { Approver, Caption, ItemLayout, SkeletonLoader } from '@coffer.network/ui';
+import { formatDustUsdAmounts, formatMoneyPadded, i18nFormatCurrency } from '@coffer.network/utils';
 
 import { useAccountDisplayName } from '@app/common/hooks/account/use-account-names';
 import { AccountNameLayout } from '@app/components/account/account-name';

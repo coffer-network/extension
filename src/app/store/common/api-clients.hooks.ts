@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { stacksClient } from '@leather.io/query';
+import { stacksClient } from '@coffer.network/query';
 
 import { useCurrentNetworkState } from '../networks/networks.hooks';
 

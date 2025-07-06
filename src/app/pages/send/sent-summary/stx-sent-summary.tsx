@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
-import { Stack } from 'leather-styles/jsx';
+import { Stack } from 'coffer-styles/jsx';
 
 import { analytics } from '@shared/utils/analytics';
 

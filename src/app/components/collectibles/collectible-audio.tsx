@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { HeadsetIcon } from '@leather.io/ui';
+import { HeadsetIcon } from '@coffer.network/ui';
 
 import { CollectibleItemLayout, CollectibleItemLayoutProps } from './collectible-item.layout';
 import { CollectiblePlaceholderLayout } from './collectible-placeholder.layout';

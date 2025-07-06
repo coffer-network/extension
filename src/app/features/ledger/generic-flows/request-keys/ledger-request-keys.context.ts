@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react';
 
-import type { SupportedBlockchains } from '@leather.io/models';
+import type { SupportedBlockchains } from '@coffer.network/models';
 
 import { BaseLedgerOperationContext } from '../../utils/generic-ledger-utils';
 

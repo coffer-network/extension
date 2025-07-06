@@ -2278,7 +2278,7 @@
 * rename leaf to leather ([66d159e](https://github.com/leather-wallet/extension/commit/66d159eba66b84f474112bbeb6b0c98ebb847c6c))
 * request feature link ([4e6c09d](https://github.com/leather-wallet/extension/commit/4e6c09d68693112dedcf30b0a4d0e6e1649eae3d))
 * settings legacy test ([068d3cd](https://github.com/leather-wallet/extension/commit/068d3cd465e1a642a763fecfa0e3ce5e94b07286))
-* swaps ui with leather-styles ([4884fc5](https://github.com/leather-wallet/extension/commit/4884fc5ac5c806b2a227f9708940bb43b3f8783e))
+* swaps ui with coffer-styles ([4884fc5](https://github.com/leather-wallet/extension/commit/4884fc5ac5c806b2a227f9708940bb43b3f8783e))
 * update to leather url paths ([203fad5](https://github.com/leather-wallet/extension/commit/203fad511e855ed2f59fc8307f3ac45784bea20d))
 
 ## [6.5.1](https://github.com/hirosystems/wallet/compare/v6.5.0...v6.5.1) (2023-08-31)

@@ -1,8 +1,8 @@
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { useField } from 'formik';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { Input } from '@leather.io/ui';
+import { Input } from '@coffer.network/ui';
 
 import { useShowFieldError } from '@app/common/form-utils';
 import { TextInputFieldError } from '@app/components/field-error';

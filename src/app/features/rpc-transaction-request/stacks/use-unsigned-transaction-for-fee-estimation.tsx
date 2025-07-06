@@ -1,10 +1,10 @@
 import { useAsync } from 'react-async-hook';
 
-import { RpcErrorCode, type RpcMethodNames, createRpcErrorResponse } from '@leather.io/rpc';
+import { RpcErrorCode, type RpcMethodNames, createRpcErrorResponse } from '@coffer.network/rpc';
 import {
   type StacksUnsignedTransactionOptions,
   generateStacksUnsignedTransaction,
-} from '@leather.io/stacks';
+} from '@coffer.network/stacks';
 
 import { RpcErrorMessage } from '@shared/rpc/methods/validation.utils';
 

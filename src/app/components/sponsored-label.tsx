@@ -1,6 +1,6 @@
-import { HStack, Stack, styled } from 'leather-styles/jsx';
+import { HStack, Stack, styled } from 'coffer-styles/jsx';
 
-import { ErrorCircleIcon } from '@leather.io/ui';
+import { ErrorCircleIcon } from '@coffer.network/ui';
 
 // #4476 TODO - visually inspect this
 export function SponsoredLabel(): React.JSX.Element {

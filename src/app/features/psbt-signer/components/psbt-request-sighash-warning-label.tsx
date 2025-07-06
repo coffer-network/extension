@@ -1,4 +1,4 @@
-import { Callout } from '@leather.io/ui';
+import { Callout } from '@coffer.network/ui';
 
 interface PsbtRequestSighashWarningLabelProps {
   origin: string;

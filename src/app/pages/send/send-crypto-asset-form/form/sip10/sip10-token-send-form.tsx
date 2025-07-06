@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom';
 
-import type { CryptoAssetBalance, MarketData, Sip10CryptoAssetInfo } from '@leather.io/models';
+import type { CryptoAssetBalance, MarketData, Sip10CryptoAssetInfo } from '@coffer.network/models';
 
 import { RouteUrls } from '@shared/route-urls';
 

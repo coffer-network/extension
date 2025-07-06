@@ -1,6 +1,6 @@
 import { ReactNode, cloneElement, isValidElement } from 'react';
 
-import { Hr, HrProps } from '@leather.io/ui';
+import { Hr, HrProps } from '@coffer.network/ui';
 
 interface DividerSeparatorProps extends HrProps {
   children: ReactNode;

@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { createGetNetworkStatusQueryOptions } from '@leather.io/query';
+import { createGetNetworkStatusQueryOptions } from '@coffer.network/query';
 
 import { useStacksClient } from '../stacks-client';
 

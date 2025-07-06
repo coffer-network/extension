@@ -1,5 +1,5 @@
 import { sanitize } from 'dompurify';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
 import { parseJson } from '@app/components/json';
 import { LoadingSpinner } from '@app/components/loading-spinner';

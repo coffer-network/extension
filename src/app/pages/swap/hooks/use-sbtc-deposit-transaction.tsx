@@ -14,10 +14,10 @@ import {
   buildSbtcDepositTx,
 } from 'sbtc';
 
-import { BitcoinSigner } from '@leather.io/bitcoin';
-import type { BitcoinNetworkModes } from '@leather.io/models';
-import { type UtxoResponseItem } from '@leather.io/query';
-import { btcToSat, createMoney } from '@leather.io/utils';
+import { BitcoinSigner } from '@coffer.network/bitcoin';
+import type { BitcoinNetworkModes } from '@coffer.network/models';
+import { type UtxoResponseItem } from '@coffer.network/query';
+import { btcToSat, createMoney } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import { RouteUrls } from '@shared/route-urls';

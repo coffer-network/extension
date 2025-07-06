@@ -5,8 +5,8 @@ import * as btc from '@scure/btc-signer';
 import BigNumber from 'bignumber.js';
 import * as yup from 'yup';
 
-import type { BitcoinTx } from '@leather.io/models';
-import { btcToSat, createMoney, isError } from '@leather.io/utils';
+import type { BitcoinTx } from '@coffer.network/models';
+import { btcToSat, createMoney, isError } from '@coffer.network/utils';
 
 import { RouteUrls } from '@shared/route-urls';
 import { analytics } from '@shared/utils/analytics';

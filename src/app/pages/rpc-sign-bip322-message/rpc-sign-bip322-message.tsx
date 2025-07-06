@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 
-import { truncateMiddle } from '@leather.io/utils';
+import { truncateMiddle } from '@coffer.network/utils';
 
 import { closeWindow } from '@shared/utils';
 

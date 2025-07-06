@@ -1,8 +1,8 @@
 import { memo } from 'react';
 
-import { Box, CircleProps } from 'leather-styles/jsx';
+import { Box, CircleProps } from 'coffer-styles/jsx';
 
-import { DynamicColorCircle } from '@leather.io/ui';
+import { DynamicColorCircle } from '@coffer.network/ui';
 
 const getAccountNumber = (index: number) => {
   // Always return account number in the Account Circle

@@ -2,7 +2,7 @@ import { useAsync } from 'react-async-hook';
 
 import { useFormikContext } from 'formik';
 
-import { isDefined } from '@leather.io/utils';
+import { isDefined } from '@coffer.network/utils';
 
 import {
   StacksSendFormValues,

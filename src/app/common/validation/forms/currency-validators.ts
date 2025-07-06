@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 
-import { BTC_DECIMALS, STX_DECIMALS } from '@leather.io/constants';
-import { countDecimals, isNumber } from '@leather.io/utils';
+import { BTC_DECIMALS, STX_DECIMALS } from '@coffer.network/constants';
+import { countDecimals, isNumber } from '@coffer.network/utils';
 
 import { FormErrorMessages } from '@shared/error-messages';
 

@@ -14,9 +14,9 @@ import {
   uintCV,
 } from '@stacks/transactions';
 
-import type { Sip10CryptoAssetInfo } from '@leather.io/models';
-import { TransactionTypes, getStacksAssetStringParts } from '@leather.io/stacks';
-import { stxToMicroStx } from '@leather.io/utils';
+import type { Sip10CryptoAssetInfo } from '@coffer.network/models';
+import { TransactionTypes, getStacksAssetStringParts } from '@coffer.network/stacks';
+import { stxToMicroStx } from '@coffer.network/utils';
 
 import { logger } from '@shared/logger';
 import type { StacksSendFormValues, StacksTransactionFormValues } from '@shared/models/form.model';

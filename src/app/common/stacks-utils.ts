@@ -3,9 +3,9 @@ import { type ContractIdString, parseContractId } from '@stacks/transactions';
 import BigNumber from 'bignumber.js';
 import { c32addressDecode } from 'c32check';
 
-import { STX_DECIMALS } from '@leather.io/constants';
-import type { NetworkConfiguration } from '@leather.io/models';
-import { initBigNumber, microStxToStx } from '@leather.io/utils';
+import { STX_DECIMALS } from '@coffer.network/constants';
+import type { NetworkConfiguration } from '@coffer.network/models';
+import { initBigNumber, microStxToStx } from '@coffer.network/utils';
 
 import { isValidUrl } from '@shared/utils/urls';
 

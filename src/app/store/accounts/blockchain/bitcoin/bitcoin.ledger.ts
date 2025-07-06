@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 
-import { bitcoinNetworkModeToCoreNetworkMode, inferNetworkFromPath } from '@leather.io/bitcoin';
+import { bitcoinNetworkModeToCoreNetworkMode, inferNetworkFromPath } from '@coffer.network/bitcoin';
 
 import { selectDefaultWalletBitcoinKeys } from '@app/store/ledger/bitcoin/bitcoin-key.slice';
 import { useCurrentNetwork } from '@app/store/networks/networks.selectors';

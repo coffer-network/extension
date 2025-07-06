@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { Toast, ToastLayout } from '@leather.io/ui';
+import { Toast, ToastLayout } from '@coffer.network/ui';
 
 import type { HasChildren } from '@app/common/has-children';
 

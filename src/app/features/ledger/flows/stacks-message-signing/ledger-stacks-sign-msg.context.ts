@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { noop } from '@leather.io/utils';
+import { noop } from '@coffer.network/utils';
 
 import { UnsignedMessage } from '@shared/signature/signature-types';
 

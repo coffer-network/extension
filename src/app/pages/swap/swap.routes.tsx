@@ -1,6 +1,6 @@
 import { Route } from 'react-router-dom';
 
-import type { Blockchain } from '@leather.io/models';
+import type { Blockchain } from '@coffer.network/models';
 
 import { RouteUrls } from '@shared/route-urls';
 import { replaceRouteParams } from '@shared/utils/replace-route-params';

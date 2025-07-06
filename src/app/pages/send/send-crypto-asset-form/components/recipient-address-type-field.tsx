@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 
 import { SendCryptoAssetSelectors } from '@tests/selectors/send.selectors';
 import { useField, useFormikContext } from 'formik';
-import { Box } from 'leather-styles/jsx';
+import { Box } from 'coffer-styles/jsx';
 
-import { Input } from '@leather.io/ui';
+import { Input } from '@coffer.network/ui';
 
 import { BitcoinSendFormValues, StacksSendFormValues } from '@shared/models/form.model';
 

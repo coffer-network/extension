@@ -1,8 +1,8 @@
 import { memo } from 'react';
 
-import { Flex, Stack } from 'leather-styles/jsx';
+import { Flex, Stack } from 'coffer-styles/jsx';
 
-import { Caption, Title } from '@leather.io/ui';
+import { Caption, Title } from '@coffer.network/ui';
 
 import { getProfileDataContentFromToken } from '@app/common/profiles/requests';
 import { addPortSuffix, getUrlHostname } from '@app/common/utils';

@@ -9,14 +9,14 @@ import {
   standardPrincipalCVFromAddress,
 } from '@stacks/transactions';
 
-import type { Money } from '@leather.io/models';
-import { createRequestEncoder, stxTransferSip9Nft } from '@leather.io/rpc';
+import type { Money } from '@coffer.network/models';
+import { createRequestEncoder, stxTransferSip9Nft } from '@coffer.network/rpc';
 import {
   type StacksUnsignedContractCallOptions,
   TransactionTypes,
   getStacksAssetStringParts,
-} from '@leather.io/stacks';
-import { createMoney } from '@leather.io/utils';
+} from '@coffer.network/stacks';
+import { createMoney } from '@coffer.network/utils';
 
 import { getAddressFromAssetString } from '@shared/utils';
 import { makeNftPostCondition } from '@shared/utils/post-conditions';

@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 
 import { SettingsSelectors } from '@tests/selectors/settings.selectors';
 import { SharedComponentsSelectors } from '@tests/selectors/shared-component.selectors';
-import { styled } from 'leather-styles/jsx';
+import { styled } from 'coffer-styles/jsx';
 
-import { ArrowLeftIcon, BarsTwoIcon, CloseIcon } from '@leather.io/ui';
+import { ArrowLeftIcon, BarsTwoIcon, CloseIcon } from '@coffer.network/ui';
 
 import { RouteUrls } from '@shared/route-urls';
 
