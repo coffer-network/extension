@@ -14,6 +14,7 @@ import { BtcCryptoAssetItem } from '@app/features/asset-list/bitcoin/btc-crypto-
 import { StxCryptoAssetItem } from '@app/features/asset-list/stacks/stx-crypo-asset-item/stx-crypto-asset-item';
 import { PageHeader } from '@app/features/container/headers/page.header';
 import { useIsPrivateMode } from '@app/store/settings/settings.selectors';
+import { useCurrentAddressIndex } from '@app/store/accounts/account';
 
 export function ChooseCryptoAssetToFund() {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ export function ChooseCryptoAssetToFund() {
     (symbol: string) => navigate(RouteUrls.Fund.replace(':currency', symbol)),
     [navigate]
   );
-
+  const addressIndex = useCurrentAddressIndex();
   return (
     <>
       <PageHeader isSettingsVisibleOnSm={false} onBackLocation={RouteUrls.Home} />
@@ -39,7 +40,7 @@ export function ChooseCryptoAssetToFund() {
             }
           >
             <Stack pb="space.04" px="space.05">
-              <BitcoinNativeSegwitAccountLoader current>
+              <BitcoinNativeSegwitAccountLoader current addressIndex={addressIndex}>
                 {signer => (
                   <BtcAssetItemBalanceLoader address={signer.address}>
                     {(balance, isLoading) => (

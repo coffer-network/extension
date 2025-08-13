@@ -2,10 +2,12 @@ import { BitcoinNativeSegwitAccountLoader } from '@app/components/loaders/bitcoi
 import { BitcoinUtxosLoader } from '@app/components/loaders/bitcoin-utxos-loader';
 
 import { BitcoinSwapProvider } from '../providers/bitcoin-swap-provider';
+import { useCurrentAddressIndex } from '@app/store/accounts/account';
 
 export function BitcoinSwapContainer() {
+  const addressIndex = useCurrentAddressIndex();
   return (
-    <BitcoinNativeSegwitAccountLoader current>
+    <BitcoinNativeSegwitAccountLoader current addressIndex={addressIndex}>
       {signer => (
         <BitcoinUtxosLoader>
           {utxos => {

@@ -38,7 +38,8 @@ export function RecipientAccountsSheet() {
               <AccountListItem
                 stacksAccount={stacksAccounts[index]}
                 onClose={onGoBack}
-                index={index}
+                index={0}
+                addressIndex={index}
               />
             </Box>
           )}

@@ -20,6 +20,7 @@ export function initializeIndexZeroAccount(): AppThunk {
         stxChainSlice.actions.initializeAccount({
           highestAccountIndex: 0,
           currentAccountIndex: 0,
+          currentAddressIndex: 0,
           currentAccountStacksDescriptor: stacksDescriptor,
         })
       );
@@ -48,7 +49,8 @@ export function createNewAccount(): AppThunk {
     const keychain = selectRootKeychain(state);
     const highestIndex = selectHighestAccountIndex(state);
     if (!keychain) throw new Error('No root keychain found');
-    const stacksDescriptor = stacksRootKeychainToAccountDescriptor(keychain, highestIndex + 1);
+    // Accounts now always use index 0; to create a new account, we increment the address index in the HD path instead of the account index.
+    const stacksDescriptor = stacksRootKeychainToAccountDescriptor(keychain, 0);
     dispatch(stxChainSlice.actions.createNewAccount(stacksDescriptor));
   };
 }

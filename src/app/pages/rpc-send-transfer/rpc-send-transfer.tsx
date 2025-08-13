@@ -20,13 +20,14 @@ import { FeeEditor } from '@app/features/fee-editor/fee-editor';
 import { useFeeEditorContext } from '@app/features/fee-editor/fee-editor.context';
 import { SigningAccountCard } from '@app/features/rpc-transaction-request/signing-account-card/signing-account-card';
 import { useBreakOnNonCompliantEntity } from '@app/query/common/compliance-checker/compliance-checker.query';
-import { useCurrentAccountIndex } from '@app/store/accounts/account';
+import { useCurrentAccountIndex, useCurrentAddressIndex } from '@app/store/accounts/account';
 
 import { useRpcSendTransferContext } from './rpc-send-transfer.context';
 import { useRpcSendTransferActions } from './use-rpc-send-transfer-actions';
 
 export function RpcSendTransfer() {
   const index = useCurrentAccountIndex();
+  const addressIndex = useCurrentAddressIndex();
   const { availableBalance, isLoadingFees, marketData, onUserActivatesFeeEditor, selectedFee } =
     useFeeEditorContext();
   const { recipients, recipientAddresses, amount, origin, isLoadingBalance, tabId } =
@@ -63,7 +64,7 @@ export function RpcSendTransfer() {
             }}
           />
           <SigningAccountCard
-            address={<AccountBitcoinAddress index={index} />}
+            address={<AccountBitcoinAddress addressIndex={addressIndex} index={index} />}
             availableBalance={availableBalance}
             fiatBalance={convertToFiatAmount(availableBalance)}
             isLoadingBalance={isLoadingBalance}

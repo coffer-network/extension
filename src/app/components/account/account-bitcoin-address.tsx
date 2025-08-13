@@ -5,10 +5,11 @@ import { BitcoinNativeSegwitAccountLoader } from '../loaders/bitcoin-account-loa
 
 interface AccountBitcoinAddressProps {
   index: number;
+  addressIndex: number;
 }
-export function AccountBitcoinAddress({ index }: AccountBitcoinAddressProps) {
+export function AccountBitcoinAddress({ index, addressIndex }: AccountBitcoinAddressProps) {
   return (
-    <BitcoinNativeSegwitAccountLoader index={index}>
+    <BitcoinNativeSegwitAccountLoader index={index} addressIndex={addressIndex}>
       {signer => <Caption>{truncateMiddle(signer.address, 4)}</Caption>}
     </BitcoinNativeSegwitAccountLoader>
   );

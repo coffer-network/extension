@@ -29,6 +29,7 @@ import type { AssetFilter } from '../../common/hooks/use-manage-tokens';
 import { ConnectLedgerAssetItemFallback } from './_components/connect-ledger-asset-item-fallback';
 import { BtcCryptoAssetItem } from './bitcoin/btc-crypto-asset-item/btc-crypto-asset-item';
 import { Sip10TokenAssetList } from './stacks/sip10-token-asset-list/sip10-token-asset-list';
+import { useCurrentAddressIndex } from '@app/store/accounts/account';
 
 export type AssetListVariant = 'interactive' | 'read-only';
 export type AssetRightElementVariant = 'balance' | 'toggle';
@@ -53,7 +54,7 @@ export function AssetList({
   const currentAccount = useCurrentStacksAccount();
   const isLedger = useHasLedgerKeys();
   const isPrivate = useIsPrivateMode();
-
+  const addressIndex = useCurrentAddressIndex();
   const isReadOnly = variant === 'read-only';
 
   return (
@@ -61,6 +62,7 @@ export function AssetList({
       {showUnmanageableTokens && (
         <BitcoinNativeSegwitAccountLoader
           current
+          addressIndex={addressIndex}
           fallback={
             showUnmanageableTokens && (
               <ConnectLedgerAssetItemFallback
@@ -141,9 +143,9 @@ export function AssetList({
         )}
       </CurrentStacksAccountLoader> */}
 
-      <BitcoinNativeSegwitAccountLoader current>
+      <BitcoinNativeSegwitAccountLoader current addressIndex={addressIndex}>
         {nativeSegwitAccount => (
-          <BitcoinTaprootAccountLoader current>
+          <BitcoinTaprootAccountLoader current addressIndex={addressIndex}>
             {taprootAccount => (
               <>
                 {isReadOnly && (

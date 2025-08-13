@@ -7,6 +7,7 @@ import { keySlice } from '../software-keys/software-key.slice';
 interface StxChainKeyState {
   highestAccountIndex: number;
   currentAccountIndex: number;
+  currentAddressIndex: number;
   currentAccountStacksDescriptor: string;
 }
 
@@ -15,6 +16,7 @@ const initialState: Record<string, StxChainKeyState> = {
     highestAccountIndex: 0,
     currentAccountIndex: 0,
     currentAccountStacksDescriptor: '',
+    currentAddressIndex: 0,
   },
 };
 
@@ -38,7 +40,8 @@ export const stxChainSlice = createSlice({
     },
     createNewAccount(state, action: PayloadAction<string>) {
       state.default.highestAccountIndex += 1;
-      state.default.currentAccountIndex = state.default.highestAccountIndex;
+      // state.default.currentAccountIndex = state.default.highestAccountIndex;
+      state.default.currentAddressIndex = state.default.highestAccountIndex;
       state.default.currentAccountStacksDescriptor = action.payload;
     },
     restoreAccountIndex(state, action: PayloadAction<number>) {

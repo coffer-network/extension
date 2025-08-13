@@ -5,7 +5,7 @@ import { AccountTotalBalance } from '@app/components/account-total-balance';
 import { AccountAddresses } from '@app/components/account/account-addresses';
 import { AccountListItemLayout } from '@app/components/account/account-list-item.layout';
 import { AccountNameLayout } from '@app/components/account/account-name';
-import { useCurrentAccountIndex } from '@app/store/accounts/account';
+import { useCurrentAccountIndex, useCurrentAddressIndex } from '@app/store/accounts/account';
 import { useNativeSegwitSigner } from '@app/store/accounts/blockchain/bitcoin/native-segwit-account.hooks';
 import { useStacksAccounts } from '@app/store/accounts/blockchain/stacks/stacks-account.hooks';
 import { AccountAvatarItem } from '@app/ui/components/account/account-avatar/account-avatar-item';
@@ -15,6 +15,7 @@ interface CurrentAccountDisplayerProps {
 }
 export function CurrentAccountDisplayer({ onSelectAccount }: CurrentAccountDisplayerProps) {
   const index = useCurrentAccountIndex();
+  const addressIndex = useCurrentAddressIndex();
   const stacksAccounts = useStacksAccounts();
   const stxAddress = stacksAccounts[index]?.address || '';
   const { data: name = '' } = useAccountDisplayName({ address: stxAddress, index });
@@ -23,7 +24,7 @@ export function CurrentAccountDisplayer({ onSelectAccount }: CurrentAccountDispl
   return (
     <AccountListItemLayout
       withChevron
-      accountAddresses={<AccountAddresses index={index} />}
+      accountAddresses={<AccountAddresses index={index} addressIndex={addressIndex} />}
       accountName={<AccountNameLayout isLoading={false}>{name}</AccountNameLayout>}
       avatar={
         <AccountAvatarItem

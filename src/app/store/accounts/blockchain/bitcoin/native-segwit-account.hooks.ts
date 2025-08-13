@@ -23,7 +23,7 @@ import { useBitcoinClient } from '@app/query/bitcoin/clients/bitcoin-client';
 import { selectCurrentNetwork } from '@app/store/networks/networks.selectors';
 import { selectCurrentAccountIndex } from '@app/store/software-keys/software-key.selectors';
 
-import { useCurrentAccountIndex } from '../../account';
+import { useCurrentAccountIndex, useCurrentAddressIndex } from '../../account';
 import {
   bitcoinAccountBuilderFactory,
   useBitcoinExtendedPublicKeyVersions,
@@ -114,8 +114,10 @@ export function useCurrentAccountNativeSegwitIndexZeroSignerNullable() {
  * @deprecated Use signer.address instead
  */
 export function useCurrentAccountNativeSegwitAddressIndexZero() {
+  const currentAddressIndex = useCurrentAddressIndex();
+
   const signer = useCurrentAccountNativeSegwitSigner();
-  return useMemo(() => signer?.(0).payment.address, [signer]) as string;
+  return useMemo(() => signer?.(currentAddressIndex).payment.address, [signer, currentAddressIndex]) as string;
 }
 
 /**

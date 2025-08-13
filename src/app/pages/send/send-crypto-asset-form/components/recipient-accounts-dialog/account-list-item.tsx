@@ -16,9 +16,10 @@ import { AccountAvatarItem } from '@app/ui/components/account/account-avatar/acc
 interface AccountListItemProps {
   stacksAccount: StacksAccount;
   index: number;
+  addressIndex: number;
   onClose(): void;
 }
-export const AccountListItem = memo(({ index, stacksAccount, onClose }: AccountListItemProps) => {
+export const AccountListItem = memo(({ index, stacksAccount, onClose, addressIndex }: AccountListItemProps) => {
   const { setFieldValue, values } = useFormikContext<
     BitcoinSendFormValues | StacksSendFormValues
   >();
@@ -35,7 +36,7 @@ export const AccountListItem = memo(({ index, stacksAccount, onClose }: AccountL
 
   return (
     <AccountListItemLayout
-      accountAddresses={<AccountAddresses index={index} />}
+      accountAddresses={<AccountAddresses index={index} addressIndex={addressIndex} />}
       accountName={<AccountNameLayout>{name}</AccountNameLayout>}
       avatar={
         <AccountAvatarItem

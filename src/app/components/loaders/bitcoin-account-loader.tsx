@@ -4,13 +4,14 @@ import type { DistributedOmit } from 'type-fest';
 import { BitcoinSigner } from '@coffer.network/bitcoin';
 
 import { useConfigBitcoinEnabled } from '@app/query/common/remote-config/remote-config.query';
-import { useCurrentAccountIndex } from '@app/store/accounts/account';
+import { useCurrentAccountIndex, useCurrentAddressIndex } from '@app/store/accounts/account';
 import { useNativeSegwitSigner } from '@app/store/accounts/blockchain/bitcoin/native-segwit-account.hooks';
 import { useTaprootSigner } from '@app/store/accounts/blockchain/bitcoin/taproot-account.hooks';
 import { useCurrentNetwork } from '@app/store/networks/networks.selectors';
 
 interface BitcoinAccountLoaderBaseProps {
   children(account: BitcoinSigner<P2Ret>): React.ReactNode;
+  addressIndex: number;
   fallback?: React.ReactNode;
 }
 interface BtcAccountLoaderCurrentProps extends BitcoinAccountLoaderBaseProps {
@@ -27,14 +28,16 @@ export function useBitcoinNativeSegwitAccountLoader(
 ) {
   const isBitcoinEnabled = useConfigBitcoinEnabled();
 
-  const currentAccountIndex = useCurrentAccountIndex();
+  // const currentAccountIndex = useCurrentAccountIndex();
+  const currentAddressIndex = useCurrentAddressIndex();
 
-  const properIndex = 'current' in props ? currentAccountIndex : props.index;
+  // const properIndex = 'current' in props ? currentAccountIndex : props.index;
+  const properAddressIndex = 'current' in props ? currentAddressIndex : props.addressIndex;
 
-  const signer = useNativeSegwitSigner(properIndex);
+  const signer = useNativeSegwitSigner(0);
 
   if (!signer || !isBitcoinEnabled) return null;
-  return signer(0);
+  return signer(properAddressIndex);
 }
 
 export function BitcoinNativeSegwitAccountLoader({

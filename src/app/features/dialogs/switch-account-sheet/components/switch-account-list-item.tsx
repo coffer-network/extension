@@ -16,10 +16,11 @@ import { AccountAvatarItem } from '@app/ui/components/account/account-avatar/acc
 interface SwitchAccountListItemProps {
   handleClose(): void;
   currentAccountIndex: number;
+  currentAddressIndex: number;
   index: number;
 }
 export const SwitchAccountListItem = memo(
-  ({ handleClose, currentAccountIndex, index }: SwitchAccountListItemProps) => {
+  ({ handleClose, currentAddressIndex, index }: SwitchAccountListItemProps) => {
     const stacksAccounts = useStacksAccounts();
     const stxAddress = stacksAccounts[index]?.address || '';
     const bitcoinSigner = useNativeSegwitSigner(index);
@@ -44,7 +45,7 @@ export const SwitchAccountListItem = memo(
 
     return (
       <AccountListItemLayout
-        accountAddresses={<AccountAddresses index={index} />}
+        accountAddresses={<AccountAddresses index={0} addressIndex={index} />}
         accountName={
           <AccountNameLayout
             data-testid={getSwitchAccountSheetAccountNameSelector(index)}
@@ -63,7 +64,7 @@ export const SwitchAccountListItem = memo(
         balanceLabel={<AccountTotalBalance stxAddress={stxAddress} btcAddress={btcAddress} />}
         index={index}
         isLoading={isLoading}
-        isSelected={currentAccountIndex === index}
+        isSelected={currentAddressIndex === index}
         onSelectAccount={handleClick}
       />
     );

@@ -34,3 +34,12 @@ export const selectCurrentAccountIndex = createSelector(selectStacksChain, stxCh
   }
   return stxChain[defaultWalletKeyId].currentAccountIndex;
 });
+
+
+export const selectCurrentAddressIndex = createSelector(selectStacksChain, stxChain => {
+  const currentAddressIndex = initialSearchParams.get('addressIndex');
+  if (currentAddressIndex && initBigNumber(currentAddressIndex).isInteger()) {
+    return initBigNumber(currentAddressIndex).toNumber();
+  }
+  return stxChain[defaultWalletKeyId].currentAddressIndex;
+});

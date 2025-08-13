@@ -7,7 +7,7 @@ import { Button, Sheet, SheetHeader } from '@coffer.network/ui';
 
 import { useCreateAccount } from '@app/common/hooks/account/use-create-account';
 import { useWalletType } from '@app/common/use-wallet-type';
-import { useCurrentAccountIndex } from '@app/store/accounts/account';
+import { useCurrentAccountIndex, useCurrentAddressIndex } from '@app/store/accounts/account';
 import { useFilteredBitcoinAccounts } from '@app/store/accounts/blockchain/bitcoin/bitcoin.ledger';
 import { useStacksAccounts } from '@app/store/accounts/blockchain/stacks/stacks-account.hooks';
 import { VirtuosoWrapperSheet } from '@app/ui/components/virtuoso-wrapper-sheet';
@@ -22,6 +22,7 @@ interface SwitchAccountSheetProps {
 
 export const SwitchAccountSheet = memo(({ isShowing, onClose }: SwitchAccountSheetProps) => {
   const currentAccountIndex = useCurrentAccountIndex();
+  const currentAddressIndex = useCurrentAddressIndex();
   const createAccount = useCreateAccount();
   const { whenWallet } = useWalletType();
   const stacksAccounts = useStacksAccounts();
@@ -61,6 +62,7 @@ export const SwitchAccountSheet = memo(({ isShowing, onClose }: SwitchAccountShe
                 <SwitchAccountListItem
                   handleClose={onClose}
                   currentAccountIndex={currentAccountIndex}
+                  currentAddressIndex={currentAddressIndex}
                   index={index}
                 />
               </Box>
